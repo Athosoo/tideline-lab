@@ -74,7 +74,7 @@ const float DENSITY_FLOOR = 0.10;
 /* ── 去规整化：频段分离 + 两层域扭曲（2026-10-20）────────────────────────
    旧做法天气场和形状场都用 0.00030 采样同一张 64³ 平铺纹理：单一 3.3 km 周期，
    20 km 视距内精确复读约 6 次，俯视就是一张规则网格（证据：
-   _lab/shots/look-base/top-dbg2.png 与 look-after/top-dbg2.png）。
+   _lab/cloud/shots/look-base/top-dbg2.png 与 look-after/top-dbg2.png）。
 
    两条一起改：
    1) **频段分离**：天气 / 形状 / 两层扭曲分别用 30 / 37 / 19 / 23 ×1e-5。

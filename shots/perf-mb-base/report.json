@@ -1,0 +1,423 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "perf-mb-base",
+  "mode": "perf",
+  "dryRun": false,
+  "startedAt": "2026-10-20T07:52:44.529Z",
+  "finishedAt": "2026-10-20T07:53:03.857Z",
+  "elapsedMs": 19324,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\perf-mb-base",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "fill@coverage=0.90@steps=96@light=3@auto=0@accum=0@pitch=-1.40@fov=60@camY=12000@aerial=0"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": true,
+    "perfSeconds": 5,
+    "sampleInterval": 150,
+    "width": 960,
+    "height": 960,
+    "settle": 3000,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": true
+  },
+  "matrix": [
+    "fill"
+  ],
+  "cases": [
+    {
+      "name": "fill",
+      "rawName": "fill",
+      "preset": null,
+      "params": {
+        "coverage": 0.9,
+        "steps": 96,
+        "light": 3,
+        "auto": 0,
+        "accum": 0,
+        "pitch": -1.4,
+        "fov": 60,
+        "camY": 12000,
+        "aerial": 0
+      },
+      "query": {
+        "coverage": 0.9,
+        "steps": 96,
+        "light": 3,
+        "auto": 0,
+        "accum": 0,
+        "pitch": -1.4,
+        "fov": 60,
+        "camY": 12000,
+        "aerial": 0
+      },
+      "patch": {
+        "coverage": 0.9,
+        "steps": 96,
+        "light": 3,
+        "auto": 0,
+        "accumulate": false,
+        "aerial": 0
+      },
+      "camPatch": {
+        "pitch": -1.4,
+        "fov": 1.0471975511965976,
+        "posY": 12000
+      },
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?coverage=0.9&steps=96&light=3&auto=0&accum=0&pitch=-1.4&fov=60&camY=12000&aerial=0",
+      "captureMode": "cdp-perf",
+      "png": null,
+      "pngPath": null,
+      "pngBytes": 0,
+      "captureMs": 17123,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": null,
+        "timedOut": false
+      },
+      "appliedVia": "window.__lab.set after load",
+      "perf": {
+        "ms": 101.59,
+        "steps": 96,
+        "w": 960,
+        "h": 960,
+        "scale": 0.7,
+        "msLast": 92.2,
+        "msP50": 101.59,
+        "msP95": 123.81,
+        "msMean": 106.53,
+        "msMin": 92.2,
+        "msMax": 123.81,
+        "fpsP50": 9.84,
+        "sampleCount": 31,
+        "steadySampleCount": 25,
+        "warmupDropped": 6,
+        "noiseMs": 256,
+        "innerWidth": 960,
+        "innerHeight": 960,
+        "visibilityState": "visible",
+        "cloudW": 672,
+        "cloudH": 672,
+        "accum": 0,
+        "hdr": true,
+        "type": 1,
+        "worleyMs": 68,
+        "note": "SwiftShader software rasterizer; frame times are not representative of a real GPU.",
+        "series": [
+          {
+            "t": 1792482776554,
+            "now": 10738.8,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482776748,
+            "now": 10932.7,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482776983,
+            "now": 11167.9,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482777080,
+            "now": 11264.5,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482777236,
+            "now": 11420.5,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482777380,
+            "now": 11564.6,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482777537,
+            "now": 11721.8,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482777691,
+            "now": 11875.4,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482777845,
+            "now": 12030,
+            "ms": 123.81,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482778014,
+            "now": 12198.2,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482778182,
+            "now": 12366.9,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482778352,
+            "now": 12536.4,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482778579,
+            "now": 12763.8,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482778744,
+            "now": 12929,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482778895,
+            "now": 13079.7,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482779050,
+            "now": 13234.9,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482779204,
+            "now": 13388.7,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482779364,
+            "now": 13548.5,
+            "ms": 112.08,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482779515,
+            "now": 13699.7,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482779700,
+            "now": 13884.8,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482779849,
+            "now": 14033.3,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482780001,
+            "now": 14185.9,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482780198,
+            "now": 14382.3,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482780329,
+            "now": 14513.2,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482780486,
+            "now": 14670.6,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482780640,
+            "now": 14824.7,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482780795,
+            "now": 14979.1,
+            "ms": 101.59,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482781044,
+            "now": 15229,
+            "ms": 92.2,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482781135,
+            "now": 15319.6,
+            "ms": 92.2,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482781284,
+            "now": 15468.4,
+            "ms": 92.2,
+            "w": 960,
+            "h": 960
+          },
+          {
+            "t": 1792482781441,
+            "now": 15625.2,
+            "ms": 92.2,
+            "w": 960,
+            "h": 960
+          }
+        ]
+      },
+      "effectiveP": {
+        "coverage": 0.9,
+        "type": 1,
+        "density": 1.2,
+        "detail": 0.6,
+        "base": 1400,
+        "top": 3200,
+        "msContrib": 0.55,
+        "msOccl": 0.55,
+        "powder": 1,
+        "sunEl": 32,
+        "sunAz": 24,
+        "wind": 18,
+        "haze": 1,
+        "steps": 96,
+        "light": 3,
+        "scale": 0.7,
+        "seedX": 0,
+        "seedZ": 0,
+        "aerial": 0,
+        "accumulate": false,
+        "auto": 0,
+        "budgetMs": 11,
+        "paused": false,
+        "debug": 0,
+        "maxDist": 32000
+      },
+      "cam": {
+        "yaw": 0,
+        "pitch": -1.4,
+        "fov": 1.0471975511965976,
+        "pos": [
+          0,
+          12000,
+          0
+        ]
+      },
+      "viewport": {
+        "innerWidth": 960,
+        "innerHeight": 960,
+        "dpr": 1,
+        "ready": "complete"
+      },
+      "labStats": {
+        "ms": 92.2,
+        "w": 960,
+        "h": 960,
+        "cloudW": 672,
+        "cloudH": 672,
+        "steps": 96,
+        "light": 3,
+        "scale": 0.7,
+        "accum": 0,
+        "hdr": true,
+        "noiseMs": 256,
+        "worleyMs": 68,
+        "type": 1
+      },
+      "image": null,
+      "qualityOk": null
+    }
+  ],
+  "sheet": {
+    "ok": false,
+    "skipped": true,
+    "reason": "--no-sheet"
+  },
+  "summary": {
+    "caseCount": 1,
+    "okCount": 1,
+    "failedCount": 0,
+    "imageCount": 0,
+    "perfCount": 1,
+    "quality": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "ok": null,
+      "minStddev": 2,
+      "note": "No image stats were available."
+    },
+    "ok": true
+  },
+  "warnings": [
+    "image quality stats unavailable: no PNG files were produced"
+  ],
+  "errors": []
+}

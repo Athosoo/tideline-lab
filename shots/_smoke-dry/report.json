@@ -1,0 +1,137 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "_smoke-dry",
+  "mode": "dry-run",
+  "dryRun": true,
+  "startedAt": "2026-10-19T13:06:16.609Z",
+  "finishedAt": "2026-10-19T13:06:16.613Z",
+  "elapsedMs": 2,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\_smoke-dry",
+  "chrome": {
+    "path": null
+  },
+  "options": {
+    "matrix": [
+      "default",
+      "storm@steps=32"
+    ],
+    "set": {
+      "steps": 48
+    },
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 800,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": false
+  },
+  "matrix": [
+    "default",
+    "storm"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "rawName": "default",
+      "preset": null,
+      "params": {
+        "steps": 48
+      },
+      "query": {
+        "steps": 48
+      },
+      "patch": {
+        "steps": 48
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?steps=48",
+      "captureMode": "dry-run",
+      "png": null,
+      "pngPath": null,
+      "pngBytes": 0,
+      "captureMs": 0,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": null,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": null,
+      "qualityOk": null
+    },
+    {
+      "name": "storm",
+      "rawName": "storm",
+      "preset": "storm",
+      "params": {
+        "steps": 48,
+        "preset": "storm"
+      },
+      "query": {
+        "steps": 48
+      },
+      "patch": {
+        "steps": 48
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?preset=storm&steps=48",
+      "captureMode": "dry-run",
+      "png": null,
+      "pngPath": null,
+      "pngBytes": 0,
+      "captureMs": 0,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": null,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": null,
+      "qualityOk": null
+    }
+  ],
+  "sheet": {
+    "ok": false,
+    "skipped": true,
+    "reason": "dry run"
+  },
+  "summary": {
+    "caseCount": 2,
+    "okCount": 2,
+    "failedCount": 0,
+    "imageCount": 0,
+    "perfCount": 0,
+    "quality": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "ok": null,
+      "minStddev": 2,
+      "note": "No image stats were available."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

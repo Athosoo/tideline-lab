@@ -1,0 +1,125 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "p0-march3",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-19T14:59:48.222Z",
+  "finishedAt": "2026-10-19T14:59:55.395Z",
+  "elapsedMs": 7171,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\p0-march3",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "default"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 800,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": false
+  },
+  "matrix": [
+    "default"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "rawName": "default",
+      "preset": null,
+      "params": {},
+      "query": {},
+      "patch": {},
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html",
+      "captureMode": "cli-screenshot",
+      "png": "default.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p0-march3\\default.png",
+      "pngBytes": 265439,
+      "captureMs": 6455,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 132.89,
+        "meanLuma": 132.89,
+        "stddev": 48.88,
+        "variance": 2389.45,
+        "meanRgb": [
+          123.8,
+          134.83,
+          147.01
+        ],
+        "stddevRgb": [
+          48.44,
+          48.98,
+          50.46
+        ],
+        "lumaMin": 36,
+        "lumaMax": 255,
+        "blackRatio": 0,
+        "whiteRatio": 0.001533,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": true,
+    "path": "E:\\DeepSeekplay\\_lab\\shots\\p0-march3\\sheet.png",
+    "file": "sheet.png",
+    "width": 624,
+    "height": 497,
+    "count": 1,
+    "method": "Pillow",
+    "python": {
+      "cmd": "python",
+      "args": [],
+      "pilVersion": "12.1.1"
+    }
+  },
+  "summary": {
+    "caseCount": 1,
+    "okCount": 1,
+    "failedCount": 0,
+    "imageCount": 1,
+    "perfCount": 0,
+    "quality": {
+      "checked": 1,
+      "passed": 1,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

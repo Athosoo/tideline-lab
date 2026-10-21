@@ -1,0 +1,84 @@
+{
+  "schema": "tideline.bench-main/1",
+  "tool": "bench-main.mjs",
+  "startedAt": "2026-10-20T07:33:53.055Z",
+  "finishedAt": "2026-10-20T07:34:06.387Z",
+  "viewport": "640x400",
+  "note": "Headless Chrome runs SwiftShader (software raster). fps and GPU time are NOT representative; RecalcStyleDuration/LayoutDuration/ScriptDuration/TaskDuration are CPU time and valid for A/B deltas. In --pair mode compare ratios (toggle/base) from the same page run; medians over rounds.",
+  "mode": "case",
+  "seconds": 3,
+  "results": [
+    {
+      "name": "base",
+      "query": "bench=1&nogl=1",
+      "bodyClass": "has-custom-cursor has-cloud-volume",
+      "tide": {
+        "ms": 0,
+        "fps": 0,
+        "scale": 0.75,
+        "steps": 96,
+        "avgMs": 0,
+        "autoScale": true
+      },
+      "wallMs": 3024.4,
+      "frames": 22,
+      "pageFps": 7.41,
+      "raf": {
+        "intervalP50": 116.8,
+        "intervalP95": 246.03,
+        "cbP50": 25.85,
+        "cbP95": 39.32,
+        "cbMax": 41.8,
+        "gapP50": 91.7,
+        "gapP95": 211.73,
+        "loafCount": 0,
+        "loafMean": null,
+        "loafP95": null,
+        "loafStyleMean": null,
+        "loafStyleP95": null
+      },
+      "counters": {
+        "updates": 23,
+        "applySun": 23,
+        "applySky": 22,
+        "updateClouds": 23,
+        "cloudGenerated": 23,
+        "updateRain": 23,
+        "rainCleared": 23,
+        "rootWrites": 559
+      },
+      "metrics": {
+        "RecalcStyleCount": 69,
+        "RecalcStyleMs": 262.3,
+        "RecalcStyleMsPerSec": 86.73,
+        "RecalcStyleCountPerSec": 22.81,
+        "RecalcStyleMsPerFrame": 11.924,
+        "LayoutCount": 23,
+        "LayoutMs": 5.4,
+        "DocumentLayoutCount": null,
+        "ScriptMs": 777.7,
+        "ScriptMsPerSec": 257.15,
+        "ScriptMsPerFrame": 35.351,
+        "TaskMs": 1181.6,
+        "TaskMsPerSec": 390.68,
+        "TaskMsPerFrame": 53.708,
+        "rootWritesPerSec": 184.83,
+        "updateCloudsPerSec": 7.6,
+        "cloudGeneratedPerSec": 7.6,
+        "rainClearedPerSec": 7.6
+      },
+      "raw": {
+        "RecalcStyleCount": 69,
+        "RecalcStyleDuration": 0.262317,
+        "LayoutCount": 23,
+        "LayoutDuration": 0.005406999999999995,
+        "ScriptDuration": 0.7777280000000002,
+        "TaskDuration": 1.181571,
+        "DocumentLayoutCount": null,
+        "Nodes": 76,
+        "JSHeapUsedSize": 747924,
+        "Timestamp": 3.0305260000022827
+      }
+    }
+  ]
+}

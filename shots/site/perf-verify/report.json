@@ -1,0 +1,907 @@
+{
+  "schema": "tidelime.probe/1",
+  "tool": "probe.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "perf-verify",
+  "mode": "probe",
+  "site": "file:///E:/DeepSeekplay/GIFT/index.html",
+  "startedAt": "2026-10-20T08:41:39.189Z",
+  "finishedAt": "2026-10-20T08:44:37.407Z",
+  "elapsedMs": 178215,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\site\\perf-verify",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "times": [
+      {
+        "raw": "09:00",
+        "label": "0900",
+        "kind": "fixed",
+        "hours": 9
+      },
+      {
+        "raw": "12:00",
+        "label": "1200",
+        "kind": "fixed",
+        "hours": 12
+      }
+    ],
+    "repeat": 1,
+    "width": 1280,
+    "height": 800,
+    "settle": 1200,
+    "bootSettle": 2000,
+    "loadTimeout": 90000,
+    "elements": [
+      "#celestial"
+    ],
+    "state": {},
+    "minStddev": 2,
+    "noPil": false
+  },
+  "weatherApi": {
+    "available": true,
+    "keys": [
+      "state",
+      "clamp",
+      "lerp",
+      "damp",
+      "smooth",
+      "mix",
+      "rgb",
+      "solarPosition",
+      "readSystemTime",
+      "climateWeather",
+      "fetchLiveWeather",
+      "useClimate",
+      "applyWeatherTargets",
+      "init",
+      "update",
+      "resize"
+    ],
+    "dedicatedSetTime": false,
+    "stateKeys": [
+      "timeTarget",
+      "cloudTarget",
+      "windTarget",
+      "windDirection",
+      "windDirectionTarget",
+      "rainTarget",
+      "stormTarget",
+      "lightningTarget",
+      "elevationOffset",
+      "timeOfDay",
+      "cloudCover",
+      "wind",
+      "rain",
+      "storm",
+      "lightning",
+      "gust",
+      "seaState",
+      "flash",
+      "sunElevation",
+      "sunAzimuth",
+      "sunX",
+      "sunY",
+      "latitude",
+      "dayOfYear",
+      "isNight",
+      "overcast",
+      "storminess",
+      "ambient",
+      "manualTime",
+      "manualWeather",
+      "autoTime",
+      "source",
+      "liveLabel",
+      "sky",
+      "sunElevationRaw"
+    ],
+    "timeSlider": true,
+    "weatherSlider": true,
+    "cloudSlider": true,
+    "probeMethod": "Weather.state.manualTime/autoTime/timeTarget/timeOfDay + Weather.update()",
+    "note": "GIFT/js/weather.js exposes window.Weather (state, update, helpers) but no setTime()/setTimeOfDay() helper was found. The probe writes Weather.state and calls Weather.update()."
+  },
+  "boot": {
+    "seaBundle": false,
+    "lite": false,
+    "className": ""
+  },
+  "viewport": {
+    "innerWidth": 1280,
+    "innerHeight": 800,
+    "dpr": 1,
+    "scrollY": 0,
+    "visibilityState": "visible"
+  },
+  "cases": [
+    {
+      "name": "0900",
+      "time": "0900",
+      "timeRaw": "09:00",
+      "kind": "fixed",
+      "hours": 9,
+      "repeat": 1,
+      "capturedAt": "2026-10-20T08:43:15.091Z",
+      "png": "0900.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\site\\perf-verify\\0900.png",
+      "pngBytes": 1029723,
+      "captureMs": 64568,
+      "ok": true,
+      "error": null,
+      "setTime": {
+        "ok": true,
+        "method": "Weather.state.manualTime/autoTime/timeTarget/timeOfDay + Weather.update()",
+        "dedicatedApi": false
+      },
+      "sunSettled": null,
+      "sun": {
+        "xRaw": "23.13%",
+        "yRaw": "18.94%",
+        "sizeRaw": "184px",
+        "colorRaw": "rgb(232, 227, 206)",
+        "alphaRaw": "0.747",
+        "xPct": 23.13,
+        "yPct": 18.94
+      },
+      "celestial": {
+        "rect": {
+          "x": 204.0625,
+          "y": 59.515625,
+          "width": 184,
+          "height": 184,
+          "left": 204.0625,
+          "top": 59.515625,
+          "right": 388.0625,
+          "bottom": 243.515625
+        },
+        "inside": true,
+        "visible": true,
+        "margins": {
+          "left": 204.0625,
+          "top": 59.515625,
+          "right": 891.9375,
+          "bottom": 556.484375
+        },
+        "className": "celestial"
+      },
+      "inside": true,
+      "body": {
+        "className": "has-custom-cursor has-cloud-volume has-sea-bundle",
+        "classList": [
+          "has-custom-cursor",
+          "has-cloud-volume",
+          "has-sea-bundle"
+        ],
+        "flags": {
+          "hasCloudVolume": true,
+          "hasSeaBundle": true,
+          "isLite": false
+        }
+      },
+      "elements": [
+        {
+          "selector": "#celestial",
+          "found": true,
+          "rect": {
+            "x": 204.0625,
+            "y": 59.515625,
+            "width": 184,
+            "height": 184,
+            "left": 204.0625,
+            "top": 59.515625,
+            "right": 388.0625,
+            "bottom": 243.515625
+          },
+          "visible": true,
+          "inside": true,
+          "style": {
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          }
+        }
+      ],
+      "weatherState": {
+        "timeOfDay": 9,
+        "timeTarget": 9,
+        "sunElevation": 32.40865409464564,
+        "sunElevationRaw": 32.40865409464564,
+        "sunAzimuth": 124.81094289347664,
+        "isNight": false,
+        "cloudCover": 0.4096601927818706,
+        "overcast": 0.28618765144070063,
+        "storminess": 0.11882736312507268,
+        "manualTime": true,
+        "autoTime": false,
+        "source": "climate"
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "scrollY": 0
+      },
+      "reducedMotion": false,
+      "canvas": {
+        "attempts": 3,
+        "canvases": [
+          {
+            "id": "cloudCanvas",
+            "className": "cloud-canvas",
+            "index": 0,
+            "width": 1280,
+            "height": 208,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "visible": false,
+            "display": "none",
+            "opacity": "1",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "cloudVolume",
+            "className": "cloud-volume",
+            "index": 1,
+            "width": 1280,
+            "height": 208,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 208
+            },
+            "visible": true,
+            "display": "block",
+            "opacity": "1",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "oceanCanvas",
+            "className": "ocean-canvas",
+            "index": 2,
+            "width": 1280,
+            "height": 800,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 800
+            },
+            "visible": true,
+            "display": "block",
+            "opacity": "1",
+            "mode": "webgl",
+            "method": "webgl-readPixels",
+            "readable": true,
+            "error": null,
+            "stats": {
+              "sampleCount": 21045,
+              "meanRgb": [
+                134.33499643620812,
+                151.0296507483963,
+                158.82200047517225
+              ],
+              "meanLuma": 148.0429748919004,
+              "stddevLuma": 37.12027163068087,
+              "varianceLuma": 1377.9145659355308,
+              "lumaMin": 64.87819999999999,
+              "lumaMax": 245.2086,
+              "alphaMean": 255,
+              "blackRatio": 0,
+              "opaquePixels": 21045,
+              "meanLumaOpaque": 148.0429748919004,
+              "allZero": false
+            }
+          },
+          {
+            "id": "waterCanvas",
+            "className": "water-canvas",
+            "index": 3,
+            "width": 1280,
+            "height": 800,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "visible": false,
+            "display": "none",
+            "opacity": "0.92",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "rainCanvas",
+            "className": "rain-canvas",
+            "index": 4,
+            "width": 1280,
+            "height": 800,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "visible": false,
+            "display": "none",
+            "opacity": "0.2515",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          }
+        ]
+      },
+      "brightness": {
+        "source": "Page.captureScreenshot + Pillow region stats",
+        "shot": {
+          "width": 1280,
+          "height": 800,
+          "crop": null,
+          "mean": 224.73,
+          "meanLuma": 224.73,
+          "stddev": 26.26,
+          "variance": 689.64,
+          "meanRgb": [
+            226.59,
+            226.13,
+            212.83
+          ],
+          "stddevRgb": [
+            31.02,
+            24.51,
+            23.05
+          ],
+          "lumaMin": 49,
+          "lumaMax": 249,
+          "blackRatio": 0,
+          "whiteRatio": 0.000268,
+          "allBlack": false,
+          "allWhite": false,
+          "flat": false,
+          "ok": true,
+          "method": "Pillow ImageStat"
+        },
+        "elements": [
+          {
+            "selector": "#celestial",
+            "found": true,
+            "visible": true,
+            "rect": {
+              "x": 204.0625,
+              "y": 59.515625,
+              "width": 184,
+              "height": 184,
+              "left": 204.0625,
+              "top": 59.515625,
+              "right": 388.0625,
+              "bottom": 243.515625
+            },
+            "stats": {
+              "width": 1280,
+              "height": 800,
+              "crop": {
+                "x": 204,
+                "y": 60,
+                "width": 184,
+                "height": 184
+              },
+              "mean": 235.11,
+              "meanLuma": 235.11,
+              "stddev": 2.58,
+              "variance": 6.66,
+              "meanRgb": [
+                240.13,
+                235.29,
+                221.29
+              ],
+              "stddevRgb": [
+                2.24,
+                2.74,
+                2.81
+              ],
+              "lumaMin": 197,
+              "lumaMax": 242,
+              "blackRatio": 0,
+              "whiteRatio": 0,
+              "allBlack": false,
+              "allWhite": false,
+              "flat": false,
+              "ok": true,
+              "method": "Pillow ImageStat"
+            }
+          }
+        ],
+        "canvasFallback": [
+          {
+            "id": "cloudCanvas",
+            "mode": null,
+            "readable": false,
+            "visible": false,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "cloudVolume",
+            "mode": null,
+            "readable": false,
+            "visible": true,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "oceanCanvas",
+            "mode": "webgl",
+            "readable": true,
+            "visible": true,
+            "meanLuma": 148.04,
+            "stddevLuma": 37.12,
+            "alphaMean": 255,
+            "error": null
+          },
+          {
+            "id": "waterCanvas",
+            "mode": null,
+            "readable": false,
+            "visible": false,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "rainCanvas",
+            "mode": null,
+            "readable": false,
+            "visible": false,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          }
+        ]
+      },
+      "qualityOk": true
+    },
+    {
+      "name": "1200",
+      "time": "1200",
+      "timeRaw": "12:00",
+      "kind": "fixed",
+      "hours": 12,
+      "repeat": 1,
+      "capturedAt": "2026-10-20T08:44:35.386Z",
+      "png": "1200.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\site\\perf-verify\\1200.png",
+      "pngBytes": 1029677,
+      "captureMs": 80295,
+      "ok": true,
+      "error": null,
+      "setTime": {
+        "ok": true,
+        "method": "Weather.state.manualTime/autoTime/timeTarget/timeOfDay + Weather.update()",
+        "dedicatedApi": false
+      },
+      "sunSettled": null,
+      "sun": {
+        "xRaw": "50.00%",
+        "yRaw": "16.75%",
+        "sizeRaw": "137px",
+        "colorRaw": "rgb(221, 217, 199)",
+        "alphaRaw": "0.613",
+        "xPct": 50,
+        "yPct": 16.75
+      },
+      "celestial": {
+        "rect": {
+          "x": 571.5,
+          "y": 65.5,
+          "width": 137,
+          "height": 137,
+          "left": 571.5,
+          "top": 65.5,
+          "right": 708.5,
+          "bottom": 202.5
+        },
+        "inside": true,
+        "visible": true,
+        "margins": {
+          "left": 571.5,
+          "top": 65.5,
+          "right": 571.5,
+          "bottom": 597.5
+        },
+        "className": "celestial"
+      },
+      "inside": true,
+      "body": {
+        "className": "has-custom-cursor has-cloud-volume has-sea-bundle",
+        "classList": [
+          "has-custom-cursor",
+          "has-cloud-volume",
+          "has-sea-bundle"
+        ],
+        "flags": {
+          "hasCloudVolume": true,
+          "hasSeaBundle": true,
+          "isLite": false
+        }
+      },
+      "elements": [
+        {
+          "selector": "#celestial",
+          "found": true,
+          "rect": {
+            "x": 571.5,
+            "y": 65.5,
+            "width": 137,
+            "height": 137,
+            "left": 571.5,
+            "top": 65.5,
+            "right": 708.5,
+            "bottom": 202.5
+          },
+          "visible": true,
+          "inside": true,
+          "style": {
+            "display": "block",
+            "visibility": "visible",
+            "opacity": "1"
+          }
+        }
+      ],
+      "weatherState": {
+        "timeOfDay": 12,
+        "timeTarget": 12,
+        "sunElevation": 52.5517677453723,
+        "sunElevationRaw": 52.5517677453723,
+        "sunAzimuth": 180,
+        "isNight": false,
+        "cloudCover": 0.5118095638820013,
+        "overcast": 0.4667466451983637,
+        "storminess": 0.13512325241814663,
+        "manualTime": true,
+        "autoTime": false,
+        "source": "climate"
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800,
+        "dpr": 1,
+        "scrollY": 0
+      },
+      "reducedMotion": false,
+      "canvas": {
+        "attempts": 3,
+        "canvases": [
+          {
+            "id": "cloudCanvas",
+            "className": "cloud-canvas",
+            "index": 0,
+            "width": 1280,
+            "height": 208,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "visible": false,
+            "display": "none",
+            "opacity": "1",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "cloudVolume",
+            "className": "cloud-volume",
+            "index": 1,
+            "width": 1280,
+            "height": 208,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 208
+            },
+            "visible": true,
+            "display": "block",
+            "opacity": "1",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "oceanCanvas",
+            "className": "ocean-canvas",
+            "index": 2,
+            "width": 1280,
+            "height": 800,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 800
+            },
+            "visible": true,
+            "display": "block",
+            "opacity": "1",
+            "mode": "webgl",
+            "method": "webgl-readPixels",
+            "readable": true,
+            "error": null,
+            "stats": {
+              "sampleCount": 21045,
+              "meanRgb": [
+                123.33656450463293,
+                153.78598241862676,
+                164.135946780708
+              ],
+              "meanLuma": 148.05970359705597,
+              "stddevLuma": 36.80297915352943,
+              "varianceLuma": 1354.4592745751218,
+              "lumaMin": 65.96079999999999,
+              "lumaMax": 242.9278,
+              "alphaMean": 255,
+              "blackRatio": 0,
+              "opaquePixels": 21045,
+              "meanLumaOpaque": 148.05970359705597,
+              "allZero": false
+            }
+          },
+          {
+            "id": "waterCanvas",
+            "className": "water-canvas",
+            "index": 3,
+            "width": 1280,
+            "height": 800,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "visible": false,
+            "display": "none",
+            "opacity": "0.92",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "rainCanvas",
+            "className": "rain-canvas",
+            "index": 4,
+            "width": 1280,
+            "height": 800,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "visible": false,
+            "display": "none",
+            "opacity": "0.25225",
+            "mode": null,
+            "method": null,
+            "readable": false,
+            "error": null,
+            "stats": null,
+            "reason": "not sampled"
+          }
+        ]
+      },
+      "brightness": {
+        "source": "Page.captureScreenshot + Pillow region stats",
+        "shot": {
+          "width": 1280,
+          "height": 800,
+          "crop": null,
+          "mean": 224.73,
+          "meanLuma": 224.73,
+          "stddev": 26.26,
+          "variance": 689.65,
+          "meanRgb": [
+            226.59,
+            226.13,
+            212.83
+          ],
+          "stddevRgb": [
+            31.02,
+            24.51,
+            23.05
+          ],
+          "lumaMin": 49,
+          "lumaMax": 249,
+          "blackRatio": 0,
+          "whiteRatio": 0.000268,
+          "allBlack": false,
+          "allWhite": false,
+          "flat": false,
+          "ok": true,
+          "method": "Pillow ImageStat"
+        },
+        "elements": [
+          {
+            "selector": "#celestial",
+            "found": true,
+            "visible": true,
+            "rect": {
+              "x": 571.5,
+              "y": 65.5,
+              "width": 137,
+              "height": 137,
+              "left": 571.5,
+              "top": 65.5,
+              "right": 708.5,
+              "bottom": 202.5
+            },
+            "stats": {
+              "width": 1280,
+              "height": 800,
+              "crop": {
+                "x": 572,
+                "y": 66,
+                "width": 137,
+                "height": 137
+              },
+              "mean": 231.68,
+              "meanLuma": 231.68,
+              "stddev": 8.34,
+              "variance": 69.57,
+              "meanRgb": [
+                234.49,
+                232.73,
+                219.13
+              ],
+              "stddevRgb": [
+                10.24,
+                7.9,
+                7.75
+              ],
+              "lumaMin": 134,
+              "lumaMax": 249,
+              "blackRatio": 0,
+              "whiteRatio": 0.000107,
+              "allBlack": false,
+              "allWhite": false,
+              "flat": false,
+              "ok": true,
+              "method": "Pillow ImageStat"
+            }
+          }
+        ],
+        "canvasFallback": [
+          {
+            "id": "cloudCanvas",
+            "mode": null,
+            "readable": false,
+            "visible": false,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "cloudVolume",
+            "mode": null,
+            "readable": false,
+            "visible": true,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "oceanCanvas",
+            "mode": "webgl",
+            "readable": true,
+            "visible": true,
+            "meanLuma": 148.06,
+            "stddevLuma": 36.8,
+            "alphaMean": 255,
+            "error": null
+          },
+          {
+            "id": "waterCanvas",
+            "mode": null,
+            "readable": false,
+            "visible": false,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          },
+          {
+            "id": "rainCanvas",
+            "mode": null,
+            "readable": false,
+            "visible": false,
+            "meanLuma": null,
+            "stddevLuma": null,
+            "alphaMean": null,
+            "error": null,
+            "reason": "not sampled"
+          }
+        ]
+      },
+      "qualityOk": true
+    }
+  ],
+  "summary": {
+    "caseCount": 2,
+    "okCount": 2,
+    "failedCount": 0,
+    "sunVarReadCount": 2,
+    "insideCount": 2,
+    "canvasReadableCount": 2,
+    "bodyClasses": [
+      "has-custom-cursor has-cloud-volume has-sea-bundle"
+    ],
+    "flagsSeen": {
+      "hasCloudVolume": true,
+      "hasSeaBundle": true,
+      "isLite": false
+    },
+    "quality": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "flat": 0,
+      "allBlack": 0,
+      "allWhite": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "Full-screen PNG is checked for non-black / non-white / luma stddev >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

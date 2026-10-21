@@ -1,0 +1,188 @@
+{
+  "startedAt": "2026-10-20T09:10:50.718Z",
+  "scenarios": [
+    {
+      "name": "nowebgl",
+      "url": "file:///E:/DeepSeekplay/GIFT/index.html",
+      "flags": [
+        "--disable-webgl",
+        "--disable-webgl2"
+      ],
+      "ready": true,
+      "snapshot": {
+        "bodyClass": "has-custom-cursor",
+        "cloudVolume": {
+          "display": "none",
+          "opacity": "1",
+          "w": 300,
+          "h": 150
+        },
+        "cloudCanvas": {
+          "display": "block",
+          "opacity": "0",
+          "w": 1280,
+          "h": 208
+        },
+        "rainCanvas": {
+          "display": "none",
+          "opacity": "0.25",
+          "w": 1280,
+          "h": 800
+        },
+        "waterCanvas": {
+          "display": "block",
+          "opacity": "0.92",
+          "w": 1280,
+          "h": 800
+        },
+        "oceanCanvas": {
+          "display": "none",
+          "opacity": "1",
+          "w": 1280,
+          "h": 800
+        },
+        "qualityLabel": "FULL",
+        "reducedMotion": false,
+        "stats": null,
+        "weather": {
+          "cloudCover": 0.26681004717536844,
+          "timeOfDay": 17.18112527777778,
+          "isNight": false,
+          "sunX": 0.8713011502594824,
+          "sunY": 0.23050793202976103
+        },
+        "hasTideClouds": "object",
+        "canvasCount": 5
+      },
+      "screenshot": "E:\\DeepSeekplay\\_lab\\shots\\lead-regress\\nowebgl\\shot.png",
+      "screenshotOk": true,
+      "errors": [],
+      "warnings": [
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend.",
+        "[TIDELINE] open-sea engine unavailable, keeping the fallback sea: Cannot read properties of null (reading 'getSupportedExtensions')"
+      ]
+    },
+    {
+      "name": "reduced",
+      "url": "file:///E:/DeepSeekplay/GIFT/index.html",
+      "flags": [],
+      "ready": true,
+      "snapshot": {
+        "bodyClass": "has-custom-cursor",
+        "cloudVolume": {
+          "display": "none",
+          "opacity": "1",
+          "w": 300,
+          "h": 150
+        },
+        "cloudCanvas": {
+          "display": "block",
+          "opacity": "0",
+          "w": 1280,
+          "h": 208
+        },
+        "rainCanvas": {
+          "display": "none",
+          "opacity": "0.25",
+          "w": 1280,
+          "h": 800
+        },
+        "waterCanvas": {
+          "display": "block",
+          "opacity": "0.92",
+          "w": 1280,
+          "h": 800
+        },
+        "oceanCanvas": {
+          "display": "none",
+          "opacity": "1",
+          "w": 1280,
+          "h": 800
+        },
+        "qualityLabel": "FULL",
+        "reducedMotion": true,
+        "stats": null,
+        "weather": {
+          "cloudCover": 0.26681004717536844,
+          "timeOfDay": 17.188611111111115,
+          "isNight": false,
+          "sunX": 0.8714588705108344,
+          "sunY": 0.2307328867003702
+        },
+        "hasTideClouds": "object",
+        "canvasCount": 5
+      },
+      "error": "CDP timeout: Page.captureScreenshot",
+      "errors": [],
+      "warnings": [
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend."
+      ]
+    },
+    {
+      "name": "lite",
+      "url": "file:///E:/DeepSeekplay/GIFT/index.html",
+      "flags": [],
+      "ready": true,
+      "clicked": "clicked",
+      "snapshot": {
+        "bodyClass": "has-custom-cursor has-cloud-volume is-lite has-sea-bundle",
+        "cloudVolume": {
+          "display": "block",
+          "opacity": "1",
+          "w": 1280,
+          "h": 208
+        },
+        "cloudCanvas": {
+          "display": "none",
+          "opacity": "1",
+          "w": 1,
+          "h": 1
+        },
+        "rainCanvas": {
+          "display": "none",
+          "opacity": "0.25075",
+          "w": 1,
+          "h": 1
+        },
+        "waterCanvas": {
+          "display": "none",
+          "opacity": "0.92",
+          "w": 1280,
+          "h": 800
+        },
+        "oceanCanvas": {
+          "display": "block",
+          "opacity": "1",
+          "w": 960,
+          "h": 600
+        },
+        "qualityLabel": "LITE",
+        "reducedMotion": false,
+        "stats": {
+          "ms": 0,
+          "fps": 0,
+          "scale": 0.75,
+          "steps": 96,
+          "avgMs": 0,
+          "autoScale": true
+        },
+        "weather": {
+          "cloudCover": 0.2976133217621348,
+          "timeOfDay": 17.202264166666666,
+          "isNight": false,
+          "sunX": 0.871742854633454,
+          "sunY": 0.23114712539945004
+        },
+        "hasTideClouds": "object",
+        "canvasCount": 5
+      },
+      "screenshot": "E:\\DeepSeekplay\\_lab\\shots\\lead-regress\\lite\\shot.png",
+      "screenshotOk": true,
+      "errors": [],
+      "warnings": [
+        "THREE.WebGPURenderer: WebGPU is not available, running under WebGL2 backend."
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-20T09:12:49.837Z"
+}

@@ -1,0 +1,171 @@
+{
+  "url": "file:///E:/DeepSeekplay/GIFT/index.html",
+  "totalRequests": 23,
+  "resources": [
+    {
+      "file": "assets/fonts/fonts.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "mime": "text/css",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/01-back.png",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/01-front.png",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/02-back.png",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/02-front.png",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/03-back.png",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/03-front.png",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/png",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/04-back.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/04-front.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/05-back.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/05-front.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/06-back.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/06-front.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/07-back.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "assets/postcards/07-front.svg",
+      "type": "Image",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "error": null
+    },
+    {
+      "file": "css/styles.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "mime": "text/css",
+      "error": null
+    },
+    {
+      "file": "index.html",
+      "type": "Document",
+      "status": 200,
+      "mime": "text/html",
+      "error": null
+    },
+    {
+      "file": "js/app.js",
+      "type": "Script",
+      "status": 200,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "file": "js/clouds.js",
+      "type": "Script",
+      "status": 200,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "file": "js/ocean.js",
+      "type": "Script",
+      "status": 200,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "file": "js/sea.bundle.js",
+      "type": "Script",
+      "status": 200,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "file": "js/weather.js",
+      "type": "Script",
+      "status": 200,
+      "mime": "text/javascript",
+      "error": null
+    },
+    {
+      "file": "https://api.open-meteo.com/v1/forecast?latitude=26.05&longitude=120&current=temperature_2m,cloud_cover,wind_speed_10m,wind_direction_10m,precipitation,weather_code,is_day&timezone=auto",
+      "type": "Fetch",
+      "status": 200,
+      "mime": "application/json",
+      "error": null
+    }
+  ],
+  "failedCount": 0,
+  "failures": [],
+  "runtimeErrors": [],
+  "ok": true
+}

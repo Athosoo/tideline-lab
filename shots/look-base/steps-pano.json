@@ -1,0 +1,5 @@
+[
+  {"expr":"document.querySelectorAll('header,aside,#hud,.panel,#panel').forEach(e=>e.style.display='none'); document.body.style.background='#000'; 'ui-hidden'","wait":300},
+  {"expr":"(function(){var l=window.__lab; l.set({coverage:0.44,type:1.0,density:1.2,detail:0.6,base:1400,top:3200,steps:120,light:3,scale:1.0,aerial:false,accumulate:true,auto:false,paused:true,debug:0,maxDist:30000,seedX:0,seedZ:0}); l.cam.pos[1]=5200; l.cam.pitch=-0.22; l.cam.fov=40*Math.PI/180; return 'set';})()","wait":4000},
+  {"expr":"'ready'","wait":2500}
+]

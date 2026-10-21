@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "out": "E:/DeepSeekplay/_lab/shots/perf/focus-open.png",
+  "bytes": 1046771,
+  "state": {
+    "bodyClass": "has-custom-cursor is-holding",
+    "root": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "atmosphere": {
+      "sunX": "76.87%",
+      "sunY": "18.94%",
+      "sunGlow": "rgb(222, 219, 202)",
+      "ambient": "0.869",
+      "cloudCover": "0.417",
+      "flash": "0.000"
+    },
+    "gallery": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "weatherBar": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "rgb(222, 219, 202)",
+      "ambient": "",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "focus": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.869",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "celestialLeft": "983.922px",
+    "celestialTop": "151.516px",
+    "dotColor": "rgb(226, 222, 205)",
+    "rainCanvas": {
+      "display": "none",
+      "w": 1280,
+      "h": 800,
+      "opaqueSample": 0
+    },
+    "bench": null
+  },
+  "errors": []
+}

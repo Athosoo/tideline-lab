@@ -1,0 +1,163 @@
+{
+  "schema": "tideline.bench-main/1",
+  "tool": "bench-main.mjs",
+  "startedAt": "2026-10-20T07:56:39.788Z",
+  "finishedAt": "2026-10-20T07:57:13.543Z",
+  "viewport": "640x400",
+  "note": "Headless Chrome runs SwiftShader (software raster). fps and GPU time are NOT representative; RecalcStyleDuration/LayoutDuration/ScriptDuration/TaskDuration are CPU time and valid for A/B deltas. In --pair mode compare ratios (toggle/base) from the same page run; medians over rounds.",
+  "mode": "micro",
+  "microFrames": 30,
+  "rounds": 1,
+  "pairs": [
+    {
+      "round": 1,
+      "name": "noattr",
+      "base": {
+        "frames": 30,
+        "wallMs": 1243.3,
+        "wallMsPerFrame": 41.443,
+        "recalcMsPerFrame": 23.605,
+        "layoutMsPerFrame": 0,
+        "scriptMsPerFrame": 0.005,
+        "taskMsPerFrame": 41.478,
+        "recalcCountPerFrame": 1,
+        "countersPerFrame": {
+          "rootWrites": 11.667,
+          "updates": 1,
+          "applySky": 0.167,
+          "updateClouds": 1,
+          "cloudGenerated": 0.267,
+          "rainCleared": 1
+        }
+      },
+      "on": {
+        "frames": 30,
+        "wallMs": 207.2,
+        "wallMsPerFrame": 6.907,
+        "recalcMsPerFrame": 0.214,
+        "layoutMsPerFrame": 0,
+        "scriptMsPerFrame": 0.009,
+        "taskMsPerFrame": 7.027,
+        "recalcCountPerFrame": 1,
+        "countersPerFrame": {
+          "rootWrites": 0,
+          "updates": 1,
+          "applySky": 0.167,
+          "updateClouds": 1,
+          "cloudGenerated": 0.267,
+          "rainCleared": 1
+        }
+      }
+    },
+    {
+      "round": 1,
+      "name": "no2dcloud",
+      "base": {
+        "frames": 30,
+        "wallMs": 486.5,
+        "wallMsPerFrame": 16.217,
+        "recalcMsPerFrame": 9.536,
+        "layoutMsPerFrame": 0,
+        "scriptMsPerFrame": 0.003,
+        "taskMsPerFrame": 16.261,
+        "recalcCountPerFrame": 1,
+        "countersPerFrame": {
+          "rootWrites": 12.5,
+          "updates": 1.033,
+          "applySky": 0.2,
+          "updateClouds": 1.033,
+          "cloudGenerated": 0.3,
+          "rainCleared": 1.033
+        }
+      },
+      "on": {
+        "frames": 30,
+        "wallMs": 522.2,
+        "wallMsPerFrame": 17.407,
+        "recalcMsPerFrame": 17.017,
+        "layoutMsPerFrame": 0.03,
+        "scriptMsPerFrame": 0.196,
+        "taskMsPerFrame": 31.06,
+        "recalcCountPerFrame": 1.1,
+        "countersPerFrame": {
+          "rootWrites": 12.5,
+          "updates": 1.033,
+          "applySky": 0.2,
+          "updateClouds": 1.033,
+          "cloudGenerated": 0,
+          "rainCleared": 1.033
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "mode": "noattr",
+      "pairs": 1,
+      "wallMsPerFrame": {
+        "base": 41.443,
+        "off": 6.907,
+        "ratio": 0.167
+      },
+      "recalcMsPerFrame": {
+        "base": 23.605,
+        "off": 0.214,
+        "ratio": 0.009
+      },
+      "scriptMsPerFrame": {
+        "base": 0.005,
+        "off": 0.009,
+        "ratio": 1.8
+      },
+      "taskMsPerFrame": {
+        "base": 41.478,
+        "off": 7.027,
+        "ratio": 0.169
+      },
+      "layoutMsPerFrame": {
+        "base": 0,
+        "off": 0
+      },
+      "counters": {
+        "rootWrites": {
+          "base": 11.667,
+          "off": 0
+        }
+      }
+    },
+    {
+      "mode": "no2dcloud",
+      "pairs": 1,
+      "wallMsPerFrame": {
+        "base": 16.217,
+        "off": 17.407,
+        "ratio": 1.073
+      },
+      "recalcMsPerFrame": {
+        "base": 9.536,
+        "off": 17.017,
+        "ratio": 1.785
+      },
+      "scriptMsPerFrame": {
+        "base": 0.003,
+        "off": 0.196,
+        "ratio": 65.333
+      },
+      "taskMsPerFrame": {
+        "base": 16.261,
+        "off": 31.06,
+        "ratio": 1.91
+      },
+      "layoutMsPerFrame": {
+        "base": 0,
+        "off": 0.03
+      },
+      "counters": {
+        "rootWrites": {
+          "base": 12.5,
+          "off": 12.5
+        }
+      }
+    }
+  ]
+}

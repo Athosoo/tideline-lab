@@ -1,0 +1,207 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "p2-floor",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-19T15:43:21.430Z",
+  "finishedAt": "2026-10-19T15:43:41.454Z",
+  "elapsedMs": 20022,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\p2-floor",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "f21@coverage=0.21@steps=120@auto=0",
+      "f44@coverage=0.44@steps=120@auto=0"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 2500,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": false
+  },
+  "matrix": [
+    "f21",
+    "f44"
+  ],
+  "cases": [
+    {
+      "name": "f21",
+      "rawName": "f21",
+      "preset": null,
+      "params": {
+        "coverage": 0.21,
+        "steps": 120,
+        "auto": 0
+      },
+      "query": {
+        "coverage": 0.21,
+        "steps": 120,
+        "auto": 0
+      },
+      "patch": {
+        "coverage": 0.21,
+        "steps": 120,
+        "auto": 0
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?coverage=0.21&steps=120&auto=0",
+      "captureMode": "cli-screenshot",
+      "png": "f21.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p2-floor\\f21.png",
+      "pngBytes": 219058,
+      "captureMs": 8691,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 130.83,
+        "meanLuma": 130.83,
+        "stddev": 47.72,
+        "variance": 2276.82,
+        "meanRgb": [
+          120.92,
+          132.9,
+          146.25
+        ],
+        "stddevRgb": [
+          46.55,
+          47.96,
+          50.14
+        ],
+        "lumaMin": 36,
+        "lumaMax": 255,
+        "blackRatio": 0,
+        "whiteRatio": 0.001533,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    },
+    {
+      "name": "f44",
+      "rawName": "f44",
+      "preset": null,
+      "params": {
+        "coverage": 0.44,
+        "steps": 120,
+        "auto": 0
+      },
+      "query": {
+        "coverage": 0.44,
+        "steps": 120,
+        "auto": 0
+      },
+      "patch": {
+        "coverage": 0.44,
+        "steps": 120,
+        "auto": 0
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?coverage=0.44&steps=120&auto=0",
+      "captureMode": "cli-screenshot",
+      "png": "f44.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p2-floor\\f44.png",
+      "pngBytes": 317339,
+      "captureMs": 10388,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 141.46,
+        "meanLuma": 141.46,
+        "stddev": 55.34,
+        "variance": 3062.15,
+        "meanRgb": [
+          134.58,
+          142.99,
+          151.96
+        ],
+        "stddevRgb": [
+          57.03,
+          55.03,
+          53.87
+        ],
+        "lumaMin": 36,
+        "lumaMax": 255,
+        "blackRatio": 0,
+        "whiteRatio": 0.001554,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": true,
+    "path": "E:\\DeepSeekplay\\_lab\\shots\\p2-floor\\sheet.png",
+    "file": "sheet.png",
+    "width": 1236,
+    "height": 497,
+    "count": 2,
+    "method": "Pillow",
+    "python": {
+      "cmd": "python",
+      "args": [],
+      "pilVersion": "12.1.1"
+    }
+  },
+  "summary": {
+    "caseCount": 2,
+    "okCount": 2,
+    "failedCount": 0,
+    "imageCount": 2,
+    "perfCount": 0,
+    "quality": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "out": "E:/DeepSeekplay/_lab/shots/perf/ab3-norain.png",
+  "bytes": 1108340,
+  "state": {
+    "bodyClass": "has-custom-cursor",
+    "root": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "atmosphere": {
+      "sunX": "23.13%",
+      "sunY": "18.94%",
+      "sunGlow": "rgb(226, 222, 203)",
+      "ambient": "0.881",
+      "cloudCover": "0.420",
+      "flash": "0.000"
+    },
+    "gallery": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.881",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "weatherBar": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "rgb(226, 222, 203)",
+      "ambient": "0.881",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "focus": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.881",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "celestialLeft": "296.062px",
+    "celestialTop": "151.516px",
+    "dotColor": "rgb(228, 224, 205)"
+  },
+  "errors": []
+}

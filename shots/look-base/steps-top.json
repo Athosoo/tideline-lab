@@ -1,0 +1,1 @@
+[{"expr":"(function(){var l=window.__lab;l.set({coverage:0.44,type:1.0,density:1.2,detail:0.6,base:1400,top:3200,steps:128,light:3,scale:1.0,aerial:false,accumulate:true,auto:false,paused:true,debug:0,maxDist:80000,seedX:0,seedZ:0,sunEl:65,sunAz:24,haze:1.0});l.cam.pos[1]=25000;l.cam.pitch=1.53;l.cam.fov=50*Math.PI/180;return 'set';})()","wait":500}]

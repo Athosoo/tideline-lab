@@ -1,0 +1,6 @@
+[
+  {"expr": "(function(){var s=Weather.state;s.manualTime=false;s.timeOfDay=15;s.timeTarget=15;s.cloudCover=0.5;s.cloudTarget=0.5;s.wind=0.35;s.windTarget=0.35;s.rain=0;s.rainTarget=0;s.storm=0.2;s.stormTarget=0.2;return true;})()", "wait": 2500},
+  {"expr": "document.querySelector('#scrollCue').click(), true", "wait": 3500},
+  {"expr": "window.dispatchEvent(new WheelEvent('wheel',{deltaY:900,bubbles:true,cancelable:true})),true", "wait": 3000},
+  {"expr": "(function(){var c=document.querySelector('.postcard'); if(c){c.click(); return true;} return false;})()", "wait": 2500}
+]

@@ -1,0 +1,195 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "p0-steps-ab",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-19T15:00:31.157Z",
+  "finishedAt": "2026-10-19T15:00:40.441Z",
+  "elapsedMs": 9282,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\p0-steps-ab",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "s16@steps=16",
+      "s96@steps=96"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 2500,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": false
+  },
+  "matrix": [
+    "s16",
+    "s96"
+  ],
+  "cases": [
+    {
+      "name": "s16",
+      "rawName": "s16",
+      "preset": null,
+      "params": {
+        "steps": 16
+      },
+      "query": {
+        "steps": 16
+      },
+      "patch": {
+        "steps": 16
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?steps=16",
+      "captureMode": "cli-screenshot",
+      "png": "s16.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p0-steps-ab\\s16.png",
+      "pngBytes": 331347,
+      "captureMs": 3259,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 132.91,
+        "meanLuma": 132.91,
+        "stddev": 48.9,
+        "variance": 2391.15,
+        "meanRgb": [
+          123.81,
+          134.85,
+          147.04
+        ],
+        "stddevRgb": [
+          48.46,
+          48.99,
+          50.48
+        ],
+        "lumaMin": 36,
+        "lumaMax": 255,
+        "blackRatio": 0,
+        "whiteRatio": 0.001533,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    },
+    {
+      "name": "s96",
+      "rawName": "s96",
+      "preset": null,
+      "params": {
+        "steps": 96
+      },
+      "query": {
+        "steps": 96
+      },
+      "patch": {
+        "steps": 96
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?steps=96",
+      "captureMode": "cli-screenshot",
+      "png": "s96.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p0-steps-ab\\s96.png",
+      "pngBytes": 265115,
+      "captureMs": 5109,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 132.89,
+        "meanLuma": 132.89,
+        "stddev": 48.88,
+        "variance": 2389.44,
+        "meanRgb": [
+          123.8,
+          134.83,
+          147.01
+        ],
+        "stddevRgb": [
+          48.44,
+          48.98,
+          50.46
+        ],
+        "lumaMin": 36,
+        "lumaMax": 255,
+        "blackRatio": 0,
+        "whiteRatio": 0.001533,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": true,
+    "path": "E:\\DeepSeekplay\\_lab\\shots\\p0-steps-ab\\sheet.png",
+    "file": "sheet.png",
+    "width": 1236,
+    "height": 497,
+    "count": 2,
+    "method": "Pillow",
+    "python": {
+      "cmd": "python",
+      "args": [],
+      "pilVersion": "12.1.1"
+    }
+  },
+  "summary": {
+    "caseCount": 2,
+    "okCount": 2,
+    "failedCount": 0,
+    "imageCount": 2,
+    "perfCount": 0,
+    "quality": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

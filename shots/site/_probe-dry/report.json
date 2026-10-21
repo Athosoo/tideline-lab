@@ -1,0 +1,129 @@
+{
+  "schema": "tidelime.probe/1",
+  "tool": "probe.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "_probe-dry",
+  "mode": "dry-run",
+  "site": "file:///E:/DeepSeekplay/GIFT/index.html",
+  "startedAt": "2026-10-19T13:26:34.413Z",
+  "finishedAt": "2026-10-19T13:26:34.418Z",
+  "elapsedMs": 3,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\site\\_probe-dry",
+  "chrome": {
+    "path": null
+  },
+  "options": {
+    "times": [
+      {
+        "raw": "06:09",
+        "label": "0609",
+        "kind": "fixed",
+        "hours": 6.15
+      },
+      {
+        "raw": "09:00",
+        "label": "0900",
+        "kind": "fixed",
+        "hours": 9
+      }
+    ],
+    "repeat": 1,
+    "width": 1280,
+    "height": 800,
+    "settle": 1200,
+    "bootSettle": 2000,
+    "loadTimeout": 90000,
+    "elements": [
+      "#celestial"
+    ],
+    "state": {},
+    "minStddev": 2,
+    "noPil": false
+  },
+  "weatherApi": null,
+  "boot": null,
+  "viewport": {
+    "innerWidth": 1280,
+    "innerHeight": 800,
+    "dpr": 1,
+    "scrollY": 0
+  },
+  "cases": [
+    {
+      "name": "0609",
+      "time": "0609",
+      "timeRaw": "06:09",
+      "kind": "fixed",
+      "hours": 6.15,
+      "repeat": 1,
+      "ok": true,
+      "png": null,
+      "setTime": null,
+      "sun": {
+        "xPct": null,
+        "yPct": null
+      },
+      "celestial": null,
+      "inside": null,
+      "body": null,
+      "elements": [],
+      "canvas": {
+        "attempts": 0,
+        "canvases": []
+      },
+      "brightness": null
+    },
+    {
+      "name": "0900",
+      "time": "0900",
+      "timeRaw": "09:00",
+      "kind": "fixed",
+      "hours": 9,
+      "repeat": 1,
+      "ok": true,
+      "png": null,
+      "setTime": null,
+      "sun": {
+        "xPct": null,
+        "yPct": null
+      },
+      "celestial": null,
+      "inside": null,
+      "body": null,
+      "elements": [],
+      "canvas": {
+        "attempts": 0,
+        "canvases": []
+      },
+      "brightness": null
+    }
+  ],
+  "summary": {
+    "caseCount": 2,
+    "okCount": 2,
+    "failedCount": 0,
+    "sunVarReadCount": 0,
+    "insideCount": 0,
+    "canvasReadableCount": 0,
+    "bodyClasses": [],
+    "flagsSeen": {
+      "hasCloudVolume": false,
+      "hasSeaBundle": false,
+      "isLite": false
+    },
+    "quality": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "flat": 0,
+      "allBlack": 0,
+      "allWhite": 0,
+      "ok": null,
+      "minStddev": 2,
+      "note": "Full-screen PNG is checked for non-black / non-white / luma stddev >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

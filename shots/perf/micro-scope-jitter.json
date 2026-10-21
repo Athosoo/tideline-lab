@@ -1,0 +1,381 @@
+{
+  "schema": "tideline.bench-main/1",
+  "tool": "bench-main.mjs",
+  "startedAt": "2026-10-20T08:09:43.623Z",
+  "finishedAt": "2026-10-20T08:12:36.651Z",
+  "viewport": "640x400",
+  "note": "Headless Chrome runs SwiftShader (software raster). fps and GPU time are NOT representative; RecalcStyleDuration/LayoutDuration/ScriptDuration/TaskDuration are CPU time and valid for A/B deltas. In --pair mode compare ratios (toggle/base) from the same page run; medians over rounds.",
+  "mode": "micro",
+  "microFrames": 90,
+  "rounds": 2,
+  "pairs": [
+    {
+      "round": 1,
+      "name": "rootscope",
+      "base": {
+        "frames": 90,
+        "wallMs": 1733.4,
+        "wallMsPerFrame": 19.26,
+        "recalcMsPerFrame": 4.979,
+        "layoutMsPerFrame": 0.512,
+        "scriptMsPerFrame": 0.028,
+        "taskMsPerFrame": 19.329,
+        "recalcCountPerFrame": 1.011,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 7.7,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      },
+      "on": {
+        "frames": 90,
+        "wallMs": 2610.7,
+        "wallMsPerFrame": 29.008,
+        "recalcMsPerFrame": 16.866,
+        "layoutMsPerFrame": 0.003,
+        "scriptMsPerFrame": 0.003,
+        "taskMsPerFrame": 29.033,
+        "recalcCountPerFrame": 1.022,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 6.244,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "name": "nocache",
+      "base": {
+        "frames": 90,
+        "wallMs": 1563.2,
+        "wallMsPerFrame": 17.369,
+        "recalcMsPerFrame": 4.22,
+        "layoutMsPerFrame": 0.249,
+        "scriptMsPerFrame": 0.005,
+        "taskMsPerFrame": 17.409,
+        "recalcCountPerFrame": 1.022,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 7.433,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      },
+      "on": {
+        "frames": 90,
+        "wallMs": 1616.6,
+        "wallMsPerFrame": 17.962,
+        "recalcMsPerFrame": 4.558,
+        "layoutMsPerFrame": 0.201,
+        "scriptMsPerFrame": 0.049,
+        "taskMsPerFrame": 18.204,
+        "recalcCountPerFrame": 1.033,
+        "countersPerFrame": {
+          "rootWrites": 14.089,
+          "rootApplied": 14.089,
+          "updates": 1.022,
+          "applySky": 0.178,
+          "updateClouds": 1.022,
+          "cloudGenerated": 0.267,
+          "rainCleared": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "name": "noattr",
+      "base": {
+        "frames": 90,
+        "wallMs": 1657.1,
+        "wallMsPerFrame": 18.412,
+        "recalcMsPerFrame": 4.316,
+        "layoutMsPerFrame": 0.239,
+        "scriptMsPerFrame": 0.045,
+        "taskMsPerFrame": 18.749,
+        "recalcCountPerFrame": 1.033,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 7.756,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      },
+      "on": {
+        "frames": 90,
+        "wallMs": 9102.6,
+        "wallMsPerFrame": 101.14,
+        "recalcMsPerFrame": 5.579,
+        "layoutMsPerFrame": 0.004,
+        "scriptMsPerFrame": 0.029,
+        "taskMsPerFrame": 101.243,
+        "recalcCountPerFrame": 1.033,
+        "countersPerFrame": {
+          "rootWrites": 0,
+          "rootApplied": 0,
+          "updates": 1.022,
+          "applySky": 0.167,
+          "updateClouds": 1.022,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "name": "rootscope",
+      "base": {
+        "frames": 90,
+        "wallMs": 23180.9,
+        "wallMsPerFrame": 257.566,
+        "recalcMsPerFrame": 79.22,
+        "layoutMsPerFrame": 6.956,
+        "scriptMsPerFrame": 0.129,
+        "taskMsPerFrame": 259.009,
+        "recalcCountPerFrame": 1,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 7.633,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      },
+      "on": {
+        "frames": 90,
+        "wallMs": 44593.6,
+        "wallMsPerFrame": 495.484,
+        "recalcMsPerFrame": 291.091,
+        "layoutMsPerFrame": 0,
+        "scriptMsPerFrame": 0,
+        "taskMsPerFrame": 495.813,
+        "recalcCountPerFrame": 1,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 5.978,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "name": "nocache",
+      "base": {
+        "frames": 90,
+        "wallMs": 18863.4,
+        "wallMsPerFrame": 209.593,
+        "recalcMsPerFrame": 39.514,
+        "layoutMsPerFrame": 0.199,
+        "scriptMsPerFrame": 0.004,
+        "taskMsPerFrame": 209.615,
+        "recalcCountPerFrame": 1.022,
+        "countersPerFrame": {
+          "rootWrites": 14.089,
+          "rootApplied": 6.578,
+          "updates": 1.022,
+          "applySky": 0.178,
+          "updateClouds": 1.022,
+          "cloudGenerated": 0.267,
+          "rainCleared": 0
+        }
+      },
+      "on": {
+        "frames": 90,
+        "wallMs": 5478.1,
+        "wallMsPerFrame": 60.868,
+        "recalcMsPerFrame": 15.624,
+        "layoutMsPerFrame": 0.808,
+        "scriptMsPerFrame": 0.016,
+        "taskMsPerFrame": 60.905,
+        "recalcCountPerFrame": 1.022,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 13.789,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "name": "noattr",
+      "base": {
+        "frames": 90,
+        "wallMs": 6635.2,
+        "wallMsPerFrame": 73.724,
+        "recalcMsPerFrame": 11.136,
+        "layoutMsPerFrame": 0.176,
+        "scriptMsPerFrame": 0.009,
+        "taskMsPerFrame": 73.781,
+        "recalcCountPerFrame": 1.022,
+        "countersPerFrame": {
+          "rootWrites": 13.789,
+          "rootApplied": 6.367,
+          "updates": 1.011,
+          "applySky": 0.167,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.256,
+          "rainCleared": 0
+        }
+      },
+      "on": {
+        "frames": 90,
+        "wallMs": 27014.7,
+        "wallMsPerFrame": 300.163,
+        "recalcMsPerFrame": 2.362,
+        "layoutMsPerFrame": 0,
+        "scriptMsPerFrame": 0.002,
+        "taskMsPerFrame": 302.976,
+        "recalcCountPerFrame": 1,
+        "countersPerFrame": {
+          "rootWrites": 0,
+          "rootApplied": 0,
+          "updates": 1.011,
+          "applySky": 0.178,
+          "updateClouds": 1.011,
+          "cloudGenerated": 0.267,
+          "rainCleared": 0
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "mode": "rootscope",
+      "pairs": 2,
+      "wallMsPerFrame": {
+        "base": 138.413,
+        "off": 262.246,
+        "ratio": 1.715
+      },
+      "recalcMsPerFrame": {
+        "base": 42.1,
+        "off": 153.979,
+        "ratio": 3.531
+      },
+      "scriptMsPerFrame": {
+        "base": 0.079,
+        "off": 0.002,
+        "ratio": 0.054
+      },
+      "taskMsPerFrame": {
+        "base": 139.169,
+        "off": 262.423,
+        "ratio": 1.708
+      },
+      "layoutMsPerFrame": {
+        "base": 3.734,
+        "off": 0.002
+      },
+      "counters": {
+        "rootWrites": {
+          "base": 13.789,
+          "off": 13.789
+        },
+        "rootApplied": {
+          "base": 7.667,
+          "off": 6.111
+        }
+      }
+    },
+    {
+      "mode": "nocache",
+      "pairs": 2,
+      "wallMsPerFrame": {
+        "base": 113.481,
+        "off": 39.415,
+        "ratio": 0.662
+      },
+      "recalcMsPerFrame": {
+        "base": 21.867,
+        "off": 10.091,
+        "ratio": 0.738
+      },
+      "scriptMsPerFrame": {
+        "base": 0.005,
+        "off": 0.033,
+        "ratio": 6.9
+      },
+      "taskMsPerFrame": {
+        "base": 113.512,
+        "off": 39.555,
+        "ratio": 0.668
+      },
+      "layoutMsPerFrame": {
+        "base": 0.224,
+        "off": 0.504
+      },
+      "counters": {
+        "rootWrites": {
+          "base": 13.939,
+          "off": 13.939
+        },
+        "rootApplied": {
+          "base": 7.006,
+          "off": 13.939
+        }
+      }
+    },
+    {
+      "mode": "noattr",
+      "pairs": 2,
+      "wallMsPerFrame": {
+        "base": 46.068,
+        "off": 200.652,
+        "ratio": 4.782
+      },
+      "recalcMsPerFrame": {
+        "base": 7.726,
+        "off": 3.971,
+        "ratio": 0.752
+      },
+      "scriptMsPerFrame": {
+        "base": 0.027,
+        "off": 0.016,
+        "ratio": 0.433
+      },
+      "taskMsPerFrame": {
+        "base": 46.265,
+        "off": 202.11,
+        "ratio": 4.753
+      },
+      "layoutMsPerFrame": {
+        "base": 0.208,
+        "off": 0.002
+      },
+      "counters": {
+        "rootWrites": {
+          "base": 13.789,
+          "off": 0
+        },
+        "rootApplied": {
+          "base": 7.062,
+          "off": 0
+        }
+      }
+    }
+  ]
+}

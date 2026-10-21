@@ -1,0 +1,677 @@
+{
+  "schema": "tideline.bench-main/1",
+  "tool": "bench-main.mjs",
+  "startedAt": "2026-10-20T08:03:43.761Z",
+  "finishedAt": "2026-10-20T08:04:46.506Z",
+  "viewport": "640x400",
+  "note": "Headless Chrome runs SwiftShader (software raster). fps and GPU time are NOT representative; RecalcStyleDuration/LayoutDuration/ScriptDuration/TaskDuration are CPU time and valid for A/B deltas. In --pair mode compare ratios (toggle/base) from the same page run; medians over rounds.",
+  "mode": "pair",
+  "segment": 3,
+  "rounds": 2,
+  "pairs": [
+    {
+      "round": 1,
+      "name": "nocache",
+      "base": {
+        "wallMs": 3073.1,
+        "frames": 24,
+        "pageFps": 7.82,
+        "raf": {
+          "intervalP50": 116.8,
+          "intervalP95": 166.78,
+          "cbP50": 48.15,
+          "cbP95": 61.1,
+          "cbMax": 63.8,
+          "gapP50": 77.1,
+          "gapP95": 117.49,
+          "loafCount": 20,
+          "loafMean": 125.14,
+          "loafP95": 198.4,
+          "loafStyleMean": 16.06,
+          "loafStyleP95": 22.57
+        },
+        "counters": {
+          "updates": 24,
+          "applySun": 24,
+          "applySky": 24,
+          "updateClouds": 24,
+          "cloudGenerated": 24,
+          "updateRain": 24,
+          "rainCleared": 0,
+          "rootWrites": 600,
+          "rootApplied": 42
+        },
+        "metrics": {
+          "RecalcStyleCount": 72,
+          "RecalcStyleMs": 391.2,
+          "RecalcStyleMsPerSec": 127.31,
+          "RecalcStyleCountPerSec": 23.43,
+          "RecalcStyleMsPerFrame": 16.301,
+          "LayoutCount": 24,
+          "LayoutMs": 6.9,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 1145,
+          "ScriptMsPerSec": 372.59,
+          "ScriptMsPerFrame": 47.708,
+          "TaskMs": 1683.6,
+          "TaskMsPerSec": 547.86,
+          "TaskMsPerFrame": 70.151,
+          "rootWritesPerSec": 195.24,
+          "rootWritesPerFrame": 25,
+          "updatesPerSec": 7.81,
+          "applySkyPerSec": 7.81,
+          "updateCloudsPerSec": 7.81,
+          "cloudGeneratedPerSec": 7.81,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 72,
+          "RecalcStyleDuration": 0.391224,
+          "LayoutCount": 24,
+          "LayoutDuration": 0.006902000000000019,
+          "ScriptDuration": 1.145,
+          "TaskDuration": 1.6836239999999991,
+          "DocumentLayoutCount": null,
+          "Nodes": 78,
+          "JSHeapUsedSize": 381432,
+          "Timestamp": 3.0821999999898253
+        }
+      },
+      "on": {
+        "wallMs": 3036.4,
+        "frames": 8,
+        "pageFps": 7.86,
+        "raf": {
+          "intervalP50": 125.1,
+          "intervalP95": 155.11,
+          "cbP50": 45.75,
+          "cbP95": 506.22,
+          "cbMax": 743,
+          "gapP50": 71.15,
+          "gapP95": 110.3,
+          "loafCount": 4,
+          "loafMean": 135.67,
+          "loafP95": 179.14,
+          "loafStyleMean": 19.18,
+          "loafStyleP95": 30.9
+        },
+        "counters": {
+          "updates": 8,
+          "applySun": 8,
+          "applySky": 8,
+          "updateClouds": 8,
+          "cloudGenerated": 8,
+          "updateRain": 8,
+          "rainCleared": 0,
+          "rootWrites": 200,
+          "rootApplied": 200
+        },
+        "metrics": {
+          "RecalcStyleCount": 24,
+          "RecalcStyleMs": 659.7,
+          "RecalcStyleMsPerSec": 217.25,
+          "RecalcStyleCountPerSec": 7.9,
+          "RecalcStyleMsPerFrame": 82.457,
+          "LayoutCount": 8,
+          "LayoutMs": 2.1,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 1228.9,
+          "ScriptMsPerSec": 404.74,
+          "ScriptMsPerFrame": 153.617,
+          "TaskMs": 2150.4,
+          "TaskMsPerSec": 708.2,
+          "TaskMsPerFrame": 268.798,
+          "rootWritesPerSec": 65.87,
+          "rootWritesPerFrame": 25,
+          "updatesPerSec": 2.63,
+          "applySkyPerSec": 2.63,
+          "updateCloudsPerSec": 2.63,
+          "cloudGeneratedPerSec": 2.63,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 24,
+          "RecalcStyleDuration": 0.659656,
+          "LayoutCount": 8,
+          "LayoutDuration": 0.002122999999999986,
+          "ScriptDuration": 1.2289399999999997,
+          "TaskDuration": 2.1503809999999994,
+          "DocumentLayoutCount": null,
+          "Nodes": 31,
+          "JSHeapUsedSize": -210532,
+          "Timestamp": 3.043846000000485
+        }
+      }
+    },
+    {
+      "round": 1,
+      "name": "noattr",
+      "base": {
+        "wallMs": 3008.1,
+        "frames": 1,
+        "pageFps": 0.2,
+        "raf": {
+          "intervalP50": 4953.4,
+          "intervalP95": 4953.4,
+          "cbP50": 267.8,
+          "cbP95": 267.8,
+          "cbMax": 267.8,
+          "gapP50": 4685.6,
+          "gapP95": 4685.6,
+          "loafCount": 0,
+          "loafMean": null,
+          "loafP95": null,
+          "loafStyleMean": null,
+          "loafStyleP95": null
+        },
+        "counters": {
+          "updates": 1,
+          "applySun": 1,
+          "applySky": 1,
+          "updateClouds": 1,
+          "cloudGenerated": 1,
+          "updateRain": 1,
+          "rainCleared": 0,
+          "rootWrites": 25,
+          "rootApplied": 0
+        },
+        "metrics": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleMs": 1.7,
+          "RecalcStyleMsPerSec": 0.55,
+          "RecalcStyleCountPerSec": 1,
+          "RecalcStyleMsPerFrame": 1.658,
+          "LayoutCount": 1,
+          "LayoutMs": 194.6,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 73.2,
+          "ScriptMsPerSec": 24.32,
+          "ScriptMsPerFrame": 73.155,
+          "TaskMs": 277.6,
+          "TaskMsPerSec": 92.3,
+          "TaskMsPerFrame": 277.642,
+          "rootWritesPerSec": 8.31,
+          "rootWritesPerFrame": 25,
+          "updatesPerSec": 0.33,
+          "applySkyPerSec": 0.33,
+          "updateCloudsPerSec": 0.33,
+          "cloudGeneratedPerSec": 0.33,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleDuration": 0.0016579999999999373,
+          "LayoutCount": 1,
+          "LayoutDuration": 0.19461699999999998,
+          "ScriptDuration": 0.07315499999999986,
+          "TaskDuration": 0.27764200000000017,
+          "DocumentLayoutCount": null,
+          "Nodes": 32,
+          "JSHeapUsedSize": 98012,
+          "Timestamp": 3.0318890000053216
+        }
+      },
+      "on": {
+        "wallMs": 3201.5,
+        "frames": 1,
+        "pageFps": 0.39,
+        "raf": {
+          "intervalP50": 2585.1,
+          "intervalP95": 2585.1,
+          "cbP50": 921,
+          "cbP95": 921,
+          "cbMax": 921,
+          "gapP50": 1664.1,
+          "gapP95": 1664.1,
+          "loafCount": 0,
+          "loafMean": null,
+          "loafP95": null,
+          "loafStyleMean": null,
+          "loafStyleP95": null
+        },
+        "counters": {
+          "updates": 1,
+          "applySun": 1,
+          "applySky": 1,
+          "updateClouds": 1,
+          "cloudGenerated": 1,
+          "updateRain": 1,
+          "rainCleared": 0,
+          "rootWrites": 0,
+          "rootApplied": 0
+        },
+        "metrics": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleMs": 132.4,
+          "RecalcStyleMsPerSec": 41.35,
+          "RecalcStyleCountPerSec": 0.94,
+          "RecalcStyleMsPerFrame": 132.383,
+          "LayoutCount": 1,
+          "LayoutMs": 0.2,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 920.5,
+          "ScriptMsPerSec": 287.51,
+          "ScriptMsPerFrame": 920.474,
+          "TaskMs": 1387.5,
+          "TaskMsPerSec": 433.39,
+          "TaskMsPerFrame": 1387.502,
+          "rootWritesPerSec": 0,
+          "rootWritesPerFrame": 0,
+          "updatesPerSec": 0.31,
+          "applySkyPerSec": 0.31,
+          "updateCloudsPerSec": 0.31,
+          "cloudGeneratedPerSec": 0.31,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleDuration": 0.13238299999999992,
+          "LayoutCount": 1,
+          "LayoutDuration": 0.00024099999999999122,
+          "ScriptDuration": 0.9204739999999996,
+          "TaskDuration": 1.3875019999999996,
+          "DocumentLayoutCount": null,
+          "Nodes": 27,
+          "JSHeapUsedSize": 94500,
+          "Timestamp": 3.2235879999934696
+        }
+      }
+    },
+    {
+      "round": 2,
+      "name": "nocache",
+      "base": {
+        "wallMs": 3122.7,
+        "frames": 1,
+        "pageFps": 0.24,
+        "raf": {
+          "intervalP50": 4136.5,
+          "intervalP95": 4136.5,
+          "cbP50": 1236.1,
+          "cbP95": 1236.1,
+          "cbMax": 1236.1,
+          "gapP50": 2900.4,
+          "gapP95": 2900.4,
+          "loafCount": 0,
+          "loafMean": null,
+          "loafP95": null,
+          "loafStyleMean": null,
+          "loafStyleP95": null
+        },
+        "counters": {
+          "updates": 1,
+          "applySun": 1,
+          "applySky": 1,
+          "updateClouds": 1,
+          "cloudGenerated": 1,
+          "updateRain": 1,
+          "rainCleared": 0,
+          "rootWrites": 25,
+          "rootApplied": 0
+        },
+        "metrics": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleMs": 1.4,
+          "RecalcStyleMsPerSec": 0.45,
+          "RecalcStyleCountPerSec": 0.96,
+          "RecalcStyleMsPerFrame": 1.415,
+          "LayoutCount": 1,
+          "LayoutMs": 0.3,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 1235.2,
+          "ScriptMsPerSec": 395.55,
+          "ScriptMsPerFrame": 1235.181,
+          "TaskMs": 1703.5,
+          "TaskMsPerSec": 545.53,
+          "TaskMsPerFrame": 1703.515,
+          "rootWritesPerSec": 8.01,
+          "rootWritesPerFrame": 25,
+          "updatesPerSec": 0.32,
+          "applySkyPerSec": 0.32,
+          "updateCloudsPerSec": 0.32,
+          "cloudGeneratedPerSec": 0.32,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleDuration": 0.0014150000000006102,
+          "LayoutCount": 1,
+          "LayoutDuration": 0.0003389999999999782,
+          "ScriptDuration": 1.235180999999999,
+          "TaskDuration": 1.7035149999999994,
+          "DocumentLayoutCount": null,
+          "Nodes": 17,
+          "JSHeapUsedSize": 116488,
+          "Timestamp": 3.348108999998658
+        }
+      },
+      "on": {
+        "wallMs": 5669.6,
+        "frames": 1,
+        "pageFps": 0.25,
+        "raf": {
+          "intervalP50": 3986.2,
+          "intervalP95": 3986.2,
+          "cbP50": 2281.9,
+          "cbP95": 2281.9,
+          "cbMax": 2281.9,
+          "gapP50": 1704.3,
+          "gapP95": 1704.3,
+          "loafCount": 0,
+          "loafMean": null,
+          "loafP95": null,
+          "loafStyleMean": null,
+          "loafStyleP95": null
+        },
+        "counters": {
+          "updates": 2,
+          "applySun": 2,
+          "applySky": 2,
+          "updateClouds": 2,
+          "cloudGenerated": 2,
+          "updateRain": 2,
+          "rainCleared": 0,
+          "rootWrites": 50,
+          "rootApplied": 50
+        },
+        "metrics": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleMs": 1327.6,
+          "RecalcStyleMsPerSec": 234.17,
+          "RecalcStyleCountPerSec": 0.53,
+          "RecalcStyleMsPerFrame": 1327.648,
+          "LayoutCount": 1,
+          "LayoutMs": 0.2,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 1650.6,
+          "ScriptMsPerSec": 291.13,
+          "ScriptMsPerFrame": 1650.566,
+          "TaskMs": 5836,
+          "TaskMsPerSec": 1029.34,
+          "TaskMsPerFrame": 5835.963,
+          "rootWritesPerSec": 8.82,
+          "rootWritesPerFrame": 50,
+          "updatesPerSec": 0.35,
+          "applySkyPerSec": 0.35,
+          "updateCloudsPerSec": 0.35,
+          "cloudGeneratedPerSec": 0.35,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleDuration": 1.327648,
+          "LayoutCount": 1,
+          "LayoutDuration": 0.00021599999999999397,
+          "ScriptDuration": 1.6505660000000004,
+          "TaskDuration": 5.835963000000001,
+          "DocumentLayoutCount": null,
+          "Nodes": 22,
+          "JSHeapUsedSize": -1393452,
+          "Timestamp": 7.284755000000587
+        }
+      }
+    },
+    {
+      "round": 2,
+      "name": "noattr",
+      "base": {
+        "wallMs": 3627.5,
+        "frames": 1,
+        "pageFps": 0.21,
+        "raf": {
+          "intervalP50": 4820.2,
+          "intervalP95": 4820.2,
+          "cbP50": 1356.1,
+          "cbP95": 1356.1,
+          "cbMax": 1356.1,
+          "gapP50": 3464.1,
+          "gapP95": 3464.1,
+          "loafCount": 0,
+          "loafMean": null,
+          "loafP95": null,
+          "loafStyleMean": null,
+          "loafStyleP95": null
+        },
+        "counters": {
+          "updates": 1,
+          "applySun": 1,
+          "applySky": 1,
+          "updateClouds": 1,
+          "cloudGenerated": 1,
+          "updateRain": 1,
+          "rainCleared": 0,
+          "rootWrites": 25,
+          "rootApplied": 3
+        },
+        "metrics": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleMs": 496.9,
+          "RecalcStyleMsPerSec": 136.97,
+          "RecalcStyleCountPerSec": 0.83,
+          "RecalcStyleMsPerFrame": 496.871,
+          "LayoutCount": 1,
+          "LayoutMs": 0.4,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 1355.3,
+          "ScriptMsPerSec": 373.63,
+          "ScriptMsPerFrame": 1355.335,
+          "TaskMs": 3422,
+          "TaskMsPerSec": 943.36,
+          "TaskMsPerFrame": 3422.026,
+          "rootWritesPerSec": 6.89,
+          "rootWritesPerFrame": 25,
+          "updatesPerSec": 0.28,
+          "applySkyPerSec": 0.28,
+          "updateCloudsPerSec": 0.28,
+          "cloudGeneratedPerSec": 0.28,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleDuration": 0.4968709999999996,
+          "LayoutCount": 1,
+          "LayoutDuration": 0.0003770000000000717,
+          "ScriptDuration": 1.3553350000000002,
+          "TaskDuration": 3.422025999999999,
+          "DocumentLayoutCount": null,
+          "Nodes": -71,
+          "JSHeapUsedSize": 115276,
+          "Timestamp": 3.748571999996784
+        }
+      },
+      "on": {
+        "wallMs": 3015.2,
+        "frames": 1,
+        "pageFps": 0.24,
+        "raf": {
+          "intervalP50": 4136.1,
+          "intervalP95": 4136.1,
+          "cbP50": 605.5,
+          "cbP95": 605.5,
+          "cbMax": 605.5,
+          "gapP50": 3530.6,
+          "gapP95": 3530.6,
+          "loafCount": 0,
+          "loafMean": null,
+          "loafP95": null,
+          "loafStyleMean": null,
+          "loafStyleP95": null
+        },
+        "counters": {
+          "updates": 1,
+          "applySun": 1,
+          "applySky": 1,
+          "updateClouds": 1,
+          "cloudGenerated": 1,
+          "updateRain": 1,
+          "rainCleared": 0,
+          "rootWrites": 0,
+          "rootApplied": 0
+        },
+        "metrics": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleMs": 1.5,
+          "RecalcStyleMsPerSec": 0.48,
+          "RecalcStyleCountPerSec": 0.99,
+          "RecalcStyleMsPerFrame": 1.459,
+          "LayoutCount": 1,
+          "LayoutMs": 171.4,
+          "DocumentLayoutCount": null,
+          "ScriptMs": 434.5,
+          "ScriptMsPerSec": 144.09,
+          "ScriptMsPerFrame": 434.474,
+          "TaskMs": 611.2,
+          "TaskMsPerSec": 202.71,
+          "TaskMsPerFrame": 611.223,
+          "rootWritesPerSec": 0,
+          "rootWritesPerFrame": 0,
+          "updatesPerSec": 0.33,
+          "applySkyPerSec": 0.33,
+          "updateCloudsPerSec": 0.33,
+          "cloudGeneratedPerSec": 0.33,
+          "rainClearedPerSec": 0
+        },
+        "raw": {
+          "RecalcStyleCount": 3,
+          "RecalcStyleDuration": 0.001458999999999655,
+          "LayoutCount": 1,
+          "LayoutDuration": 0.17139699999999997,
+          "ScriptDuration": 0.4344739999999998,
+          "TaskDuration": 0.611222999999999,
+          "DocumentLayoutCount": null,
+          "Nodes": 32,
+          "JSHeapUsedSize": 106764,
+          "Timestamp": 3.018169000002672
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "toggle": "nocache",
+      "pairs": 2,
+      "recalcMsPerSec": {
+        "base": 63.88,
+        "off": 225.71,
+        "ratio": 261.042
+      },
+      "recalcCountPerSec": {
+        "base": 12.195,
+        "off": 4.215,
+        "ratio": 0.445
+      },
+      "recalcMsPerFrame": {
+        "base": 8.858,
+        "off": 705.052,
+        "ratio": 471.663
+      },
+      "scriptMsPerSec": {
+        "base": 384.07,
+        "off": 347.935,
+        "ratio": 0.911
+      },
+      "taskMsPerSec": {
+        "base": 546.695,
+        "off": 868.77,
+        "ratio": 1.59
+      },
+      "layoutMs": {
+        "base": 3.6,
+        "off": 1.15
+      },
+      "framesPerSec": {
+        "base": 4.03,
+        "off": 4.055
+      },
+      "counters": {
+        "rootWritesPerSec": {
+          "base": 101.625,
+          "off": 37.345
+        },
+        "rootWritesPerFrame": {
+          "base": 25,
+          "off": 37.5
+        },
+        "updateCloudsPerSec": {
+          "base": 4.065,
+          "off": 1.49
+        },
+        "cloudGeneratedPerSec": {
+          "base": 4.065,
+          "off": 1.49
+        },
+        "rainClearedPerSec": {
+          "base": 0,
+          "off": 0
+        }
+      },
+      "rafCbP50": {
+        "base": 8.858,
+        "n": 2
+      }
+    },
+    {
+      "toggle": "noattr",
+      "pairs": 2,
+      "recalcMsPerSec": {
+        "base": 68.76,
+        "off": 20.915,
+        "ratio": 37.593
+      },
+      "recalcCountPerSec": {
+        "base": 0.915,
+        "off": 0.965,
+        "ratio": 1.066
+      },
+      "recalcMsPerFrame": {
+        "base": 249.264,
+        "off": 66.921,
+        "ratio": 39.924
+      },
+      "scriptMsPerSec": {
+        "base": 198.975,
+        "off": 215.8,
+        "ratio": 6.104
+      },
+      "taskMsPerSec": {
+        "base": 517.83,
+        "off": 318.05,
+        "ratio": 2.455
+      },
+      "layoutMs": {
+        "base": 97.5,
+        "off": 85.8
+      },
+      "framesPerSec": {
+        "base": 0.205,
+        "off": 0.315
+      },
+      "counters": {
+        "rootWritesPerSec": {
+          "base": 7.6,
+          "off": 0
+        },
+        "rootWritesPerFrame": {
+          "base": 25,
+          "off": 0
+        },
+        "updateCloudsPerSec": {
+          "base": 0.305,
+          "off": 0.32
+        },
+        "cloudGeneratedPerSec": {
+          "base": 0.305,
+          "off": 0.32
+        },
+        "rainClearedPerSec": {
+          "base": 0,
+          "off": 0
+        }
+      },
+      "rafCbP50": {
+        "base": 249.264,
+        "n": 2
+      }
+    }
+  ]
+}

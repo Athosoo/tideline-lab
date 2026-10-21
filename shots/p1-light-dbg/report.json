@@ -1,0 +1,128 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "p1-light-dbg",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-19T15:10:23.248Z",
+  "finishedAt": "2026-10-19T15:10:26.320Z",
+  "elapsedMs": 3070,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\p1-light-dbg",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "dbg@debug=8@steps=96@auto=0"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 1500,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": true
+  },
+  "matrix": [
+    "dbg"
+  ],
+  "cases": [
+    {
+      "name": "dbg",
+      "rawName": "dbg",
+      "preset": null,
+      "params": {
+        "debug": 8,
+        "steps": 96,
+        "auto": 0
+      },
+      "query": {
+        "debug": 8,
+        "steps": 96,
+        "auto": 0
+      },
+      "patch": {
+        "debug": 8,
+        "steps": 96,
+        "auto": 0
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?debug=8&steps=96&auto=0",
+      "captureMode": "cli-screenshot",
+      "png": "dbg.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p1-light-dbg\\dbg.png",
+      "pngBytes": 743556,
+      "captureMs": 2679,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 39.04,
+        "meanLuma": 39.04,
+        "stddev": 40.81,
+        "variance": 1665.05,
+        "meanRgb": [
+          5.57,
+          62.57,
+          5.97
+        ],
+        "stddevRgb": [
+          12.95,
+          67.71,
+          17.07
+        ],
+        "lumaMin": 0,
+        "lumaMax": 236,
+        "blackRatio": 0.351221,
+        "whiteRatio": 0,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": false,
+    "skipped": true,
+    "reason": "--no-sheet"
+  },
+  "summary": {
+    "caseCount": 1,
+    "okCount": 1,
+    "failedCount": 0,
+    "imageCount": 1,
+    "perfCount": 0,
+    "quality": {
+      "checked": 1,
+      "passed": 1,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

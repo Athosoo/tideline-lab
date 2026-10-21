@@ -1,0 +1,6 @@
+[
+  {"expr": "(function(){var s=Weather.state;s.manualTime=false;s.timeOfDay=14;s.timeTarget=14;s.cloudCover=0.8;s.cloudTarget=0.8;s.wind=0.55;s.windTarget=0.55;s.rain=0.55;s.rainTarget=0.55;s.storm=0.5;s.stormTarget=0.5;s.lightningTarget=0;return true;})()", "wait": 3000},
+  {"expr": "document.querySelector('#scrollCue').click(), true", "wait": 3000},
+  {"expr": "window.dispatchEvent(new WheelEvent('wheel',{deltaY:900,bubbles:true,cancelable:true})),true", "wait": 3000},
+  {"expr": "(function(){var s=Weather.state;s.manualTime=false;s.timeOfDay=14;s.timeTarget=14;s.cloudCover=0.8;s.cloudTarget=0.8;s.wind=0.55;s.windTarget=0.55;s.rain=0.55;s.rainTarget=0.55;s.storm=0.5;s.stormTarget=0.5;return true;})()", "wait": 800}
+]

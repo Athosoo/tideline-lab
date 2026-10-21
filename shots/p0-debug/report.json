@@ -1,0 +1,250 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "p0-debug",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-19T15:01:08.370Z",
+  "finishedAt": "2026-10-19T15:01:22.337Z",
+  "elapsedMs": 13965,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\p0-debug",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "d1@debug=1",
+      "d3@debug=3",
+      "d6@debug=6"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 1200,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": true
+  },
+  "matrix": [
+    "d1",
+    "d3",
+    "d6"
+  ],
+  "cases": [
+    {
+      "name": "d1",
+      "rawName": "d1",
+      "preset": null,
+      "params": {
+        "debug": 1
+      },
+      "query": {
+        "debug": 1
+      },
+      "patch": {
+        "debug": 1
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?debug=1",
+      "captureMode": "cli-screenshot",
+      "png": "d1.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p0-debug\\d1.png",
+      "pngBytes": 474305,
+      "captureMs": 5875,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 47.2,
+        "meanLuma": 47.2,
+        "stddev": 76.6,
+        "variance": 5867.79,
+        "meanRgb": [
+          41.89,
+          50.61,
+          43.86
+        ],
+        "stddevRgb": [
+          72.73,
+          90.68,
+          80.97
+        ],
+        "lumaMin": 0,
+        "lumaMax": 255,
+        "blackRatio": 0.536655,
+        "whiteRatio": 0.017609,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    },
+    {
+      "name": "d3",
+      "rawName": "d3",
+      "preset": null,
+      "params": {
+        "debug": 3
+      },
+      "query": {
+        "debug": 3
+      },
+      "patch": {
+        "debug": 3
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?debug=3",
+      "captureMode": "cli-screenshot",
+      "png": "d3.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p0-debug\\d3.png",
+      "pngBytes": 271385,
+      "captureMs": 5063,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 51.45,
+        "meanLuma": 51.45,
+        "stddev": 88.78,
+        "variance": 7882.27,
+        "meanRgb": [
+          57.94,
+          49.4,
+          45.3
+        ],
+        "stddevRgb": [
+          98.53,
+          87.67,
+          80.98
+        ],
+        "lumaMin": 0,
+        "lumaMax": 255,
+        "blackRatio": 0.565676,
+        "whiteRatio": 0.117587,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    },
+    {
+      "name": "d6",
+      "rawName": "d6",
+      "preset": null,
+      "params": {
+        "debug": 6
+      },
+      "query": {
+        "debug": 6
+      },
+      "patch": {
+        "debug": 6
+      },
+      "camPatch": {},
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?debug=6",
+      "captureMode": "cli-screenshot",
+      "png": "d6.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\p0-debug\\d6.png",
+      "pngBytes": 737151,
+      "captureMs": 2652,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": 0,
+        "timedOut": false
+      },
+      "appliedVia": "URL query params",
+      "perf": null,
+      "effectiveP": null,
+      "cam": null,
+      "viewport": null,
+      "labStats": null,
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 39.05,
+        "meanLuma": 39.05,
+        "stddev": 40.82,
+        "variance": 1666.26,
+        "meanRgb": [
+          5.58,
+          62.57,
+          5.99
+        ],
+        "stddevRgb": [
+          12.97,
+          67.71,
+          17.13
+        ],
+        "lumaMin": 0,
+        "lumaMax": 236,
+        "blackRatio": 0.351218,
+        "whiteRatio": 0,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": false,
+    "skipped": true,
+    "reason": "--no-sheet"
+  },
+  "summary": {
+    "caseCount": 3,
+    "okCount": 3,
+    "failedCount": 0,
+    "imageCount": 3,
+    "perfCount": 0,
+    "quality": {
+      "checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

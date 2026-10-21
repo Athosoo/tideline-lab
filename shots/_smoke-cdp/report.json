@@ -1,0 +1,198 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "_smoke-cdp",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-19T13:18:02.879Z",
+  "finishedAt": "2026-10-19T13:18:10.069Z",
+  "elapsedMs": 7188,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\_smoke-cdp",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "default"
+    ],
+    "set": {
+      "paused": 1,
+      "steps": 32,
+      "scale": 0.5
+    },
+    "dur": 5000,
+    "perf": false,
+    "perfSeconds": 5,
+    "sampleInterval": 150,
+    "width": 1280,
+    "height": 800,
+    "settle": 800,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": false
+  },
+  "matrix": [
+    "default"
+  ],
+  "cases": [
+    {
+      "name": "default",
+      "rawName": "default",
+      "preset": null,
+      "params": {
+        "paused": 1,
+        "steps": 32,
+        "scale": 0.5
+      },
+      "query": {
+        "steps": 32,
+        "scale": 0.5
+      },
+      "patch": {
+        "paused": 1,
+        "steps": 32,
+        "scale": 0.5
+      },
+      "camPatch": {},
+      "unknown": [
+        "paused"
+      ],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?steps=32&scale=0.5",
+      "captureMode": "cdp-screenshot",
+      "png": "default.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\_smoke-cdp\\default.png",
+      "pngBytes": 249373,
+      "captureMs": 5452,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": null,
+        "timedOut": false
+      },
+      "appliedVia": "window.__lab.set after load",
+      "perf": null,
+      "effectiveP": {
+        "coverage": 0.44,
+        "type": 1,
+        "density": 1.2,
+        "detail": 0.6,
+        "base": 1400,
+        "top": 3200,
+        "msContrib": 0.55,
+        "msOccl": 0.55,
+        "powder": 1,
+        "sunEl": 32,
+        "sunAz": 24,
+        "wind": 18,
+        "haze": 1,
+        "steps": 32,
+        "light": 5,
+        "scale": 0.5,
+        "seedX": 0,
+        "seedZ": 0,
+        "aerial": true,
+        "accumulate": true,
+        "auto": true,
+        "budgetMs": 11,
+        "paused": 1,
+        "debug": 0,
+        "maxDist": 32000
+      },
+      "cam": {
+        "yaw": 0,
+        "pitch": 0.1,
+        "fov": 0.9599310885968813,
+        "pos": [
+          0,
+          6,
+          0
+        ]
+      },
+      "viewport": {
+        "innerWidth": 1280,
+        "innerHeight": 800,
+        "dpr": 1,
+        "ready": "complete"
+      },
+      "labStats": {
+        "ms": 28.16,
+        "w": 1280,
+        "h": 800,
+        "cloudW": 640,
+        "cloudH": 400,
+        "steps": 32,
+        "light": 5,
+        "scale": 0.5,
+        "accum": 16,
+        "hdr": true,
+        "noiseMs": 132,
+        "worleyMs": 27,
+        "type": 1
+      },
+      "image": {
+        "width": 1280,
+        "height": 800,
+        "mean": 132.56,
+        "meanLuma": 132.56,
+        "stddev": 48.66,
+        "variance": 2368.09,
+        "meanRgb": [
+          123.35,
+          134.52,
+          146.88
+        ],
+        "stddevRgb": [
+          48.14,
+          48.77,
+          50.37
+        ],
+        "lumaMin": 36,
+        "lumaMax": 255,
+        "blackRatio": 0,
+        "whiteRatio": 0.001533,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": true,
+    "path": "E:\\DeepSeekplay\\_lab\\shots\\_smoke-cdp\\sheet.png",
+    "file": "sheet.png",
+    "width": 624,
+    "height": 497,
+    "count": 1,
+    "method": "Pillow",
+    "python": {
+      "cmd": "python",
+      "args": [],
+      "pilVersion": "12.1.1"
+    }
+  },
+  "summary": {
+    "caseCount": 1,
+    "okCount": 1,
+    "failedCount": 0,
+    "imageCount": 1,
+    "perfCount": 0,
+    "quality": {
+      "checked": 1,
+      "passed": 1,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [
+    "case default: params need CDP / are not URL-mappable: paused"
+  ],
+  "errors": []
+}

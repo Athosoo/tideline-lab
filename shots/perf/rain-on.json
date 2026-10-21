@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "out": "E:/DeepSeekplay/_lab/shots/perf/rain-on.png",
+  "bytes": 1042283,
+  "state": {
+    "bodyClass": "has-custom-cursor",
+    "root": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "atmosphere": {
+      "sunX": "69.00%",
+      "sunY": "17.79%",
+      "sunGlow": "rgb(169, 175, 173)",
+      "ambient": "0.579",
+      "cloudCover": "0.800",
+      "flash": "0.000"
+    },
+    "gallery": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.579",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "weatherBar": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "rgb(169, 175, 173)",
+      "ambient": "0.579",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "focus": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.579",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "celestialLeft": "883.188px",
+    "celestialTop": "142.312px",
+    "dotColor": "rgb(177, 181, 179)",
+    "rainCanvas": {
+      "display": "block",
+      "w": 1280,
+      "h": 800,
+      "opaqueSample": 5937
+    },
+    "bench": null
+  },
+  "errors": []
+}

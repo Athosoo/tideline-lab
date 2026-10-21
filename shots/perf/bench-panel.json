@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "out": "E:/DeepSeekplay/_lab/shots/perf/bench-panel.png",
+  "bytes": 983831,
+  "state": {
+    "bodyClass": "has-custom-cursor",
+    "root": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "atmosphere": {
+      "sunX": "85.61%",
+      "sunY": "21.69%",
+      "sunGlow": "rgb(228, 212, 191)",
+      "ambient": "0.803",
+      "cloudCover": "0.277",
+      "flash": "0.000"
+    },
+    "gallery": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.803",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "weatherBar": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "rgb(228, 212, 191)",
+      "ambient": "0.803",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "focus": {
+      "sunX": "",
+      "sunY": "",
+      "sunGlow": "",
+      "ambient": "0.803",
+      "cloudCover": "",
+      "flash": ""
+    },
+    "celestialLeft": "1095.8px",
+    "celestialTop": "173.516px",
+    "dotColor": "rgb(237, 222, 198)",
+    "rainCanvas": {
+      "display": "none",
+      "w": 1280,
+      "h": 800,
+      "opaqueSample": 0
+    },
+    "bench": "BENCH n/a fps   frame n/a ms\nrAF int  p50 n/a  p95 n/a\nJS cb    p50 51.50  p95 51.50  max 51.50\ngap      p50 n/a  p95 n/a  (outside animate)\nLoAF n 0  mean n/a  p95 n/a  max n/a ms\n  style+layout mean n/a  p95 n/a  max n/a ms\ncloud n/a\nper/s  sun 0.2  sky 0.2  attrCall 5.1  attrReal 5.1\nper/s  cloud2d 0.2  rainClear 0.0\nflags: ?bench=1&seed=7&nogl=1&nocloudvolume=1\ndpr 1   viewport 1280x800"
+  },
+  "errors": []
+}

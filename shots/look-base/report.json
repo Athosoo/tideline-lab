@@ -1,0 +1,335 @@
+{
+  "schema": "cloudlab.capture/1",
+  "tool": "capture.mjs",
+  "toolVersion": "1.0.0",
+  "tag": "look-base",
+  "mode": "screenshot",
+  "dryRun": false,
+  "startedAt": "2026-10-20T07:29:26.495Z",
+  "finishedAt": "2026-10-20T07:30:08.191Z",
+  "elapsedMs": 41693,
+  "outputDir": "E:\\DeepSeekplay\\_lab\\shots\\look-base",
+  "chrome": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "options": {
+    "matrix": [
+      "pano@coverage=0.44@steps=120@auto=0@accum=1@pitch=-0.175@camY=4200@fov=40",
+      "top@coverage=0.44@steps=96@auto=0@accum=1@pitch=-1.53@camY=9000@fov=70@maxdist=40000"
+    ],
+    "set": {},
+    "dur": 15000,
+    "perf": false,
+    "perfSeconds": 15,
+    "sampleInterval": 150,
+    "width": 2560,
+    "height": 400,
+    "settle": 2500,
+    "minStddev": 2,
+    "retries": 1,
+    "forceCdp": false,
+    "noSheet": true
+  },
+  "matrix": [
+    "pano",
+    "top"
+  ],
+  "cases": [
+    {
+      "name": "pano",
+      "rawName": "pano",
+      "preset": null,
+      "params": {
+        "coverage": 0.44,
+        "steps": 120,
+        "auto": 0,
+        "accum": 1,
+        "pitch": -0.175,
+        "camY": 4200,
+        "fov": 40
+      },
+      "query": {
+        "coverage": 0.44,
+        "steps": 120,
+        "auto": 0,
+        "accum": 1,
+        "pitch": -0.175,
+        "camY": 4200,
+        "fov": 40
+      },
+      "patch": {
+        "coverage": 0.44,
+        "steps": 120,
+        "auto": 0,
+        "accumulate": true
+      },
+      "camPatch": {
+        "pitch": -0.175,
+        "posY": 4200,
+        "fov": 0.6981317007977318
+      },
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?coverage=0.44&steps=120&auto=0&accum=1&pitch=-0.175&camY=4200&fov=40",
+      "captureMode": "cdp-screenshot",
+      "png": "pano.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\look-base\\pano.png",
+      "pngBytes": 116555,
+      "captureMs": 22494,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": null,
+        "timedOut": false
+      },
+      "appliedVia": "window.__lab.set after load",
+      "perf": null,
+      "effectiveP": {
+        "coverage": 0.44,
+        "type": 1,
+        "density": 1.2,
+        "detail": 0.6,
+        "base": 1400,
+        "top": 3200,
+        "msContrib": 0.55,
+        "msOccl": 0.55,
+        "powder": 1,
+        "sunEl": 32,
+        "sunAz": 24,
+        "wind": 18,
+        "haze": 1,
+        "steps": 120,
+        "light": 5,
+        "scale": 0.7,
+        "seedX": 0,
+        "seedZ": 0,
+        "aerial": true,
+        "accumulate": true,
+        "auto": 0,
+        "budgetMs": 11,
+        "paused": false,
+        "debug": 0,
+        "maxDist": 32000
+      },
+      "cam": {
+        "yaw": 0,
+        "pitch": -0.175,
+        "fov": 0.6981317007977318,
+        "pos": [
+          0,
+          4200,
+          0
+        ]
+      },
+      "viewport": {
+        "innerWidth": 2560,
+        "innerHeight": 400,
+        "dpr": 1,
+        "ready": "complete"
+      },
+      "labStats": {
+        "ms": 61.2,
+        "w": 2560,
+        "h": 400,
+        "cloudW": 1792,
+        "cloudH": 280,
+        "steps": 120,
+        "light": 5,
+        "scale": 0.7,
+        "accum": 12,
+        "hdr": true,
+        "noiseMs": 247,
+        "worleyMs": 44,
+        "type": 1
+      },
+      "image": {
+        "width": 2560,
+        "height": 400,
+        "mean": 149.23,
+        "meanLuma": 149.23,
+        "stddev": 37.32,
+        "variance": 1392.73,
+        "meanRgb": [
+          140.85,
+          151.14,
+          161.43
+        ],
+        "stddevRgb": [
+          36.86,
+          37.47,
+          38.11
+        ],
+        "lumaMin": 41,
+        "lumaMax": 241,
+        "blackRatio": 0,
+        "whiteRatio": 0,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    },
+    {
+      "name": "top",
+      "rawName": "top",
+      "preset": null,
+      "params": {
+        "coverage": 0.44,
+        "steps": 96,
+        "auto": 0,
+        "accum": 1,
+        "pitch": -1.53,
+        "camY": 9000,
+        "fov": 70,
+        "maxdist": 40000
+      },
+      "query": {
+        "coverage": 0.44,
+        "steps": 96,
+        "auto": 0,
+        "accum": 1,
+        "pitch": -1.53,
+        "camY": 9000,
+        "fov": 70,
+        "maxdist": 40000
+      },
+      "patch": {
+        "coverage": 0.44,
+        "steps": 96,
+        "auto": 0,
+        "accumulate": true,
+        "maxDist": 40000
+      },
+      "camPatch": {
+        "pitch": -1.53,
+        "posY": 9000,
+        "fov": 1.2217304763960306
+      },
+      "unknown": [],
+      "url": "file:///E:/DeepSeekplay/_lab/clouds/index.html?coverage=0.44&steps=96&auto=0&accum=1&pitch=-1.53&camY=9000&fov=70&maxdist=40000",
+      "captureMode": "cdp-screenshot",
+      "png": "top.png",
+      "pngPath": "E:\\DeepSeekplay\\_lab\\shots\\look-base\\top.png",
+      "pngBytes": 88121,
+      "captureMs": 16605,
+      "ok": true,
+      "error": null,
+      "chrome": {
+        "exitCode": null,
+        "timedOut": false
+      },
+      "appliedVia": "window.__lab.set after load",
+      "perf": null,
+      "effectiveP": {
+        "coverage": 0.44,
+        "type": 1,
+        "density": 1.2,
+        "detail": 0.6,
+        "base": 1400,
+        "top": 3200,
+        "msContrib": 0.55,
+        "msOccl": 0.55,
+        "powder": 1,
+        "sunEl": 32,
+        "sunAz": 24,
+        "wind": 18,
+        "haze": 1,
+        "steps": 96,
+        "light": 5,
+        "scale": 0.7,
+        "seedX": 0,
+        "seedZ": 0,
+        "aerial": true,
+        "accumulate": true,
+        "auto": 0,
+        "budgetMs": 11,
+        "paused": false,
+        "debug": 0,
+        "maxDist": 40000
+      },
+      "cam": {
+        "yaw": 0,
+        "pitch": -1.53,
+        "fov": 1.2217304763960306,
+        "pos": [
+          0,
+          9000,
+          0
+        ]
+      },
+      "viewport": {
+        "innerWidth": 2560,
+        "innerHeight": 400,
+        "dpr": 1,
+        "ready": "complete"
+      },
+      "labStats": {
+        "ms": 33.55,
+        "w": 2560,
+        "h": 400,
+        "cloudW": 1792,
+        "cloudH": 280,
+        "steps": 96,
+        "light": 5,
+        "scale": 0.7,
+        "accum": 13,
+        "hdr": true,
+        "noiseMs": 147,
+        "worleyMs": 29,
+        "type": 1
+      },
+      "image": {
+        "width": 2560,
+        "height": 400,
+        "mean": 129.07,
+        "meanLuma": 129.07,
+        "stddev": 31.69,
+        "variance": 1004.23,
+        "meanRgb": [
+          119.74,
+          131.32,
+          141.88
+        ],
+        "stddevRgb": [
+          30.67,
+          31.98,
+          32.88
+        ],
+        "lumaMin": 42,
+        "lumaMax": 236,
+        "blackRatio": 0,
+        "whiteRatio": 0,
+        "allBlack": false,
+        "allWhite": false,
+        "flat": false,
+        "ok": true,
+        "method": "Pillow ImageStat"
+      },
+      "qualityOk": true
+    }
+  ],
+  "sheet": {
+    "ok": false,
+    "skipped": true,
+    "reason": "--no-sheet"
+  },
+  "summary": {
+    "caseCount": 2,
+    "okCount": 2,
+    "failedCount": 0,
+    "imageCount": 2,
+    "perfCount": 0,
+    "quality": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "ok": true,
+      "minStddev": 2,
+      "note": "PNG is non-black, non-white and has luma standard deviation >= minStddev."
+    },
+    "ok": true
+  },
+  "warnings": [],
+  "errors": []
+}

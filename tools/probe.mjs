@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // TIDELINE site probe: read --sun-x/--sun-y, #celestial visibility, body classes,
 // canvas readback and screenshot-region brightness at multiple times.
-// Writes only below _lab/shots/site/<tag>/ by default.
+// Writes only below _lab/cloud/shots/site/<tag>/ by default.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -26,7 +26,7 @@ const HELP = [
   '  node probe.mjs --tag site1 --times 06:09 --element "#celestial" --element "#gallery"',
   '',
   'Options:',
-  '  --tag NAME             output folder under _lab/shots/site/NAME',
+  '  --tag NAME             output folder under _lab/cloud/shots/site/NAME',
   '  --times LIST           comma list: HH:MM, H:MM, HHMM, decimal hours, or now',
   '  --repeat N             repeat every time N times (default 1)',
   '  --element SELECTOR     element whose screenshot-region brightness is measured',

@@ -4,7 +4,7 @@
  *
  * 用法：
  *   node _lab/tools/shot-ab.mjs --url "file:///E:/DeepSeekplay/GIFT/index.html?seed=7&nogl=1" \
- *        --out E:/DeepSeekplay/_lab/shots/perf/a.png --steps _lab/shots/perf/steps-ab.json \
+ *        --out E:/DeepSeekplay/_lab/cloud/shots/perf/a.png --steps _lab/cloud/shots/perf/steps-ab.json \
  *        --viewport 1280x800 --reduced-motion
  *
  * 输出一行 JSON：{ok,out,bodyClass,sunX,sunY,errors}

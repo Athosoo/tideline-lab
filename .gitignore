@@ -1,5 +1,5 @@
 # 抓帧输出：png 不入库（可随时重跑），json 测量数据入库
-shots/**/*.png
+cloud/shots/**/*.png
 cloud/shots/legacy/
 
 # 截图工具会在这里落 Chrome 用户目录（纯垃圾，永远不入库）

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Cloud Lab capture / perf bench.
 // Screenshots + image-quality stats + contact sheet, or CDP performance sampling.
-// Writes only below _lab/shots/<tag>/ by default.
+// Writes only below _lab/cloud/shots/<tag>/ by default.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -26,7 +26,7 @@ const HELP = [
   '  node capture.mjs --tag one --matrix storm@steps=32@scale=0.5 --json-only --assert',
   '',
   'Options:',
-  '  --tag NAME             output folder under _lab/shots/NAME (default capture-<stamp>)',
+  '  --tag NAME             output folder under _lab/cloud/shots/NAME (default capture-<stamp>)',
   '  --matrix LIST          comma list of cases. A case is NAME or NAME@k=v@k=v.',
   '                         Known preset names cumulus/stratus/storm auto-select a preset.',
   '  --set k=v,k=v          global override applied to every case (after preset/inline)',
@@ -41,7 +41,7 @@ const HELP = [
   '  --min-stddev N         flat-image threshold for qualityOk (default 2.0)',
   '  --assert               exit 2 when a capture or image-quality check fails',
   '  --retries N            retry failed screenshot runs (default 1)',
-  '  --out DIR              override output dir (default _lab/shots/<tag>)',
+  '  --out DIR              override output dir (default _lab/cloud/shots/<tag>)',
   '  --json-only            only JSON on stdout (diagnostics go to stderr)',
   '  --dry-run              plan cases without launching Chrome',
   '  --keep-profile         keep the temporary Chrome profile for debugging',

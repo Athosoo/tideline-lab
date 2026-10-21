@@ -11,7 +11,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 export const TOOLS_DIR = path.dirname(fileURLToPath(import.meta.url));
 export const LAB_ROOT = path.resolve(TOOLS_DIR, '..');
 export const WORKSPACE_ROOT = path.resolve(LAB_ROOT, '..');
-export const SHOTS_ROOT = path.join(LAB_ROOT, 'shots');
+export const SHOTS_ROOT = path.join(LAB_ROOT, 'cloud', 'shots');
 export const CLOUD_INDEX = path.join(LAB_ROOT, 'cloud', 'index.html');
 export const GIFT_INDEX = path.join(WORKSPACE_ROOT, 'GIFT', 'index.html');
 export const LAB_PRESETS = new Set(['cumulus', 'stratus', 'storm']);

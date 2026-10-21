@@ -5,12 +5,12 @@
  *
  * 1) 单组 / 跨页面 A/B（改代码前后对比用）：
  *    node _lab/tools/bench-main.mjs --case "base=bench=1" --case "noattr=bench=1&noattr=1" \
- *         --seconds 6 --warmup 4 --viewport 1920x1065 --out _lab/shots/perf/before.json
+ *         --seconds 6 --warmup 4 --viewport 1920x1065 --out _lab/cloud/shots/perf/before.json
  *
  * 2) 同页成对 A/B（无头方差极大时用这个）：同一页面里交替 base / toggle 各采
  *    --segment 秒，重复 --rounds 轮，比较同一时段的比值，最后取中位数：
  *    node _lab/tools/bench-main.mjs --pair "norain,noattr,no2dcloud,nocardmove,nocardfx" \
- *         --segment 3 --rounds 3 --viewport 1920x1065 --out _lab/shots/perf/pairs.json
+ *         --segment 3 --rounds 3 --viewport 1920x1065 --out _lab/cloud/shots/perf/pairs.json
  *
  * 每组给出 RecalcStyleCount/Duration、LayoutCount/Duration、ScriptDuration、
  * TaskDuration、DocumentLayoutCount，以及页面内 __perfMain 的 rAF 帧间隔 /

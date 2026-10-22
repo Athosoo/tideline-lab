@@ -1,0 +1,22 @@
+# 外部参考实现（只读，不进站点）
+
+## `cloud-by-another-deepseek.html`
+
+**来源**：2026-10-22 用户提供，是在另一个 AI（DeepSeek）会话里生成的单文件体积云演示。
+放在这里是用作**调研资料**（`AGENTS.md` §2 的「先查开源方案」第 1 步），
+**不是**依赖、不是产物、不会被任何页面加载。
+
+**许可**：文件内没有代码许可声明；唯一的版权声明是内嵌字体 ——
+`Space Grotesk`, Copyright (c) Florian Karsten, **SIL Open Font License 1.1**（可嵌入、可分发）。
+结论：**读思路可以，代码不要复制进 `GIFT/`**。真要用某段，按 `AGENTS.md` §2.3 在
+`GIFT/THIRD-PARTY-NOTICES.md` 登记来源与许可。
+
+**内容**：3014 行、单文件、无外部网络请求。WebGL2 fragment shader 光线步进体积云：
+`fbm`（14 处）、`Worley`（8 处）、`perlin`（4 处），一块 `<canvas>`，交互参数在页面上直接调。
+
+**为什么留着**：`_lab/cloud/kernel.glsl` 走的是同一条 GLSL raymarch 路线，
+这是现成的**对照样本** —— 可以并排比较噪声组合（fbm 叠 worley 的顺序与权重）、
+步进策略（固定步长 vs 自适应）、光照近似（单次散射 vs 多重散射近似）、
+以及它为了跑在 WebGL2 上做了哪些降级。看它的取舍比看它抄它有用。
+
+**怎么看**：双击用浏览器打开（`file://` 即可，无依赖）。不要 `import`、不要 `fetch` 它。

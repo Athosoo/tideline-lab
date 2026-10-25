@@ -1,0 +1,1082 @@
+{
+  "schema": "tideline.thread-gap/1",
+  "tag": "tg-defer",
+  "startedAt": "2026-10-25T11:28:59.700Z",
+  "index": "E:\\DeepSeekplay\\GIFT\\index.html",
+  "query": "",
+  "ms": 2600,
+  "events": 31036,
+  "threads": [
+    {
+      "name": "tid52364",
+      "totalMs": 13494,
+      "buckets": [
+        "0:119",
+        "100:984",
+        "200:440",
+        "300:633",
+        "400:1282",
+        "500:564",
+        "600:1438",
+        "700:0",
+        "800:291",
+        "900:62",
+        "1000:844",
+        "1100:710",
+        "1200:1233",
+        "1300:339",
+        "1400:765",
+        "1500:370",
+        "1600:1779",
+        "1900:489",
+        "2000:199",
+        "2100:34",
+        "2200:42",
+        "2300:872",
+        "2400:7"
+      ],
+      "top": [
+        {
+          "name": "Scheduler::RunTask",
+          "ms": 2162,
+          "n": 2612
+        },
+        {
+          "name": "GpuChannel::ExecuteDeferredRequest",
+          "ms": 1758,
+          "n": 1498
+        },
+        {
+          "name": "CommandBuffer::Flush",
+          "ms": 1738,
+          "n": 1022
+        },
+        {
+          "name": "CommandBufferStub::OnAsyncFlush",
+          "ms": 1737,
+          "n": 1022
+        },
+        {
+          "name": "CommandBufferService:PutChanged",
+          "ms": 1734,
+          "n": 1022
+        },
+        {
+          "name": "RasterDecoderImpl::DoEndRasterCHROMIUM",
+          "ms": 1182,
+          "n": 514
+        },
+        {
+          "name": "RasterDecoderImpl::DoEndRasterCHROMIUM::Flush",
+          "ms": 1179,
+          "n": 514
+        },
+        {
+          "name": "RendererRasterWorker",
+          "ms": 1171,
+          "n": 990
+        }
+      ]
+    },
+    {
+      "name": "tid53524",
+      "totalMs": 3254,
+      "buckets": [
+        "0:190",
+        "100:91",
+        "200:310",
+        "300:5",
+        "1000:1202",
+        "1500:19",
+        "1600:117",
+        "1700:0",
+        "1900:1208",
+        "2000:13",
+        "2100:20",
+        "2200:7",
+        "2300:47",
+        "2400:24"
+      ],
+      "top": [
+        {
+          "name": "ProxyMain::BeginMainFrame",
+          "ms": 647,
+          "n": 11
+        },
+        {
+          "name": "LayerTreeHost::~LayerTreeHost",
+          "ms": 570,
+          "n": 1
+        },
+        {
+          "name": "ProxyMain::Stop",
+          "ms": 570,
+          "n": 1
+        },
+        {
+          "name": "FunctionCall",
+          "ms": 478,
+          "n": 14
+        },
+        {
+          "name": "FireAnimationFrame",
+          "ms": 450,
+          "n": 12
+        },
+        {
+          "name": "Layout",
+          "ms": 110,
+          "n": 41
+        },
+        {
+          "name": "UpdateLayoutTree",
+          "ms": 67,
+          "n": 30
+        },
+        {
+          "name": "EvaluateScript",
+          "ms": 58,
+          "n": 7
+        }
+      ]
+    },
+    {
+      "name": "tid33976",
+      "totalMs": 2731,
+      "buckets": [
+        "0:3",
+        "100:21",
+        "200:23",
+        "300:20",
+        "900:3",
+        "1000:2284",
+        "1500:19",
+        "1600:66",
+        "1900:88",
+        "2000:59",
+        "2100:43",
+        "2200:45",
+        "2300:35",
+        "2400:22"
+      ],
+      "top": [
+        {
+          "name": "CommandBufferHelper::Finish",
+          "ms": 565,
+          "n": 3
+        },
+        {
+          "name": "CommandBufferProxyImpl::WaitForGetOffset",
+          "ms": 565,
+          "n": 2
+        },
+        {
+          "name": "ProxyImpl::FinishGLOnImplThread",
+          "ms": 564,
+          "n": 1
+        },
+        {
+          "name": "RasterImplementation::Finish",
+          "ms": 564,
+          "n": 1
+        },
+        {
+          "name": "ProxyImpl::ScheduledActionDraw",
+          "ms": 70,
+          "n": 36
+        },
+        {
+          "name": "MainFrame.Draw",
+          "ms": 70,
+          "n": 36
+        },
+        {
+          "name": "LayerTreeHostImpl::PrepareToDraw",
+          "ms": 38,
+          "n": 36
+        },
+        {
+          "name": "LayerTreeImpl::UpdateDrawProperties",
+          "ms": 30,
+          "n": 47
+        }
+      ]
+    },
+    {
+      "name": "tid39524",
+      "totalMs": 67,
+      "buckets": [
+        "0:13",
+        "100:15",
+        "200:5",
+        "300:20",
+        "1000:3",
+        "1600:3",
+        "1900:1",
+        "2000:1",
+        "2100:2",
+        "2200:1",
+        "2300:3",
+        "2400:1"
+      ],
+      "top": [
+        {
+          "name": "RasterizerTaskImpl::RunOnWorkerThread",
+          "ms": 12,
+          "n": 495
+        },
+        {
+          "name": "RasterTask",
+          "ms": 11,
+          "n": 495
+        },
+        {
+          "name": "GpuRasterBuffer::Playback",
+          "ms": 10,
+          "n": 495
+        },
+        {
+          "name": "v8.parseOnBackground",
+          "ms": 6,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL",
+          "ms": 6,
+          "n": 24
+        },
+        {
+          "name": "RasterImplementation::RasterCHROMIUM",
+          "ms": 6,
+          "n": 495
+        },
+        {
+          "name": "v8.parseOnBackgroundWaiting",
+          "ms": 5,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_MARKING",
+          "ms": 2,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "tid31980",
+      "totalMs": 66,
+      "buckets": [
+        "0:2",
+        "100:2",
+        "200:0",
+        "300:5",
+        "400:2",
+        "500:0",
+        "600:4",
+        "700:1",
+        "800:4",
+        "900:0",
+        "1000:6",
+        "1100:2",
+        "1200:0",
+        "1300:4",
+        "1400:0",
+        "1500:1",
+        "1600:3",
+        "1700:3",
+        "1800:5",
+        "1900:0",
+        "2000:10",
+        "2100:0",
+        "2200:3",
+        "2300:2",
+        "2400:0",
+        "2500:5"
+      ],
+      "top": [
+        {
+          "name": "WinVSyncProvider::GetVSyncIntervalIfAvailable",
+          "ms": 66,
+          "n": 156
+        }
+      ]
+    },
+    {
+      "name": "tid2924",
+      "totalMs": 63,
+      "buckets": [
+        "0:49",
+        "100:1",
+        "200:0",
+        "300:1",
+        "1000:4",
+        "1600:0",
+        "1900:1",
+        "2000:2",
+        "2100:2",
+        "2200:0",
+        "2300:3"
+      ],
+      "top": [
+        {
+          "name": "v8.parseOnBackground",
+          "ms": 25,
+          "n": 1
+        },
+        {
+          "name": "v8.parseOnBackgroundParsing",
+          "ms": 24,
+          "n": 2
+        },
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL",
+          "ms": 5,
+          "n": 33
+        },
+        {
+          "name": "GpuImageDecodeTaskImpl::RunOnWorkerThread",
+          "ms": 2,
+          "n": 3
+        },
+        {
+          "name": "GpuImageDecodeCache::DecodeImage",
+          "ms": 2,
+          "n": 3
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_MARKING",
+          "ms": 2,
+          "n": 3
+        },
+        {
+          "name": "V8.GC_BACKGROUND_SAFEPOINT",
+          "ms": 1,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_SWEEPING",
+          "ms": 0,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "tid32424",
+      "totalMs": 30,
+      "buckets": [
+        "0:8",
+        "100:11",
+        "200:0",
+        "300:0",
+        "400:0",
+        "500:0",
+        "600:0",
+        "700:0",
+        "800:0",
+        "900:6",
+        "1000:3",
+        "1100:0",
+        "1200:0",
+        "1300:0",
+        "1400:0",
+        "1500:0",
+        "2000:0",
+        "2300:0",
+        "2400:0"
+      ],
+      "top": [
+        {
+          "name": "GpuHostImpl::StoreBlobToDisk",
+          "ms": 3,
+          "n": 132
+        },
+        {
+          "name": "LayerTreeHost::DoUpdateLayers",
+          "ms": 2,
+          "n": 6
+        },
+        {
+          "name": "SingleThreadProxy::DoComposite",
+          "ms": 2,
+          "n": 6
+        },
+        {
+          "name": "SingleThreadProxy::DoPostCommit",
+          "ms": 2,
+          "n": 6
+        },
+        {
+          "name": "LayerTreeHostImpl::CommitComplete",
+          "ms": 2,
+          "n": 6
+        },
+        {
+          "name": "SingleThreadProxy::DoCommit",
+          "ms": 1,
+          "n": 6
+        },
+        {
+          "name": "Scheduler::BeginFrame",
+          "ms": 1,
+          "n": 13
+        },
+        {
+          "name": "Scheduler::BeginImplFrame",
+          "ms": 1,
+          "n": 12
+        }
+      ]
+    },
+    {
+      "name": "tid50472",
+      "totalMs": 13,
+      "buckets": [
+        "0:8",
+        "2000:0",
+        "2100:2",
+        "2200:0",
+        "2300:2"
+      ],
+      "top": [
+        {
+          "name": "v8.parseOnBackground",
+          "ms": 4,
+          "n": 1
+        },
+        {
+          "name": "v8.parseOnBackgroundWaiting",
+          "ms": 3,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL",
+          "ms": 2,
+          "n": 17
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_MARKING",
+          "ms": 2,
+          "n": 2
+        },
+        {
+          "name": "v8.parseOnBackgroundParsing",
+          "ms": 1,
+          "n": 2
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_SWEEPING",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "ConcurrentMarking::RunMajor Finished",
+          "ms": 0,
+          "n": 2
+        },
+        {
+          "name": "Sweeper::ConcurrentMajorSweeper Finished",
+          "ms": 0,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "tid14560",
+      "totalMs": 11,
+      "buckets": [
+        "0:5",
+        "200:0",
+        "1000:0",
+        "1600:0",
+        "2000:1",
+        "2100:2",
+        "2200:0",
+        "2300:3"
+      ],
+      "top": [
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL",
+          "ms": 3,
+          "n": 21
+        },
+        {
+          "name": "v8.parseOnBackground",
+          "ms": 3,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_MARKING",
+          "ms": 2,
+          "n": 2
+        },
+        {
+          "name": "v8.parseOnBackgroundWaiting",
+          "ms": 1,
+          "n": 1
+        },
+        {
+          "name": "v8.parseOnBackgroundParsing",
+          "ms": 1,
+          "n": 2
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_SWEEPING",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "Sweeper::ConcurrentMajorSweeper Finished",
+          "ms": 0,
+          "n": 5
+        },
+        {
+          "name": "ConcurrentMarking::RunMajor Finished",
+          "ms": 0,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "tid21644",
+      "totalMs": 9,
+      "buckets": [
+        "0:4",
+        "2000:1",
+        "2100:1",
+        "2200:0",
+        "2300:2"
+      ],
+      "top": [
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL",
+          "ms": 2,
+          "n": 13
+        },
+        {
+          "name": "v8.parseOnBackground",
+          "ms": 2,
+          "n": 1
+        },
+        {
+          "name": "v8.parseOnBackgroundParsing",
+          "ms": 2,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_MARKING",
+          "ms": 2,
+          "n": 2
+        },
+        {
+          "name": "V8.GC_MC_CLEAR_STRING_TABLE",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "ConcurrentMarking::RunMajor Finished",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_EVACUATE_UPDATE_POINTERS",
+          "ms": 0,
+          "n": 1
+        }
+      ]
+    },
+    {
+      "name": "tid42952",
+      "totalMs": 6,
+      "buckets": [
+        "200:0",
+        "1000:0",
+        "1600:0",
+        "2000:1",
+        "2100:2",
+        "2200:1",
+        "2300:3"
+      ],
+      "top": [
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL",
+          "ms": 4,
+          "n": 25
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_MARKING",
+          "ms": 2,
+          "n": 2
+        },
+        {
+          "name": "V8.GC_MC_BACKGROUND_SWEEPING",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_CLEAR_SWEEP_JS_DISPATCH_TABLE",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_MC_CLEAR_WEAK_LISTS",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "V8.GC_SCAVENGER_BACKGROUND_TRACED_HANDLES_RESET_PARALLEL",
+          "ms": 0,
+          "n": 1
+        },
+        {
+          "name": "Sweeper::ConcurrentMajorSweeper Finished",
+          "ms": 0,
+          "n": 4
+        },
+        {
+          "name": "ConcurrentMarking::RunMajor Finished",
+          "ms": 0,
+          "n": 2
+        }
+      ]
+    },
+    {
+      "name": "tid44904",
+      "totalMs": 5,
+      "buckets": [
+        "0:0",
+        "100:1",
+        "200:0",
+        "300:2",
+        "900:0",
+        "1000:0",
+        "1500:0",
+        "1600:0",
+        "1900:0",
+        "2000:0",
+        "2300:0",
+        "2400:0"
+      ],
+      "top": [
+        {
+          "name": "GpuChannelMessageFilter::FlushDeferredRequests",
+          "ms": 4,
+          "n": 99
+        },
+        {
+          "name": "Scheduler::ScheduleTask",
+          "ms": 1,
+          "n": 638
+        },
+        {
+          "name": "SyncToken::Wait",
+          "ms": 0,
+          "n": 297
+        }
+      ]
+    }
+  ],
+  "long": [
+    {
+      "at": 49,
+      "ms": 93,
+      "name": "ProxyMain::BeginMainFrame",
+      "thread": "tid53524"
+    },
+    {
+      "at": 58,
+      "ms": 80,
+      "name": "Layout",
+      "thread": "tid53524"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "RendererRasterWorker",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM",
+      "thread": "tid52364"
+    },
+    {
+      "at": 181,
+      "ms": 86,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 221,
+      "ms": 74,
+      "name": "ProxyMain::BeginMainFrame",
+      "thread": "tid53524"
+    },
+    {
+      "at": 221,
+      "ms": 52,
+      "name": "FireAnimationFrame",
+      "thread": "tid53524"
+    },
+    {
+      "at": 221,
+      "ms": 52,
+      "name": "FunctionCall",
+      "thread": "tid53524"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "RendererRasterWorker",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM",
+      "thread": "tid52364"
+    },
+    {
+      "at": 432,
+      "ms": 133,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 52,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 52,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 52,
+      "name": "RendererRasterWorker",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 52,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 52,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 52,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 51,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM",
+      "thread": "tid52364"
+    },
+    {
+      "at": 585,
+      "ms": 51,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 689,
+      "ms": 129,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 689,
+      "ms": 129,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 689,
+      "ms": 129,
+      "name": "RendererRasterWorker",
+      "thread": "tid52364"
+    },
+    {
+      "at": 689,
+      "ms": 129,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 689,
+      "ms": 129,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 689,
+      "ms": 129,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    },
+    {
+      "at": 690,
+      "ms": 128,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM",
+      "thread": "tid52364"
+    },
+    {
+      "at": 690,
+      "ms": 128,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 854,
+      "ms": 89,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1023,
+      "ms": 570,
+      "name": "LayerTreeHost::~LayerTreeHost",
+      "thread": "tid53524"
+    },
+    {
+      "at": 1023,
+      "ms": 570,
+      "name": "ProxyMain::Stop",
+      "thread": "tid53524"
+    },
+    {
+      "at": 1025,
+      "ms": 564,
+      "name": "ProxyImpl::FinishGLOnImplThread",
+      "thread": "tid33976"
+    },
+    {
+      "at": 1025,
+      "ms": 564,
+      "name": "RasterImplementation::Finish",
+      "thread": "tid33976"
+    },
+    {
+      "at": 1025,
+      "ms": 564,
+      "name": "CommandBufferHelper::Finish",
+      "thread": "tid33976"
+    },
+    {
+      "at": 1025,
+      "ms": 564,
+      "name": "CommandBufferProxyImpl::WaitForGetOffset",
+      "thread": "tid33976"
+    },
+    {
+      "at": 1241,
+      "ms": 117,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1241,
+      "ms": 117,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1241,
+      "ms": 117,
+      "name": "RendererRasterWorker",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1241,
+      "ms": 117,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1241,
+      "ms": 117,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1241,
+      "ms": 117,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1242,
+      "ms": 116,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1242,
+      "ms": 116,
+      "name": "RasterDecoderImpl::DoEndRasterCHROMIUM::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1641,
+      "ms": 268,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1641,
+      "ms": 268,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1641,
+      "ms": 268,
+      "name": "WebGPU",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1641,
+      "ms": 268,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1641,
+      "ms": 268,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1641,
+      "ms": 268,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    },
+    {
+      "at": 1976,
+      "ms": 386,
+      "name": "ProxyMain::BeginMainFrame",
+      "thread": "tid53524"
+    },
+    {
+      "at": 1977,
+      "ms": 377,
+      "name": "FireAnimationFrame",
+      "thread": "tid53524"
+    },
+    {
+      "at": 1977,
+      "ms": 377,
+      "name": "FunctionCall",
+      "thread": "tid53524"
+    },
+    {
+      "at": 2330,
+      "ms": 142,
+      "name": "Scheduler::RunTask",
+      "thread": "tid52364"
+    },
+    {
+      "at": 2330,
+      "ms": 142,
+      "name": "GpuChannel::ExecuteDeferredRequest",
+      "thread": "tid52364"
+    },
+    {
+      "at": 2330,
+      "ms": 142,
+      "name": "WebGPU",
+      "thread": "tid52364"
+    },
+    {
+      "at": 2330,
+      "ms": 142,
+      "name": "CommandBuffer::Flush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 2330,
+      "ms": 142,
+      "name": "CommandBufferStub::OnAsyncFlush",
+      "thread": "tid52364"
+    },
+    {
+      "at": 2330,
+      "ms": 142,
+      "name": "CommandBufferService:PutChanged",
+      "thread": "tid52364"
+    }
+  ]
+}

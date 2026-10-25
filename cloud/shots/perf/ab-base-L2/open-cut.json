@@ -1,0 +1,333 @@
+{
+  "schema": "tideline.perf-open-cut/1",
+  "tag": "ab-base-L2",
+  "startedAt": "2026-10-25T10:39:31.888Z",
+  "viewport": "1280x800",
+  "mode": "headed",
+  "index": "E:\\DeepSeekplay\\_wip\\wt-base\\index.html",
+  "noWebgl": false,
+  "settle": 3,
+  "note": "Headed Chrome, window parked off-screen, real GPU. rAF and CSS animation clocks run normally, so frame intervals are meaningful. Only one Chrome at a time.",
+  "load": {
+    "readyWallMs": 518,
+    "readyAt": 510.7,
+    "paint": {
+      "first-paint": 1088,
+      "first-contentful-paint": 1088
+    },
+    "nav": {
+      "dcl": 327.3,
+      "dclStart": 327.2,
+      "load": 424.6,
+      "domInteractive": 26,
+      "responseEnd": 8.6,
+      "domContentLoaded": 327.3
+    },
+    "dom": {
+      "all": 1109,
+      "svg": 21,
+      "canvas": 2
+    },
+    "quality": "{\"mode\":\"auto\"}",
+    "counters": {
+      "updates": 53,
+      "applySun": 53,
+      "applySky": 13,
+      "rootWrites": 1321,
+      "rootApplied": 161
+    },
+    "framesAll": {
+      "frames": 53,
+      "p50": 16.7,
+      "p95": 516.9,
+      "max": 884,
+      "over33": 8,
+      "over50": 6,
+      "over100": 5,
+      "over200": 4,
+      "sumMs": 3535.7
+    },
+    "framesBeforeReady": {
+      "frames": 1,
+      "p50": 100,
+      "p95": 100,
+      "max": 100,
+      "over33": 1,
+      "over50": 1,
+      "over100": 0,
+      "over200": 0,
+      "sumMs": 100
+    },
+    "framesAfterReady": {
+      "frames": 52,
+      "p50": 16.7,
+      "p95": 516.9,
+      "max": 884,
+      "over33": 7,
+      "over50": 5,
+      "over100": 5,
+      "over200": 4,
+      "sumMs": 3435.7
+    },
+    "loafCount": 8,
+    "loafTop": [
+      {
+        "t": 1103.7,
+        "ms": 861,
+        "block": 0,
+        "style": 4.8,
+        "render": 8.4,
+        "pre": 852.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 422.8,
+        "ms": 665.1,
+        "block": 0,
+        "style": 2.1,
+        "render": 7.5,
+        "pre": 657.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2011.6,
+        "ms": 471.6,
+        "block": 401.3,
+        "style": 7,
+        "render": 451.2,
+        "pre": 20.4,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 196.7,
+        "ms": 201.4,
+        "block": 109.4,
+        "style": 14.1,
+        "render": 49.1,
+        "pre": 152.3,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2553.4,
+        "ms": 201.4,
+        "block": 0,
+        "style": 5.8,
+        "render": 10.3,
+        "pre": 191.1,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 33.3,
+        "ms": 159.5,
+        "block": 57.2,
+        "style": 104.8,
+        "render": 104.9,
+        "pre": 54.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2757.4,
+        "ms": 148.3,
+        "block": 0,
+        "style": 5.8,
+        "render": 9.8,
+        "pre": 138.5,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2486.8,
+        "ms": 63.3,
+        "block": 0,
+        "style": 3.9,
+        "render": 8.4,
+        "pre": 54.9,
+        "scripts": 1,
+        "worstScript": 9
+      }
+    ],
+    "longTasks": [
+      {
+        "t": 2031.9,
+        "d": 454
+      },
+      {
+        "t": 223.7,
+        "d": 110
+      },
+      {
+        "t": 87.8,
+        "d": 108
+      },
+      {
+        "t": 349,
+        "d": 73
+      }
+    ],
+    "resources": [],
+    "resourceLoadOrder": [],
+    "profile": {
+      "totalMs": 3520.5,
+      "top": [
+        {
+          "fn": "(idle) @ native:0",
+          "ms": 2140.7,
+          "pct": 60.8
+        },
+        {
+          "fn": "(program) @ native:0",
+          "ms": 663.3,
+          "pct": 18.8
+        },
+        {
+          "fn": "get @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 69.6,
+          "pct": 2
+        },
+        {
+          "fn": "getNodeType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 54.7,
+          "pct": 1.6
+        },
+        {
+          "fn": "getTypeLength @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 42.2,
+          "pct": 1.2
+        },
+        {
+          "fn": "Xo @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 33.8,
+          "pct": 1
+        },
+        {
+          "fn": "draw @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:907",
+          "ms": 32.4,
+          "pct": 0.9
+        },
+        {
+          "fn": "init @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 26.1,
+          "pct": 0.7
+        },
+        {
+          "fn": "(garbage collector) @ native:0",
+          "ms": 23.3,
+          "pct": 0.7
+        },
+        {
+          "fn": "resize @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:876",
+          "ms": 22.2,
+          "pct": 0.6
+        },
+        {
+          "fn": "build @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 20.3,
+          "pct": 0.6
+        },
+        {
+          "fn": "getInputType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 16.8,
+          "pct": 0.5
+        },
+        {
+          "fn": "isMatrix @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 15.7,
+          "pct": 0.4
+        },
+        {
+          "fn": "getDataFromNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 10.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "updateScrollState @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:1412",
+          "ms": 9.7,
+          "pct": 0.3
+        },
+        {
+          "fn": "buildCakeHalves @ file:///E:/DeepSeekplay/_wip/wt-base/js/cakegate.js:503",
+          "ms": 8.1,
+          "pct": 0.2
+        },
+        {
+          "fn": "set @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 8,
+          "pct": 0.2
+        },
+        {
+          "fn": "addNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 7.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ file:///E:/DeepSeekplay/_wip/wt-base/js/cakegate.js:143",
+          "ms": 7.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "generate @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 7.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "a @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 7.5,
+          "pct": 0.2
+        },
+        {
+          "fn": "getNodeFromHash @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 7,
+          "pct": 0.2
+        },
+        {
+          "fn": "_renderScene @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:74",
+          "ms": 6.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "getComponentType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 6.4,
+          "pct": 0.2
+        },
+        {
+          "fn": "Tx @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 5.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "$A @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 5.3,
+          "pct": 0.2
+        },
+        {
+          "fn": "ks @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:1",
+          "ms": 5.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "addSequentialNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 5,
+          "pct": 0.1
+        }
+      ],
+      "siteTop": []
+    },
+    "metrics": {
+      "TaskMs": 1471.3,
+      "ScriptMs": 652.1,
+      "RecalcStyleMs": 229,
+      "LayoutMs": 129.9,
+      "LayoutCount": 60,
+      "RecalcStyleCount": 62,
+      "Nodes": 3601,
+      "JSHeapMB": 14.3
+    }
+  },
+  "finishedAt": "2026-10-25T10:39:37.770Z"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "tideline.perf-open-cut/1",
+  "tag": "slit2-1",
+  "startedAt": "2026-10-25T13:31:40.241Z",
+  "viewport": "1280x800",
+  "mode": "headed",
+  "index": "E:\\DeepSeekplay\\GIFT\\index.html",
+  "noWebgl": false,
+  "settle": 3,
+  "note": "Headed Chrome, window parked off-screen, real GPU. rAF and CSS animation clocks run normally, so frame intervals are meaningful. Only one Chrome at a time.",
+  "finishedAt": "2026-10-25T13:32:23.363Z"
+}

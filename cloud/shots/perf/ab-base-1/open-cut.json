@@ -1,0 +1,579 @@
+{
+  "schema": "tideline.perf-open-cut/1",
+  "tag": "ab-base-1",
+  "startedAt": "2026-10-25T11:22:57.107Z",
+  "viewport": "1280x800",
+  "mode": "headed",
+  "index": "E:\\DeepSeekplay\\_wip\\wt-base\\index.html",
+  "noWebgl": false,
+  "settle": 3,
+  "note": "Headed Chrome, window parked off-screen, real GPU. rAF and CSS animation clocks run normally, so frame intervals are meaningful. Only one Chrome at a time.",
+  "load": {
+    "readyWallMs": 522,
+    "readyAt": 509.1,
+    "paint": {
+      "first-paint": 1096,
+      "first-contentful-paint": 1096
+    },
+    "nav": {
+      "dcl": 316.9,
+      "dclStart": 316.8,
+      "load": 416.9,
+      "domInteractive": 24.8,
+      "responseEnd": 6.4,
+      "domContentLoaded": 316.9
+    },
+    "dom": {
+      "all": 1109,
+      "svg": 21,
+      "canvas": 2
+    },
+    "quality": "{\"mode\":\"auto\"}",
+    "counters": {
+      "updates": 38,
+      "applySun": 38,
+      "applySky": 11,
+      "rootWrites": 974,
+      "rootApplied": 133
+    },
+    "framesAll": {
+      "frames": 38,
+      "p50": 16.7,
+      "p95": 884,
+      "max": 933.9,
+      "over33": 9,
+      "over50": 6,
+      "over100": 6,
+      "over200": 5,
+      "sumMs": 3585.9
+    },
+    "framesBeforeReady": {
+      "frames": 1,
+      "p50": 116.7,
+      "p95": 116.7,
+      "max": 116.7,
+      "over33": 1,
+      "over50": 1,
+      "over100": 1,
+      "over200": 0,
+      "sumMs": 116.7
+    },
+    "framesAfterReady": {
+      "frames": 37,
+      "p50": 16.7,
+      "p95": 884,
+      "max": 933.9,
+      "over33": 8,
+      "over50": 5,
+      "over100": 5,
+      "over200": 5,
+      "sumMs": 3469.2
+    },
+    "frameTimes": [
+      76,
+      193,
+      1077,
+      1094,
+      2028,
+      2044,
+      2061,
+      2078,
+      2612,
+      2912,
+      3129,
+      3145,
+      3162,
+      3195,
+      3212,
+      3229,
+      3245,
+      3262,
+      3279,
+      3295,
+      3312,
+      3329,
+      3345,
+      3362,
+      3379,
+      3395,
+      3412,
+      3429,
+      3446,
+      3462,
+      3479,
+      3496,
+      3512,
+      3529,
+      3579,
+      3612,
+      3629,
+      3646,
+      3662
+    ],
+    "framesWindows": [
+      {
+        "from": 0,
+        "to": 500,
+        "frames": 1,
+        "p50": 116.7,
+        "p95": 116.7,
+        "max": 116.7,
+        "over33": 1,
+        "over50": 1,
+        "over100": 1,
+        "over200": 0,
+        "sumMs": 116.7
+      },
+      {
+        "from": 500,
+        "to": 1000,
+        "frames": 0,
+        "p50": null,
+        "p95": null,
+        "max": null,
+        "over33": 0,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 0
+      },
+      {
+        "from": 1000,
+        "to": 1500,
+        "frames": 2,
+        "p50": 884,
+        "p95": 884,
+        "max": 884,
+        "over33": 1,
+        "over50": 1,
+        "over100": 1,
+        "over200": 1,
+        "sumMs": 900.7
+      },
+      {
+        "from": 1500,
+        "to": 2000,
+        "frames": 0,
+        "p50": null,
+        "p95": null,
+        "max": null,
+        "over33": 0,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 0
+      },
+      {
+        "from": 2000,
+        "to": 2600,
+        "frames": 4,
+        "p50": 16.7,
+        "p95": 933.9,
+        "max": 933.9,
+        "over33": 1,
+        "over50": 1,
+        "over100": 1,
+        "over200": 1,
+        "sumMs": 983.9
+      },
+      {
+        "from": 2600,
+        "to": 3600,
+        "frames": 27,
+        "p50": 16.7,
+        "p95": 300.2,
+        "max": 533.8,
+        "over33": 5,
+        "over50": 3,
+        "over100": 3,
+        "over200": 3,
+        "sumMs": 1501.2
+      },
+      {
+        "from": 3600,
+        "to": 5000,
+        "frames": 4,
+        "p50": 16.7,
+        "p95": 33.3,
+        "max": 33.3,
+        "over33": 1,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 83.4
+      }
+    ],
+    "loafCount": 9,
+    "loafTop": [
+      {
+        "t": 1109.2,
+        "ms": 928.6,
+        "block": 0,
+        "style": 5.1,
+        "render": 8.9,
+        "pre": 919.7,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 414.9,
+        "ms": 680.5,
+        "block": 0,
+        "style": 3.8,
+        "render": 12.2,
+        "pre": 668.3,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2072.4,
+        "ms": 463.8,
+        "block": 398.3,
+        "style": 7.8,
+        "render": 448.1,
+        "pre": 15.7,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2636.7,
+        "ms": 291.7,
+        "block": 0,
+        "style": 5.8,
+        "render": 12.1,
+        "pre": 279.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2932.2,
+        "ms": 214.7,
+        "block": 0,
+        "style": 6.3,
+        "render": 10.3,
+        "pre": 204.4,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 196,
+        "ms": 196.3,
+        "block": 103,
+        "style": 14.8,
+        "render": 53.6,
+        "pre": 142.7,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 33.7,
+        "ms": 158.8,
+        "block": 58.5,
+        "style": 105.7,
+        "render": 106,
+        "pre": 52.8,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2539.7,
+        "ms": 93.7,
+        "block": 0,
+        "style": 4.9,
+        "render": 9.5,
+        "pre": 84.2,
+        "scripts": 1,
+        "worstScript": 9
+      },
+      {
+        "t": 3527.2,
+        "ms": 64.8,
+        "block": 0,
+        "style": 7.8,
+        "render": 11,
+        "pre": 53.8,
+        "scripts": 0,
+        "worstScript": 0
+      }
+    ],
+    "longTasks": [
+      {
+        "t": 2088.1,
+        "d": 451
+      },
+      {
+        "t": 86.5,
+        "d": 109
+      },
+      {
+        "t": 224.8,
+        "d": 99
+      },
+      {
+        "t": 338.7,
+        "d": 76
+      }
+    ],
+    "resources": [],
+    "resourceLoadOrder": [],
+    "profile": {
+      "totalMs": 3519.1,
+      "top": [
+        {
+          "fn": "(idle) @ native:0",
+          "ms": 2284.6,
+          "pct": 64.9
+        },
+        {
+          "fn": "(program) @ native:0",
+          "ms": 548.6,
+          "pct": 15.6
+        },
+        {
+          "fn": "get @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 78.8,
+          "pct": 2.2
+        },
+        {
+          "fn": "getNodeType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 47,
+          "pct": 1.3
+        },
+        {
+          "fn": "getTypeLength @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 46.1,
+          "pct": 1.3
+        },
+        {
+          "fn": "draw @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:907",
+          "ms": 33.2,
+          "pct": 0.9
+        },
+        {
+          "fn": "Xo @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 31.9,
+          "pct": 0.9
+        },
+        {
+          "fn": "(garbage collector) @ native:0",
+          "ms": 25,
+          "pct": 0.7
+        },
+        {
+          "fn": "getInputType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 20.4,
+          "pct": 0.6
+        },
+        {
+          "fn": "build @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 18.6,
+          "pct": 0.5
+        },
+        {
+          "fn": "init @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 17.7,
+          "pct": 0.5
+        },
+        {
+          "fn": "resize @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:876",
+          "ms": 17.2,
+          "pct": 0.5
+        },
+        {
+          "fn": "isMatrix @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 16.4,
+          "pct": 0.5
+        },
+        {
+          "fn": "updateScrollState @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:1412",
+          "ms": 10,
+          "pct": 0.3
+        },
+        {
+          "fn": "generate @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 9.3,
+          "pct": 0.3
+        },
+        {
+          "fn": "buildCakeHalves @ file:///E:/DeepSeekplay/_wip/wt-base/js/cakegate.js:503",
+          "ms": 9.2,
+          "pct": 0.3
+        },
+        {
+          "fn": "animate @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:2300",
+          "ms": 8.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "finishRender @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 8.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "addNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 7.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "a @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 7.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "getNodeFromHash @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 7.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "getVectorType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 7.4,
+          "pct": 0.2
+        },
+        {
+          "fn": "$A @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 7.3,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ file:///E:/DeepSeekplay/_wip/wt-base/js/cakegate.js:143",
+          "ms": 6.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "addSequentialNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 6,
+          "pct": 0.2
+        },
+        {
+          "fn": "set @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 5.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "beginRender @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 4.6,
+          "pct": 0.1
+        },
+        {
+          "fn": "isGlobal @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 4.4,
+          "pct": 0.1
+        }
+      ],
+      "siteTop": []
+    },
+    "profileBuckets": [
+      {
+        "t0": 100,
+        "ms": 56.7,
+        "top": [
+          "(idle) 33.8",
+          "(program) 22.3",
+          "(anonymous) 0.6"
+        ]
+      },
+      {
+        "t0": 200,
+        "ms": 100.3,
+        "top": [
+          "(program) 87.3",
+          "(idle) 13.1"
+        ]
+      },
+      {
+        "t0": 300,
+        "ms": 99.6,
+        "top": [
+          "(program) 44.7",
+          "resize 17.2",
+          "a 6.1",
+          "(anonymous) 4.3"
+        ]
+      },
+      {
+        "t0": 400,
+        "ms": 100.3,
+        "top": [
+          "(program) 23.7",
+          "init 17.2",
+          "draw 13.6",
+          "updateScrollState 10"
+        ]
+      },
+      {
+        "t0": 500,
+        "ms": 100.1,
+        "top": [
+          "(idle) 47.4",
+          "(program) 40.8",
+          "draw 8.6",
+          "animate 2.8"
+        ]
+      },
+      {
+        "t0": 600,
+        "ms": 99.7,
+        "top": [
+          "(idle) 99.1",
+          "R.mark 0.6"
+        ]
+      },
+      {
+        "t0": 700,
+        "ms": 99.9,
+        "top": [
+          "(idle) 99.9"
+        ]
+      },
+      {
+        "t0": 800,
+        "ms": 100.4,
+        "top": [
+          "(idle) 100.4"
+        ]
+      },
+      {
+        "t0": 900,
+        "ms": 99.6,
+        "top": [
+          "(idle) 99.6"
+        ]
+      },
+      {
+        "t0": 1000,
+        "ms": 100,
+        "top": [
+          "(idle) 100"
+        ]
+      },
+      {
+        "t0": 1100,
+        "ms": 100.4,
+        "top": [
+          "(idle) 100.4"
+        ]
+      },
+      {
+        "t0": 1200,
+        "ms": 100,
+        "top": [
+          "(idle) 74.1",
+          "(program) 15.3",
+          "draw 4.8",
+          "animate 4"
+        ]
+      }
+    ],
+    "metrics": {
+      "TaskMs": 1362.9,
+      "ScriptMs": 639,
+      "RecalcStyleMs": 201.4,
+      "LayoutMs": 122.7,
+      "LayoutCount": 45,
+      "RecalcStyleCount": 46,
+      "Nodes": 3601,
+      "JSHeapMB": 12.1
+    }
+  },
+  "finishedAt": "2026-10-25T11:23:03.361Z"
+}

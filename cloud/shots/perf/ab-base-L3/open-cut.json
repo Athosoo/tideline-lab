@@ -1,0 +1,333 @@
+{
+  "schema": "tideline.perf-open-cut/1",
+  "tag": "ab-base-L3",
+  "startedAt": "2026-10-25T10:39:43.930Z",
+  "viewport": "1280x800",
+  "mode": "headed",
+  "index": "E:\\DeepSeekplay\\_wip\\wt-base\\index.html",
+  "noWebgl": false,
+  "settle": 3,
+  "note": "Headed Chrome, window parked off-screen, real GPU. rAF and CSS animation clocks run normally, so frame intervals are meaningful. Only one Chrome at a time.",
+  "load": {
+    "readyWallMs": 510,
+    "readyAt": 500.8,
+    "paint": {
+      "first-paint": 1064,
+      "first-contentful-paint": 1064
+    },
+    "nav": {
+      "dcl": 309.1,
+      "dclStart": 309.1,
+      "load": 404.5,
+      "domInteractive": 24.7,
+      "responseEnd": 6.8,
+      "domContentLoaded": 309.1
+    },
+    "dom": {
+      "all": 1109,
+      "svg": 21,
+      "canvas": 2
+    },
+    "quality": "{\"mode\":\"auto\"}",
+    "counters": {
+      "updates": 53,
+      "applySun": 53,
+      "applySky": 13,
+      "rootWrites": 1321,
+      "rootApplied": 164
+    },
+    "framesAll": {
+      "frames": 53,
+      "p50": 16.7,
+      "p95": 550.4,
+      "max": 884.1,
+      "over33": 8,
+      "over50": 6,
+      "over100": 5,
+      "over200": 3,
+      "sumMs": 3535.9
+    },
+    "framesBeforeReady": {
+      "frames": 1,
+      "p50": 100,
+      "p95": 100,
+      "max": 100,
+      "over33": 1,
+      "over50": 1,
+      "over100": 0,
+      "over200": 0,
+      "sumMs": 100
+    },
+    "framesAfterReady": {
+      "frames": 52,
+      "p50": 16.7,
+      "p95": 550.4,
+      "max": 884.1,
+      "over33": 7,
+      "over50": 5,
+      "over100": 5,
+      "over200": 3,
+      "sumMs": 3435.9
+    },
+    "loafCount": 8,
+    "loafTop": [
+      {
+        "t": 1090.7,
+        "ms": 851.3,
+        "block": 0,
+        "style": 6.5,
+        "render": 9.6,
+        "pre": 841.7,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 402.5,
+        "ms": 672.7,
+        "block": 0,
+        "style": 2.8,
+        "render": 10.2,
+        "pre": 662.5,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 1992.6,
+        "ms": 487.9,
+        "block": 421.7,
+        "style": 5.4,
+        "render": 471.7,
+        "pre": 16.2,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 186.4,
+        "ms": 195.7,
+        "block": 103,
+        "style": 12.7,
+        "render": 53.1,
+        "pre": 142.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2564.6,
+        "ms": 187,
+        "block": 0,
+        "style": 5.3,
+        "render": 10,
+        "pre": 177,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 30.9,
+        "ms": 152.4,
+        "block": 51.4,
+        "style": 99,
+        "render": 99.3,
+        "pre": 53.1,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2754.5,
+        "ms": 149.8,
+        "block": 0,
+        "style": 5.7,
+        "render": 9.4,
+        "pre": 140.4,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2483.7,
+        "ms": 78,
+        "block": 0,
+        "style": 4.3,
+        "render": 9.6,
+        "pre": 68.4,
+        "scripts": 0,
+        "worstScript": 0
+      }
+    ],
+    "longTasks": [
+      {
+        "t": 2008.7,
+        "d": 475
+      },
+      {
+        "t": 83.9,
+        "d": 102
+      },
+      {
+        "t": 216.3,
+        "d": 100
+      },
+      {
+        "t": 329,
+        "d": 73
+      }
+    ],
+    "resources": [],
+    "resourceLoadOrder": [],
+    "profile": {
+      "totalMs": 3500.4,
+      "top": [
+        {
+          "fn": "(idle) @ native:0",
+          "ms": 2134.7,
+          "pct": 61
+        },
+        {
+          "fn": "(program) @ native:0",
+          "ms": 629.9,
+          "pct": 18
+        },
+        {
+          "fn": "get @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 77.3,
+          "pct": 2.2
+        },
+        {
+          "fn": "getNodeType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 51.8,
+          "pct": 1.5
+        },
+        {
+          "fn": "Xo @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 39.4,
+          "pct": 1.1
+        },
+        {
+          "fn": "getTypeLength @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 35.8,
+          "pct": 1
+        },
+        {
+          "fn": "draw @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:907",
+          "ms": 34.9,
+          "pct": 1
+        },
+        {
+          "fn": "(garbage collector) @ native:0",
+          "ms": 24,
+          "pct": 0.7
+        },
+        {
+          "fn": "init @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 23.1,
+          "pct": 0.7
+        },
+        {
+          "fn": "build @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 21.8,
+          "pct": 0.6
+        },
+        {
+          "fn": "isMatrix @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 20.3,
+          "pct": 0.6
+        },
+        {
+          "fn": "resize @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:876",
+          "ms": 18.5,
+          "pct": 0.5
+        },
+        {
+          "fn": "getInputType @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 16.5,
+          "pct": 0.5
+        },
+        {
+          "fn": "set @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 10.7,
+          "pct": 0.3
+        },
+        {
+          "fn": "getDataFromNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 10.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "beginRender @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 10.3,
+          "pct": 0.3
+        },
+        {
+          "fn": "animate @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:2300",
+          "ms": 9.9,
+          "pct": 0.3
+        },
+        {
+          "fn": "addNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 9,
+          "pct": 0.3
+        },
+        {
+          "fn": "$A @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 8.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "a @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 8.3,
+          "pct": 0.2
+        },
+        {
+          "fn": "updateScrollState @ file:///E:/DeepSeekplay/_wip/wt-base/js/app.js:1412",
+          "ms": 7.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "buildCakeHalves @ file:///E:/DeepSeekplay/_wip/wt-base/js/cakegate.js:503",
+          "ms": 7.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "addSequentialNode @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:67",
+          "ms": 7.4,
+          "pct": 0.2
+        },
+        {
+          "fn": "generate @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 7.4,
+          "pct": 0.2
+        },
+        {
+          "fn": "J @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:40",
+          "ms": 6.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "_renderScene @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:74",
+          "ms": 6.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "finishRender @ file:///E:/DeepSeekplay/_wip/wt-base/js/sea.bundle.js:429",
+          "ms": 6,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ file:///E:/DeepSeekplay/_wip/wt-base/js/cakegate.js:143",
+          "ms": 5.8,
+          "pct": 0.2
+        }
+      ],
+      "siteTop": []
+    },
+    "metrics": {
+      "TaskMs": 1479.7,
+      "ScriptMs": 679,
+      "RecalcStyleMs": 230,
+      "LayoutMs": 124.3,
+      "LayoutCount": 61,
+      "RecalcStyleCount": 62,
+      "Nodes": 3601,
+      "JSHeapMB": 14.3
+    }
+  },
+  "finishedAt": "2026-10-25T10:39:49.767Z"
+}

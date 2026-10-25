@@ -1,0 +1,35 @@
+{
+  "schema": "tideline.raster-probe/1",
+  "tag": "cal2-cc",
+  "startedAt": "2026-10-25T11:12:43.780Z",
+  "viewport": "1280x800",
+  "query": "",
+  "css": "",
+  "readyWallMs": 539,
+  "paint": {},
+  "traceEvents": 7839,
+  "durEvents": 5793,
+  "byName": [
+    {
+      "name": "RasterTask",
+      "totalMs": 7.4,
+      "count": 453,
+      "maxMs": 0.6
+    }
+  ],
+  "longest": [],
+  "rasterTimeline": [
+    {
+      "t": 0,
+      "ms": 0.2
+    },
+    {
+      "t": 100,
+      "ms": 1.1
+    },
+    {
+      "t": 300,
+      "ms": 1.1
+    }
+  ]
+}

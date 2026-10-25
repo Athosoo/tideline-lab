@@ -1,0 +1,585 @@
+{
+  "schema": "tideline.perf-open-cut/1",
+  "tag": "bucket-new-2",
+  "startedAt": "2026-10-25T10:50:40.988Z",
+  "viewport": "1280x800",
+  "mode": "headed",
+  "index": "E:\\DeepSeekplay\\GIFT\\index.html",
+  "noWebgl": false,
+  "settle": 3,
+  "note": "Headed Chrome, window parked off-screen, real GPU. rAF and CSS animation clocks run normally, so frame intervals are meaningful. Only one Chrome at a time.",
+  "load": {
+    "readyWallMs": 606,
+    "readyAt": 597,
+    "paint": {
+      "first-paint": 1308,
+      "first-contentful-paint": 1308
+    },
+    "nav": {
+      "dcl": 392.3,
+      "dclStart": 392.3,
+      "load": 499.6,
+      "domInteractive": 28.9,
+      "responseEnd": 7.4,
+      "domContentLoaded": 392.3
+    },
+    "dom": {
+      "all": 1109,
+      "svg": 21,
+      "canvas": 2
+    },
+    "quality": "{\"mode\":\"auto\"}",
+    "counters": {
+      "updates": 38,
+      "applySun": 38,
+      "applySky": 11,
+      "rootWrites": 974,
+      "rootApplied": 135
+    },
+    "framesAll": {
+      "frames": 38,
+      "p50": 16.7,
+      "p95": 600.5,
+      "max": 1000.3,
+      "over33": 10,
+      "over50": 7,
+      "over100": 7,
+      "over200": 5,
+      "sumMs": 3568.1
+    },
+    "framesBeforeReady": {
+      "frames": 1,
+      "p50": 149.3,
+      "p95": 149.3,
+      "max": 149.3,
+      "over33": 1,
+      "over50": 1,
+      "over100": 1,
+      "over200": 0,
+      "sumMs": 149.3
+    },
+    "framesAfterReady": {
+      "frames": 37,
+      "p50": 16.7,
+      "p95": 600.5,
+      "max": 1000.3,
+      "over33": 9,
+      "over50": 6,
+      "over100": 6,
+      "over200": 5,
+      "sumMs": 3418.8
+    },
+    "loafCount": 9,
+    "loafTop": [
+      {
+        "t": 475.3,
+        "ms": 894.1,
+        "block": 23.1,
+        "style": 2.4,
+        "render": 65.7,
+        "pre": 828.4,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 1384.5,
+        "ms": 521,
+        "block": 0,
+        "style": 6.8,
+        "render": 10.5,
+        "pre": 510.5,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2292.2,
+        "ms": 514.8,
+        "block": 447.1,
+        "style": 5.3,
+        "render": 497,
+        "pre": 17.8,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 1918.8,
+        "ms": 333.5,
+        "block": 0,
+        "style": 6.9,
+        "render": 10.6,
+        "pre": 322.9,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 44.4,
+        "ms": 247.1,
+        "block": 103.1,
+        "style": 150.7,
+        "render": 150.9,
+        "pre": 96.2,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2892.3,
+        "ms": 195.5,
+        "block": 0,
+        "style": 4.9,
+        "render": 9.2,
+        "pre": 186.3,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 295.6,
+        "ms": 168.7,
+        "block": 84.8,
+        "style": 16.4,
+        "render": 63.8,
+        "pre": 104.9,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 3090.4,
+        "ms": 150.3,
+        "block": 0,
+        "style": 5.5,
+        "render": 9.7,
+        "pre": 140.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 2811.6,
+        "ms": 77.5,
+        "block": 0,
+        "style": 5.4,
+        "render": 11.3,
+        "pre": 66.2,
+        "scripts": 0,
+        "worstScript": 0
+      }
+    ],
+    "longTasks": [
+      {
+        "t": 2310,
+        "d": 501
+      },
+      {
+        "t": 140.5,
+        "d": 155
+      },
+      {
+        "t": 1303.5,
+        "d": 81
+      },
+      {
+        "t": 400.4,
+        "d": 74
+      },
+      {
+        "t": 328.8,
+        "d": 70
+      }
+    ],
+    "resources": [],
+    "resourceLoadOrder": [],
+    "profile": {
+      "totalMs": 3598.7,
+      "top": [
+        {
+          "fn": "(idle) @ native:0",
+          "ms": 2229.1,
+          "pct": 61.9
+        },
+        {
+          "fn": "(program) @ native:0",
+          "ms": 605.1,
+          "pct": 16.8
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:40",
+          "ms": 94.9,
+          "pct": 2.6
+        },
+        {
+          "fn": "draw @ GIFT/js/app.js:911",
+          "ms": 49.2,
+          "pct": 1.4
+        },
+        {
+          "fn": "getNodeType @ GIFT/js/sea.bundle.js:40",
+          "ms": 48.7,
+          "pct": 1.4
+        },
+        {
+          "fn": "getTypeLength @ GIFT/js/sea.bundle.js:67",
+          "ms": 40.1,
+          "pct": 1.1
+        },
+        {
+          "fn": "Xo @ GIFT/js/sea.bundle.js:40",
+          "ms": 36.7,
+          "pct": 1
+        },
+        {
+          "fn": "build @ GIFT/js/sea.bundle.js:40",
+          "ms": 35.4,
+          "pct": 1
+        },
+        {
+          "fn": "(garbage collector) @ native:0",
+          "ms": 31.6,
+          "pct": 0.9
+        },
+        {
+          "fn": "resize @ GIFT/js/app.js:880",
+          "ms": 24.1,
+          "pct": 0.7
+        },
+        {
+          "fn": "getInputType @ GIFT/js/sea.bundle.js:40",
+          "ms": 20.9,
+          "pct": 0.6
+        },
+        {
+          "fn": "init @ GIFT/js/sea.bundle.js:429",
+          "ms": 17.8,
+          "pct": 0.5
+        },
+        {
+          "fn": "isMatrix @ GIFT/js/sea.bundle.js:67",
+          "ms": 14,
+          "pct": 0.4
+        },
+        {
+          "fn": "a @ GIFT/js/sea.bundle.js:40",
+          "ms": 13.9,
+          "pct": 0.4
+        },
+        {
+          "fn": "buildCakeHalves @ GIFT/js/cakegate.js:522",
+          "ms": 11.7,
+          "pct": 0.3
+        },
+        {
+          "fn": "addNode @ GIFT/js/sea.bundle.js:67",
+          "ms": 9.3,
+          "pct": 0.3
+        },
+        {
+          "fn": "_renderScene @ GIFT/js/sea.bundle.js:74",
+          "ms": 9.3,
+          "pct": 0.3
+        },
+        {
+          "fn": "beginRender @ GIFT/js/sea.bundle.js:429",
+          "ms": 7.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "generate @ GIFT/js/sea.bundle.js:40",
+          "ms": 7.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "set @ GIFT/js/sea.bundle.js:40",
+          "ms": 6.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "$A @ GIFT/js/sea.bundle.js:40",
+          "ms": 6.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ GIFT/js/cakegate.js:162",
+          "ms": 6.5,
+          "pct": 0.2
+        },
+        {
+          "fn": "applyMatrix4 @ GIFT/js/sea.bundle.js:1",
+          "ms": 5.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "analyze @ GIFT/js/sea.bundle.js:40",
+          "ms": 5.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "MI @ GIFT/js/sea.bundle.js:429",
+          "ms": 5.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "finishRender @ GIFT/js/sea.bundle.js:429",
+          "ms": 5.4,
+          "pct": 0.1
+        },
+        {
+          "fn": "animate @ GIFT/js/app.js:2383",
+          "ms": 5.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "addSequentialNode @ GIFT/js/sea.bundle.js:67",
+          "ms": 5.1,
+          "pct": 0.1
+        }
+      ],
+      "siteTop": [
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:40",
+          "ms": 94.9,
+          "pct": 2.6
+        },
+        {
+          "fn": "draw @ GIFT/js/app.js:911",
+          "ms": 49.2,
+          "pct": 1.4
+        },
+        {
+          "fn": "getNodeType @ GIFT/js/sea.bundle.js:40",
+          "ms": 48.7,
+          "pct": 1.4
+        },
+        {
+          "fn": "getTypeLength @ GIFT/js/sea.bundle.js:67",
+          "ms": 40.1,
+          "pct": 1.1
+        },
+        {
+          "fn": "Xo @ GIFT/js/sea.bundle.js:40",
+          "ms": 36.7,
+          "pct": 1
+        },
+        {
+          "fn": "build @ GIFT/js/sea.bundle.js:40",
+          "ms": 35.4,
+          "pct": 1
+        },
+        {
+          "fn": "resize @ GIFT/js/app.js:880",
+          "ms": 24.1,
+          "pct": 0.7
+        },
+        {
+          "fn": "getInputType @ GIFT/js/sea.bundle.js:40",
+          "ms": 20.9,
+          "pct": 0.6
+        },
+        {
+          "fn": "init @ GIFT/js/sea.bundle.js:429",
+          "ms": 17.8,
+          "pct": 0.5
+        },
+        {
+          "fn": "isMatrix @ GIFT/js/sea.bundle.js:67",
+          "ms": 14,
+          "pct": 0.4
+        },
+        {
+          "fn": "a @ GIFT/js/sea.bundle.js:40",
+          "ms": 13.9,
+          "pct": 0.4
+        },
+        {
+          "fn": "buildCakeHalves @ GIFT/js/cakegate.js:522",
+          "ms": 11.7,
+          "pct": 0.3
+        },
+        {
+          "fn": "addNode @ GIFT/js/sea.bundle.js:67",
+          "ms": 9.3,
+          "pct": 0.3
+        },
+        {
+          "fn": "_renderScene @ GIFT/js/sea.bundle.js:74",
+          "ms": 9.3,
+          "pct": 0.3
+        },
+        {
+          "fn": "beginRender @ GIFT/js/sea.bundle.js:429",
+          "ms": 7.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "generate @ GIFT/js/sea.bundle.js:40",
+          "ms": 7.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "set @ GIFT/js/sea.bundle.js:40",
+          "ms": 6.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "$A @ GIFT/js/sea.bundle.js:40",
+          "ms": 6.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ GIFT/js/cakegate.js:162",
+          "ms": 6.5,
+          "pct": 0.2
+        },
+        {
+          "fn": "applyMatrix4 @ GIFT/js/sea.bundle.js:1",
+          "ms": 5.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "analyze @ GIFT/js/sea.bundle.js:40",
+          "ms": 5.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "MI @ GIFT/js/sea.bundle.js:429",
+          "ms": 5.6,
+          "pct": 0.2
+        },
+        {
+          "fn": "finishRender @ GIFT/js/sea.bundle.js:429",
+          "ms": 5.4,
+          "pct": 0.1
+        },
+        {
+          "fn": "animate @ GIFT/js/app.js:2383",
+          "ms": 5.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "addSequentialNode @ GIFT/js/sea.bundle.js:67",
+          "ms": 5.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "getNodeFromHash @ GIFT/js/sea.bundle.js:67",
+          "ms": 5,
+          "pct": 0.1
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/sea.bundle.js:1",
+          "ms": 4.9,
+          "pct": 0.1
+        },
+        {
+          "fn": "updateScrollState @ GIFT/js/app.js:1483",
+          "ms": 4.6,
+          "pct": 0.1
+        }
+      ]
+    },
+    "profileBuckets": [
+      {
+        "t0": 100,
+        "ms": 77.6,
+        "top": [
+          "(idle) 47.8",
+          "(program) 29.7"
+        ]
+      },
+      {
+        "t0": 200,
+        "ms": 99.9,
+        "top": [
+          "(program) 54.2",
+          "(idle) 45.7"
+        ]
+      },
+      {
+        "t0": 300,
+        "ms": 99.9,
+        "top": [
+          "(program) 99.9"
+        ]
+      },
+      {
+        "t0": 400,
+        "ms": 100,
+        "top": [
+          "resize 24.1",
+          "(program) 24",
+          "buildCakeHalves 11.7",
+          "measure 5.3"
+        ]
+      },
+      {
+        "t0": 500,
+        "ms": 100.2,
+        "top": [
+          "(program) 49.8",
+          "draw 36.4",
+          "updateScrollState 4.6",
+          "applyTilt 1.8"
+        ]
+      },
+      {
+        "t0": 600,
+        "ms": 99.6,
+        "top": [
+          "(idle) 83.5",
+          "(program) 15.6",
+          "PerformanceObserver.observe.type 0.6"
+        ]
+      },
+      {
+        "t0": 700,
+        "ms": 100.2,
+        "top": [
+          "(idle) 99.4",
+          "(program) 0.9"
+        ]
+      },
+      {
+        "t0": 800,
+        "ms": 99.7,
+        "top": [
+          "(idle) 99.7"
+        ]
+      },
+      {
+        "t0": 900,
+        "ms": 100.4,
+        "top": [
+          "(idle) 100.4"
+        ]
+      },
+      {
+        "t0": 1000,
+        "ms": 99.7,
+        "top": [
+          "(idle) 99.7"
+        ]
+      },
+      {
+        "t0": 1100,
+        "ms": 99.9,
+        "top": [
+          "(idle) 99.9"
+        ]
+      },
+      {
+        "t0": 1200,
+        "ms": 100.3,
+        "top": [
+          "(idle) 100.3"
+        ]
+      }
+    ],
+    "metrics": {
+      "TaskMs": 1462.8,
+      "ScriptMs": 704.4,
+      "RecalcStyleMs": 194,
+      "LayoutMs": 167.6,
+      "LayoutCount": 47,
+      "RecalcStyleCount": 47,
+      "Nodes": 3601,
+      "JSHeapMB": 12.2
+    }
+  },
+  "finishedAt": "2026-10-25T10:50:47.053Z"
+}

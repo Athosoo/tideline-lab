@@ -1,0 +1,1449 @@
+{
+  "schema": "tideline.perf-open-cut/1",
+  "tag": "cut-noanim",
+  "startedAt": "2026-10-25T13:51:01.692Z",
+  "viewport": "1280x800",
+  "mode": "headed",
+  "index": "E:\\DeepSeekplay\\GIFT\\index.html",
+  "noWebgl": false,
+  "settle": 3,
+  "note": "Headed Chrome, window parked off-screen, real GPU. rAF and CSS animation clocks run normally, so frame intervals are meaningful. Only one Chrome at a time.",
+  "load": {
+    "readyWallMs": 634,
+    "readyAt": 610.3,
+    "paint": {
+      "first-paint": 1564,
+      "first-contentful-paint": 1564
+    },
+    "nav": {
+      "dcl": 385.4,
+      "dclStart": 385.3,
+      "load": 524.2,
+      "domInteractive": 33.4,
+      "responseEnd": 8.2,
+      "domContentLoaded": 385.4
+    },
+    "dom": {
+      "all": 1110,
+      "svg": 21,
+      "canvas": 2
+    },
+    "quality": "{\"mode\":\"auto\"}",
+    "counters": {
+      "updates": 4,
+      "applySun": 4,
+      "applySky": 3,
+      "rootWrites": 132,
+      "rootApplied": 50
+    },
+    "framesAll": {
+      "frames": 4,
+      "p50": 933.9,
+      "p95": 1284.3,
+      "max": 1284.3,
+      "over33": 3,
+      "over50": 3,
+      "over100": 3,
+      "over200": 2,
+      "sumMs": 2400.8
+    },
+    "framesBeforeReady": {
+      "frames": 1,
+      "p50": 165.9,
+      "p95": 165.9,
+      "max": 165.9,
+      "over33": 1,
+      "over50": 1,
+      "over100": 1,
+      "over200": 0,
+      "sumMs": 165.9
+    },
+    "framesAfterReady": {
+      "frames": 3,
+      "p50": 933.9,
+      "p95": 1284.3,
+      "max": 1284.3,
+      "over33": 2,
+      "over50": 2,
+      "over100": 2,
+      "over200": 2,
+      "sumMs": 2234.9
+    },
+    "frameTimes": [
+      95,
+      261,
+      1545,
+      2479,
+      2496
+    ],
+    "framesWindows": [
+      {
+        "from": 0,
+        "to": 500,
+        "frames": 1,
+        "p50": 165.9,
+        "p95": 165.9,
+        "max": 165.9,
+        "over33": 1,
+        "over50": 1,
+        "over100": 1,
+        "over200": 0,
+        "sumMs": 165.9
+      },
+      {
+        "from": 500,
+        "to": 1000,
+        "frames": 0,
+        "p50": null,
+        "p95": null,
+        "max": null,
+        "over33": 0,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 0
+      },
+      {
+        "from": 1000,
+        "to": 1500,
+        "frames": 0,
+        "p50": null,
+        "p95": null,
+        "max": null,
+        "over33": 0,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 0
+      },
+      {
+        "from": 1500,
+        "to": 2000,
+        "frames": 1,
+        "p50": 1284.3,
+        "p95": 1284.3,
+        "max": 1284.3,
+        "over33": 1,
+        "over50": 1,
+        "over100": 1,
+        "over200": 1,
+        "sumMs": 1284.3
+      },
+      {
+        "from": 2000,
+        "to": 2600,
+        "frames": 2,
+        "p50": 933.9,
+        "p95": 933.9,
+        "max": 933.9,
+        "over33": 1,
+        "over50": 1,
+        "over100": 1,
+        "over200": 1,
+        "sumMs": 950.6
+      },
+      {
+        "from": 2600,
+        "to": 3600,
+        "frames": 0,
+        "p50": null,
+        "p95": null,
+        "max": null,
+        "over33": 0,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 0
+      },
+      {
+        "from": 3600,
+        "to": 5000,
+        "frames": 0,
+        "p50": null,
+        "p95": null,
+        "max": null,
+        "over33": 0,
+        "over50": 0,
+        "over100": 0,
+        "over200": 0,
+        "sumMs": 0
+      }
+    ],
+    "loafCount": 2,
+    "loafTop": [
+      {
+        "t": 43.1,
+        "ms": 226.8,
+        "block": 117.4,
+        "style": 164.4,
+        "render": 164.6,
+        "pre": 62.2,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 273.9,
+        "ms": 204.5,
+        "block": 109.6,
+        "style": 20,
+        "render": 81.3,
+        "pre": 123.2,
+        "scripts": 0,
+        "worstScript": 0
+      }
+    ],
+    "longTasks": [
+      {
+        "t": 105.1,
+        "d": 168
+      },
+      {
+        "t": 397,
+        "d": 96
+      },
+      {
+        "t": 1557,
+        "d": 95
+      },
+      {
+        "t": 318.1,
+        "d": 78
+      }
+    ],
+    "resources": [],
+    "resourceLoadOrder": [],
+    "profile": {
+      "totalMs": 3605.4,
+      "top": [
+        {
+          "fn": "(idle) @ native:0",
+          "ms": 2979.5,
+          "pct": 82.6
+        },
+        {
+          "fn": "(program) @ native:0",
+          "ms": 395.5,
+          "pct": 11
+        },
+        {
+          "fn": "draw @ GIFT/js/app.js:911",
+          "ms": 58.8,
+          "pct": 1.6
+        },
+        {
+          "fn": "init @ GIFT/js/sea.bundle.js:429",
+          "ms": 25.2,
+          "pct": 0.7
+        },
+        {
+          "fn": "resize @ GIFT/js/app.js:880",
+          "ms": 23.8,
+          "pct": 0.7
+        },
+        {
+          "fn": "a @ GIFT/js/sea.bundle.js:40",
+          "ms": 14,
+          "pct": 0.4
+        },
+        {
+          "fn": "buildCakeHalves @ GIFT/js/cakegate.js:527",
+          "ms": 12.7,
+          "pct": 0.4
+        },
+        {
+          "fn": "measure @ GIFT/js/cakegate.js:167",
+          "ms": 12,
+          "pct": 0.3
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/sea.bundle.js:1",
+          "ms": 8.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "animate @ GIFT/js/app.js:2390",
+          "ms": 6.3,
+          "pct": 0.2
+        },
+        {
+          "fn": "(garbage collector) @ native:0",
+          "ms": 6.1,
+          "pct": 0.2
+        },
+        {
+          "fn": "updateScrollState @ GIFT/js/app.js:1490",
+          "ms": 5.4,
+          "pct": 0.1
+        },
+        {
+          "fn": "MI @ GIFT/js/sea.bundle.js:429",
+          "ms": 3.4,
+          "pct": 0.1
+        },
+        {
+          "fn": "D @ GIFT/js/sea.bundle.js:40",
+          "ms": 2.7,
+          "pct": 0.1
+        },
+        {
+          "fn": "setXYZ @ GIFT/js/sea.bundle.js:1",
+          "ms": 2.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "applyMatrix4 @ GIFT/js/sea.bundle.js:1",
+          "ms": 2.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/cakegate.js:275",
+          "ms": 1.6,
+          "pct": 0
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/app.js:1",
+          "ms": 1.4,
+          "pct": 0
+        },
+        {
+          "fn": "uniqIds @ GIFT/js/cakegate.js:479",
+          "ms": 1.4,
+          "pct": 0
+        },
+        {
+          "fn": "vt @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.4,
+          "pct": 0
+        },
+        {
+          "fn": "re @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.3,
+          "pct": 0
+        },
+        {
+          "fn": "un @ GIFT/js/sea.bundle.js:40",
+          "ms": 1.3,
+          "pct": 0
+        },
+        {
+          "fn": "J @ GIFT/js/sea.bundle.js:40",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "fromBufferAttribute @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:40",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "readImmersivePreference @ GIFT/js/app.js:2456",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "add @ native:3",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "applyNormalMatrix @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.2,
+          "pct": 0
+        }
+      ],
+      "siteTop": [
+        {
+          "fn": "draw @ GIFT/js/app.js:911",
+          "ms": 58.8,
+          "pct": 1.6
+        },
+        {
+          "fn": "init @ GIFT/js/sea.bundle.js:429",
+          "ms": 25.2,
+          "pct": 0.7
+        },
+        {
+          "fn": "resize @ GIFT/js/app.js:880",
+          "ms": 23.8,
+          "pct": 0.7
+        },
+        {
+          "fn": "a @ GIFT/js/sea.bundle.js:40",
+          "ms": 14,
+          "pct": 0.4
+        },
+        {
+          "fn": "buildCakeHalves @ GIFT/js/cakegate.js:527",
+          "ms": 12.7,
+          "pct": 0.4
+        },
+        {
+          "fn": "measure @ GIFT/js/cakegate.js:167",
+          "ms": 12,
+          "pct": 0.3
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/sea.bundle.js:1",
+          "ms": 8.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "animate @ GIFT/js/app.js:2390",
+          "ms": 6.3,
+          "pct": 0.2
+        },
+        {
+          "fn": "updateScrollState @ GIFT/js/app.js:1490",
+          "ms": 5.4,
+          "pct": 0.1
+        },
+        {
+          "fn": "MI @ GIFT/js/sea.bundle.js:429",
+          "ms": 3.4,
+          "pct": 0.1
+        },
+        {
+          "fn": "D @ GIFT/js/sea.bundle.js:40",
+          "ms": 2.7,
+          "pct": 0.1
+        },
+        {
+          "fn": "setXYZ @ GIFT/js/sea.bundle.js:1",
+          "ms": 2.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "applyMatrix4 @ GIFT/js/sea.bundle.js:1",
+          "ms": 2.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/cakegate.js:275",
+          "ms": 1.6,
+          "pct": 0
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/app.js:1",
+          "ms": 1.4,
+          "pct": 0
+        },
+        {
+          "fn": "uniqIds @ GIFT/js/cakegate.js:479",
+          "ms": 1.4,
+          "pct": 0
+        },
+        {
+          "fn": "vt @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.4,
+          "pct": 0
+        },
+        {
+          "fn": "re @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.3,
+          "pct": 0
+        },
+        {
+          "fn": "un @ GIFT/js/sea.bundle.js:40",
+          "ms": 1.3,
+          "pct": 0
+        },
+        {
+          "fn": "J @ GIFT/js/sea.bundle.js:40",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "fromBufferAttribute @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:40",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "readImmersivePreference @ GIFT/js/app.js:2456",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "applyNormalMatrix @ GIFT/js/sea.bundle.js:1",
+          "ms": 1.2,
+          "pct": 0
+        },
+        {
+          "fn": "(anonymous) @ GIFT/index.html:14",
+          "ms": 1,
+          "pct": 0
+        },
+        {
+          "fn": "colorSpaceToWorking @ GIFT/js/sea.bundle.js:1",
+          "ms": 0.9,
+          "pct": 0
+        },
+        {
+          "fn": "rebuildLayout @ GIFT/js/app.js:777",
+          "ms": 0.9,
+          "pct": 0
+        },
+        {
+          "fn": "svgEl @ GIFT/js/cakegate.js:141",
+          "ms": 0.8,
+          "pct": 0
+        }
+      ]
+    },
+    "profileBuckets": [
+      {
+        "t0": 0,
+        "ms": 82.1,
+        "top": [
+          "(program) 58.6",
+          "(idle) 21.3",
+          "add 1.2",
+          "(anonymous) 1"
+        ]
+      },
+      {
+        "t0": 100,
+        "ms": 100.6,
+        "top": [
+          "(program) 95.1",
+          "(idle) 5.5"
+        ]
+      },
+      {
+        "t0": 200,
+        "ms": 99.5,
+        "top": [
+          "(program) 97.7",
+          "(anonymous) 0.6",
+          "(anonymous) 0.6",
+          "VM 0.6"
+        ]
+      },
+      {
+        "t0": 300,
+        "ms": 100.3,
+        "top": [
+          "resize 23.8",
+          "buildCakeHalves 12.7",
+          "measure 12",
+          "(program) 9.8"
+        ]
+      },
+      {
+        "t0": 400,
+        "ms": 99.9,
+        "top": [
+          "draw 47.9",
+          "(program) 39.4",
+          "updateScrollState 5.4",
+          "animate 4.3"
+        ]
+      },
+      {
+        "t0": 500,
+        "ms": 100.1,
+        "top": [
+          "(idle) 68.1",
+          "(program) 32"
+        ]
+      },
+      {
+        "t0": 600,
+        "ms": 99.8,
+        "top": [
+          "(idle) 98",
+          "(program) 1.8"
+        ]
+      },
+      {
+        "t0": 700,
+        "ms": 100.4,
+        "top": [
+          "(idle) 100.4"
+        ]
+      },
+      {
+        "t0": 800,
+        "ms": 100,
+        "top": [
+          "(idle) 100"
+        ]
+      },
+      {
+        "t0": 900,
+        "ms": 99.9,
+        "top": [
+          "(idle) 99.9"
+        ]
+      },
+      {
+        "t0": 1000,
+        "ms": 100,
+        "top": [
+          "(idle) 100"
+        ]
+      },
+      {
+        "t0": 1100,
+        "ms": 99.7,
+        "top": [
+          "(idle) 99.7"
+        ]
+      },
+      {
+        "t0": 1200,
+        "ms": 100.3,
+        "top": [
+          "(idle) 100.3"
+        ]
+      }
+    ],
+    "metrics": {
+      "TaskMs": 630.1,
+      "ScriptMs": 157.2,
+      "RecalcStyleMs": 88.8,
+      "LayoutMs": 169.1,
+      "LayoutCount": 13,
+      "RecalcStyleCount": 13,
+      "Nodes": 3685,
+      "JSHeapMB": 18
+    }
+  },
+  "cut": {
+    "hit": "#cutSurface.cut-surface <DIV>",
+    "phaseBefore": "idle",
+    "aimWallMs": 1974,
+    "openWallMs": 5219,
+    "aimOk": true,
+    "openOk": true,
+    "pageMarks": {
+      "pre-click": 5147,
+      "aim": 7186.7,
+      "cut-click": 7404,
+      "open": 10427.3
+    },
+    "pageBeats": {
+      "click1At": 5605,
+      "flyAt": 6202,
+      "aimAt": 7107,
+      "cutAt": 7403,
+      "openAt": 10416
+    },
+    "phaseTimeline": [
+      {
+        "t": 5198,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0,
+        "approach": 0,
+        "dur": 407
+      },
+      {
+        "t": 5605,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.002,
+        "approach": 0.079,
+        "dur": 69
+      },
+      {
+        "t": 5674,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.008,
+        "approach": 0.127,
+        "dur": 115
+      },
+      {
+        "t": 5789,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.021,
+        "approach": 0.175,
+        "dur": 53
+      },
+      {
+        "t": 5952,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.148,
+        "approach": 0.333,
+        "dur": 50
+      },
+      {
+        "t": 6002,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.195,
+        "approach": 0.365,
+        "dur": 42
+      },
+      {
+        "t": 6044,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.281,
+        "approach": 0.413,
+        "dur": 78
+      },
+      {
+        "t": 6122,
+        "phase": "idle",
+        "cut": 0,
+        "top": 0.432,
+        "approach": 0.476,
+        "dur": 80
+      },
+      {
+        "t": 6202,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.649,
+        "approach": 0.556,
+        "dur": 44
+      },
+      {
+        "t": 6246,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.75,
+        "approach": 0.603,
+        "dur": 97
+      },
+      {
+        "t": 6343,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.852,
+        "approach": 0.667,
+        "dur": 81
+      },
+      {
+        "t": 6424,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.946,
+        "approach": 0.762,
+        "dur": 62
+      },
+      {
+        "t": 6486,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.972,
+        "approach": 0.809,
+        "dur": 43
+      },
+      {
+        "t": 6529,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.988,
+        "approach": 0.857,
+        "dur": 51
+      },
+      {
+        "t": 6580,
+        "phase": "fly",
+        "cut": 0,
+        "top": 0.997,
+        "approach": 0.905,
+        "dur": 48
+      },
+      {
+        "t": 6628,
+        "phase": "fly",
+        "cut": 0,
+        "top": 1,
+        "approach": 0.952,
+        "dur": 41
+      },
+      {
+        "t": 6669,
+        "phase": "fly",
+        "cut": 0,
+        "top": 1,
+        "approach": 1,
+        "dur": 438
+      },
+      {
+        "t": 7107,
+        "phase": "aim",
+        "cut": 0,
+        "top": 1,
+        "approach": 1,
+        "dur": 296
+      },
+      {
+        "t": 7403,
+        "phase": "cut",
+        "cut": 0,
+        "top": 1,
+        "approach": 1,
+        "dur": 246
+      },
+      {
+        "t": 7649,
+        "phase": "cut",
+        "cut": 0.006,
+        "top": 1,
+        "approach": 1,
+        "dur": 57
+      },
+      {
+        "t": 7706,
+        "phase": "cut",
+        "cut": 0.026,
+        "top": 1,
+        "approach": 1,
+        "dur": 58
+      },
+      {
+        "t": 7764,
+        "phase": "cut",
+        "cut": 0.045,
+        "top": 1,
+        "approach": 1,
+        "dur": 59
+      },
+      {
+        "t": 7823,
+        "phase": "cut",
+        "cut": 0.071,
+        "top": 1,
+        "approach": 1,
+        "dur": 65
+      },
+      {
+        "t": 7888,
+        "phase": "cut",
+        "cut": 0.096,
+        "top": 1,
+        "approach": 1,
+        "dur": 48
+      },
+      {
+        "t": 7936,
+        "phase": "cut",
+        "cut": 0.116,
+        "top": 1,
+        "approach": 1,
+        "dur": 46
+      },
+      {
+        "t": 7982,
+        "phase": "cut",
+        "cut": 0.135,
+        "top": 1,
+        "approach": 1,
+        "dur": 41
+      },
+      {
+        "t": 8137,
+        "phase": "cut",
+        "cut": 0.192,
+        "top": 1,
+        "approach": 1,
+        "dur": 181
+      },
+      {
+        "t": 8358,
+        "phase": "cut",
+        "cut": 0.244,
+        "top": 1,
+        "approach": 1,
+        "dur": 79
+      },
+      {
+        "t": 8437,
+        "phase": "cut",
+        "cut": 0.269,
+        "top": 1,
+        "approach": 1,
+        "dur": 50
+      },
+      {
+        "t": 8487,
+        "phase": "cut",
+        "cut": 0.288,
+        "top": 1,
+        "approach": 1,
+        "dur": 95
+      },
+      {
+        "t": 8622,
+        "phase": "cut",
+        "cut": 0.333,
+        "top": 1,
+        "approach": 1,
+        "dur": 43
+      },
+      {
+        "t": 8665,
+        "phase": "cut",
+        "cut": 0.353,
+        "top": 1,
+        "approach": 1,
+        "dur": 71
+      },
+      {
+        "t": 8736,
+        "phase": "cut",
+        "cut": 0.372,
+        "top": 1,
+        "approach": 1,
+        "dur": 51
+      },
+      {
+        "t": 8787,
+        "phase": "cut",
+        "cut": 0.391,
+        "top": 1,
+        "approach": 1,
+        "dur": 54
+      },
+      {
+        "t": 8841,
+        "phase": "cut",
+        "cut": 0.41,
+        "top": 1,
+        "approach": 1,
+        "dur": 79
+      },
+      {
+        "t": 8949,
+        "phase": "cut",
+        "cut": 0.449,
+        "top": 1,
+        "approach": 1,
+        "dur": 64
+      },
+      {
+        "t": 9013,
+        "phase": "cut",
+        "cut": 0.468,
+        "top": 1,
+        "approach": 1,
+        "dur": 43
+      },
+      {
+        "t": 9056,
+        "phase": "cut",
+        "cut": 0.487,
+        "top": 1,
+        "approach": 1,
+        "dur": 52
+      },
+      {
+        "t": 9135,
+        "phase": "cut",
+        "cut": 0.519,
+        "top": 1,
+        "approach": 1,
+        "dur": 45
+      },
+      {
+        "t": 9180,
+        "phase": "cut",
+        "cut": 0.532,
+        "top": 1,
+        "approach": 1,
+        "dur": 44
+      }
+    ],
+    "framesAll": {
+      "frames": 228,
+      "p50": 16.9,
+      "p95": 66.4,
+      "max": 266.8,
+      "over33": 94,
+      "over50": 30,
+      "over100": 3,
+      "over200": 1,
+      "sumMs": 6804.8
+    },
+    "framesApproach": {
+      "frames": 55,
+      "p50": 33.2,
+      "p95": 66.7,
+      "max": 100.1,
+      "over33": 31,
+      "over50": 11,
+      "over100": 1,
+      "over200": 0,
+      "sumMs": 1817.9
+    },
+    "framesCut": {
+      "frames": 81,
+      "p50": 33.4,
+      "p95": 66.4,
+      "max": 133.4,
+      "over33": 57,
+      "over50": 16,
+      "over100": 1,
+      "over200": 0,
+      "sumMs": 3019
+    },
+    "framesAfter": {
+      "frames": 90,
+      "p50": 16.7,
+      "p95": 33,
+      "max": 83.2,
+      "over33": 4,
+      "over50": 2,
+      "over100": 0,
+      "over200": 0,
+      "sumMs": 1667.7
+    },
+    "loafCount": 18,
+    "loafTop": [
+      {
+        "t": 4052.1,
+        "ms": 703.8,
+        "block": 624.5,
+        "style": 7.9,
+        "render": 674.3,
+        "pre": 29.5,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 4873.5,
+        "ms": 412.8,
+        "block": 0,
+        "style": 9.7,
+        "render": 15.6,
+        "pre": 397.2,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 5290.7,
+        "ms": 273.9,
+        "block": 0,
+        "style": 22,
+        "render": 31.7,
+        "pre": 242.2,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 8136.7,
+        "ms": 133.4,
+        "block": 0,
+        "style": 24.9,
+        "render": 32.9,
+        "pre": 100.5,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 4760.2,
+        "ms": 109.5,
+        "block": 0,
+        "style": 7.1,
+        "render": 13.1,
+        "pre": 96.4,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 5674.2,
+        "ms": 106.6,
+        "block": 0,
+        "style": 32.2,
+        "render": 40.6,
+        "pre": 66,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 10669,
+        "ms": 85.6,
+        "block": 0,
+        "style": 8,
+        "render": 15.1,
+        "pre": 70.5,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 7467.4,
+        "ms": 69.7,
+        "block": 0,
+        "style": 6.9,
+        "render": 14.1,
+        "pre": 55.6,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 11395.9,
+        "ms": 69.1,
+        "block": 0,
+        "style": 5.2,
+        "render": 10.9,
+        "pre": 58.2,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 8839.4,
+        "ms": 68.3,
+        "block": 0,
+        "style": 28.8,
+        "render": 38.3,
+        "pre": 30,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 5604.5,
+        "ms": 64.9,
+        "block": 0,
+        "style": 24.9,
+        "render": 30.5,
+        "pre": 34.4,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 8664.5,
+        "ms": 62.4,
+        "block": 6.7,
+        "style": 36.8,
+        "render": 51.7,
+        "pre": 10.7,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 8949.1,
+        "ms": 57.8,
+        "block": 0,
+        "style": 24,
+        "render": 28.9,
+        "pre": 28.9,
+        "scripts": 0,
+        "worstScript": 0
+      },
+      {
+        "t": 7333.1,
+        "ms": 54.5,
+        "block": 4.2,
+        "style": 2.5,
+        "render": 8.7,
+        "pre": 45.8,
+        "scripts": 0,
+        "worstScript": 0
+      }
+    ],
+    "longTasks": [
+      {
+        "t": 8670.1,
+        "d": 65
+      },
+      {
+        "t": 9854.9,
+        "d": 50
+      }
+    ],
+    "profile": {
+      "totalMs": 6892.6,
+      "top": [
+        {
+          "fn": "(program) @ native:0",
+          "ms": 4324.8,
+          "pct": 62.7
+        },
+        {
+          "fn": "(idle) @ native:0",
+          "ms": 1507.6,
+          "pct": 21.9
+        },
+        {
+          "fn": "updateScrollState @ GIFT/js/app.js:1490",
+          "ms": 262.3,
+          "pct": 3.8
+        },
+        {
+          "fn": "wrapCorridorScroll @ GIFT/js/app.js:1372",
+          "ms": 67.7,
+          "pct": 1
+        },
+        {
+          "fn": "(garbage collector) @ native:0",
+          "ms": 52.4,
+          "pct": 0.8
+        },
+        {
+          "fn": "submit @ native:0",
+          "ms": 49.6,
+          "pct": 0.7
+        },
+        {
+          "fn": "set @ GIFT/js/sea.bundle.js:40",
+          "ms": 32.4,
+          "pct": 0.5
+        },
+        {
+          "fn": "(anonymous) @ native:8",
+          "ms": 18.7,
+          "pct": 0.3
+        },
+        {
+          "fn": "createCommandEncoder @ native:0",
+          "ms": 18.4,
+          "pct": 0.3
+        },
+        {
+          "fn": "writeBuffer @ native:0",
+          "ms": 17.7,
+          "pct": 0.3
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/app.js:1602",
+          "ms": 17.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "_renderScene @ GIFT/js/sea.bundle.js:74",
+          "ms": 17.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "Tx @ GIFT/js/sea.bundle.js:40",
+          "ms": 17.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "updateForRender @ GIFT/js/sea.bundle.js:71",
+          "ms": 14.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ GIFT/js/cakegate.js:167",
+          "ms": 14.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "beginRenderPass @ native:0",
+          "ms": 14,
+          "pct": 0.2
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:203",
+          "ms": 13.5,
+          "pct": 0.2
+        },
+        {
+          "fn": "beginRender @ GIFT/js/sea.bundle.js:429",
+          "ms": 13.4,
+          "pct": 0.2
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:63",
+          "ms": 12.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "setProperty @ native:0",
+          "ms": 12.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "setAttribute @ native:0",
+          "ms": 11.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "getCurrentTexture @ native:0",
+          "ms": 10.7,
+          "pct": 0.2
+        },
+        {
+          "fn": "Xo @ GIFT/js/sea.bundle.js:40",
+          "ms": 10.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "getCacheKey @ GIFT/js/sea.bundle.js:40",
+          "ms": 9,
+          "pct": 0.1
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:40",
+          "ms": 8.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "setBindGroup @ native:0",
+          "ms": 8.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "tick @ native:3",
+          "ms": 8.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "animate @ GIFT/js/app.js:2390",
+          "ms": 8,
+          "pct": 0.1
+        }
+      ],
+      "siteTop": [
+        {
+          "fn": "updateScrollState @ GIFT/js/app.js:1490",
+          "ms": 262.3,
+          "pct": 3.8
+        },
+        {
+          "fn": "wrapCorridorScroll @ GIFT/js/app.js:1372",
+          "ms": 67.7,
+          "pct": 1
+        },
+        {
+          "fn": "set @ GIFT/js/sea.bundle.js:40",
+          "ms": 32.4,
+          "pct": 0.5
+        },
+        {
+          "fn": "(anonymous) @ GIFT/js/app.js:1602",
+          "ms": 17.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "_renderScene @ GIFT/js/sea.bundle.js:74",
+          "ms": 17.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "Tx @ GIFT/js/sea.bundle.js:40",
+          "ms": 17.6,
+          "pct": 0.3
+        },
+        {
+          "fn": "updateForRender @ GIFT/js/sea.bundle.js:71",
+          "ms": 14.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "measure @ GIFT/js/cakegate.js:167",
+          "ms": 14.8,
+          "pct": 0.2
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:203",
+          "ms": 13.5,
+          "pct": 0.2
+        },
+        {
+          "fn": "beginRender @ GIFT/js/sea.bundle.js:429",
+          "ms": 13.4,
+          "pct": 0.2
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:63",
+          "ms": 12.9,
+          "pct": 0.2
+        },
+        {
+          "fn": "Xo @ GIFT/js/sea.bundle.js:40",
+          "ms": 10.1,
+          "pct": 0.1
+        },
+        {
+          "fn": "getCacheKey @ GIFT/js/sea.bundle.js:40",
+          "ms": 9,
+          "pct": 0.1
+        },
+        {
+          "fn": "get @ GIFT/js/sea.bundle.js:40",
+          "ms": 8.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "animate @ GIFT/js/app.js:2390",
+          "ms": 8,
+          "pct": 0.1
+        },
+        {
+          "fn": "updateNode @ GIFT/js/sea.bundle.js:71",
+          "ms": 7.9,
+          "pct": 0.1
+        },
+        {
+          "fn": "p @ GIFT/js/sea.bundle.js:429",
+          "ms": 7.3,
+          "pct": 0.1
+        },
+        {
+          "fn": "get value @ GIFT/js/sea.bundle.js:67",
+          "ms": 7.2,
+          "pct": 0.1
+        },
+        {
+          "fn": "getForRender @ GIFT/js/sea.bundle.js:63",
+          "ms": 7.2,
+          "pct": 0.1
+        },
+        {
+          "fn": "applyTilt @ GIFT/js/cakegate.js:597",
+          "ms": 7,
+          "pct": 0.1
+        },
+        {
+          "fn": "push @ GIFT/js/sea.bundle.js:63",
+          "ms": 6.2,
+          "pct": 0.1
+        },
+        {
+          "fn": "applySun @ GIFT/js/weather.js:337",
+          "ms": 5.8,
+          "pct": 0.1
+        },
+        {
+          "fn": "update @ GIFT/js/cakegate.js:999",
+          "ms": 5.8,
+          "pct": 0.1
+        },
+        {
+          "fn": "_getRenderPassDescriptor @ GIFT/js/sea.bundle.js:429",
+          "ms": 5.7,
+          "pct": 0.1
+        },
+        {
+          "fn": "applySeaFrame @ GIFT/js/app.js:1228",
+          "ms": 5.5,
+          "pct": 0.1
+        },
+        {
+          "fn": "_update @ GIFT/js/sea.bundle.js:63",
+          "ms": 5.3,
+          "pct": 0.1
+        },
+        {
+          "fn": "debug @ GIFT/js/cakegate.js:1227",
+          "ms": 5.2,
+          "pct": 0.1
+        },
+        {
+          "fn": "updateBinding @ GIFT/js/sea.bundle.js:429",
+          "ms": 5.2,
+          "pct": 0.1
+        }
+      ]
+    }
+  },
+  "finishedAt": "2026-10-25T13:51:18.562Z"
+}

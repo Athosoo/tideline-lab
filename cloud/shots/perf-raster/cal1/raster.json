@@ -1,0 +1,133 @@
+{
+  "schema": "tideline.raster-probe/1",
+  "tag": "cal1",
+  "startedAt": "2026-10-25T11:07:58.892Z",
+  "viewport": "1280x800",
+  "query": "",
+  "css": "",
+  "readyWallMs": 591,
+  "paint": {},
+  "traceEvents": 1184,
+  "durEvents": 726,
+  "byName": [
+    {
+      "name": "Layout",
+      "totalMs": 100.5,
+      "count": 24,
+      "maxMs": 77.4
+    },
+    {
+      "name": "EvaluateScript",
+      "totalMs": 67.1,
+      "count": 8,
+      "maxMs": 54.2
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "totalMs": 53,
+      "count": 21,
+      "maxMs": 10.1
+    },
+    {
+      "name": "FireAnimationFrame",
+      "totalMs": 49.6,
+      "count": 2,
+      "maxMs": 49.4
+    },
+    {
+      "name": "FunctionCall",
+      "totalMs": 49.6,
+      "count": 2,
+      "maxMs": 49.4
+    },
+    {
+      "name": "Paint",
+      "totalMs": 19.9,
+      "count": 321,
+      "maxMs": 4.8
+    },
+    {
+      "name": "ParseHTML",
+      "totalMs": 4,
+      "count": 28,
+      "maxMs": 3.3
+    },
+    {
+      "name": "Layerize",
+      "totalMs": 3.4,
+      "count": 2,
+      "maxMs": 2.9
+    },
+    {
+      "name": "PrePaint",
+      "totalMs": 3.3,
+      "count": 25,
+      "maxMs": 2.1
+    },
+    {
+      "name": "ParseAuthorStyleSheet",
+      "totalMs": 2.4,
+      "count": 2,
+      "maxMs": 1.3
+    },
+    {
+      "name": "v8.compile",
+      "totalMs": 0.7,
+      "count": 8,
+      "maxMs": 0.2
+    }
+  ],
+  "longest": [
+    {
+      "name": "Layout",
+      "at": 80.5,
+      "ms": 77.4
+    },
+    {
+      "name": "EvaluateScript",
+      "at": 184.8,
+      "ms": 54.2
+    },
+    {
+      "name": "FireAnimationFrame",
+      "at": 248.9,
+      "ms": 49.4
+    },
+    {
+      "name": "FunctionCall",
+      "at": 248.9,
+      "ms": 49.4
+    },
+    {
+      "name": "Layout",
+      "at": 196,
+      "ms": 12.8
+    },
+    {
+      "name": "EvaluateScript",
+      "at": 173,
+      "ms": 10.9
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "at": 298.4,
+      "ms": 10.1
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "at": 218.1,
+      "ms": 8.6
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "at": 72,
+      "ms": 8.4
+    },
+    {
+      "name": "UpdateLayoutTree",
+      "at": 239.1,
+      "ms": 8.4
+    }
+  ],
+  "rasterTimeline": []
+}
